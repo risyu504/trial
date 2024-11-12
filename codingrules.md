@@ -76,4 +76,4 @@
 
 ## 作成者
 
-Copyright(C) 2022-2023 KOUTAN
+Copyright(C) 2022-2024 KOUTAN
