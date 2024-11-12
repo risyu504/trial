@@ -4,7 +4,7 @@ HTMLでWebサイトを作る事を想定して、その開発環境等の決ま�
 
 The purpose of this document is to summarize the rules for developing a website using HTML, such as the development environment.
 
-## 使うツール, 環境
+## 使う(想定する)ツール, 環境
 
 <dl>
   <dt>OS</dt>
