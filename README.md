@@ -26,3 +26,7 @@ The purpose of this document is to summarize the rules for developing a website 
 
 - [BEM](https://github.com/juno/bem-methodology-ja/blob/master/definitions.md)は、CSS設計の一つです。
 - [FLOCSS](https://github.com/hiloki/flocss)は、CSS設計の一つです。
+
+## フォルダ索引
+
+- [index](.index.md)
