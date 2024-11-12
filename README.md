@@ -29,4 +29,8 @@ The purpose of this document is to summarize the rules for developing a website 
 
 ## フォルダ索引
 
-- [index](.index.md)
+- [index](./index.md)
+
+## 作成者
+
+Copyright(C) 2024-2024 KOUTAN
