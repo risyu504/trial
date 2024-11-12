@@ -4,6 +4,13 @@ HTMLでWebサイトを作る事を想定して、その開発環境等の決ま�
 
 The purpose of this document is to summarize the rules for developing a website using HTML, such as the development environment.
 
+## 基本原則
+
+- 分かり易さ重視: 記述する意図を判るようにする。
+- 使い易さは二の次: 使い易さは意識するが、それで覚える, 調べる事が多くならないように配慮する。
+- 使う場所等を意識する: 値の適性検査などは、必要最小限にして、処理速度も多少は考慮する。
+- 調べ易さ, 変更のし易さへの配慮: 分かり易さに繋がるが、安易に処理をまとめてしまうと、途中経過が分かりづらくなります。
+
 ## 使う(想定する)ツール, 環境
 
 <dl>
@@ -15,3 +22,7 @@ The purpose of this document is to summarize the rules for developing a website 
   <dd>Node.js: Pug, Sass のコンパイルを行う</dd>
 </dl>
 
+## 参照先
+
+- [BEM](https://github.com/juno/bem-methodology-ja/blob/master/definitions.md)は、CSS設計の一つです。
+- [FLOCSS](https://github.com/hiloki/flocss)は、CSS設計の一つです。
