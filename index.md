@@ -1,1 +1,1 @@
-1. [フォルダ構成](./folderstructure.md) ./folderstructure.md
+1. [フォルダ構成](./folderstructure.md) (./folderstructure.md)
