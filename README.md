@@ -12,6 +12,6 @@ The purpose of this document is to summarize the rules for developing a website 
   <dt>エディタ</dt>
   <dd>VSCode: コマンドの実行環境としても用いる事を考えて採用。</dd>
   <dt>JavaScript実行環境</dt>
-  <dd>Node.js</dd>
+  <dd>Node.js: Pug, Sass のコンパイルを行う</dd>
 </dl>
 
