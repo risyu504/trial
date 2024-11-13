@@ -16,7 +16,7 @@
 
     ```JSON:package.json
     "scripts": {
-      "pug": "pug ./Src/Pug/index.pug --out ./Dest/ --obj ./Src/Pug/pug.json --extension htm --pretty",
+      "pug": "pug ./Src/Pug/index.pug --out ./Dest/ --obj ./Src/Data/pug.json --extension htm --pretty",
     }
     ```
 
@@ -38,6 +38,7 @@
   - [Typescript開発](../Typescript/README.md)
   - [ソース](../Src/README.md)
   - **出力先**
+  - [書類倉庫](../Document/README.md)
 
 ## 作成者
 
