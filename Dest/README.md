@@ -14,7 +14,7 @@
 
 - npmスクリプト(package.json)での記述の例
 
-    ```JSON
+    ```json
     "scripts": {
       "pug": "pug ./Src/Pug/index.pug --out ./Dest/ --obj ./Src/Data/pug.json --extension htm --pretty",
     }
