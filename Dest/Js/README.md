@@ -11,11 +11,27 @@
 
 ## 使い方
 
-- npmスクリプトでの記述の例
 
-    ```JSON:package.json
-    "scripts": {
-      "wp00": "webpack --mode=production"
+- webpack.config.jsでの記述の例
+
+    ```JavaScript
+    const path = require('path')
+    module.exports = {
+      mode: 'development',
+      entry: { index: path.join(__dirname', 'Src', 'Typescript', 'index.ts') },
+      output: { path: path.join(__dirname, 'Dest', 'Javascript'), filename: 'index.js' },
+      module: { rules: [{ test: /\.ts$/, use: 'ts-loader', },], },
+      resolve: { extensions: ['.ts', '.js',], },
+    }
+    ```
+
+- npmスクリプト(package.json)での記述の例
+
+    ```JSON
+    {
+      "scripts": {
+        "wp00": "webpack --mode=production"
+      }
     }
     ```
 
