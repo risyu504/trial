@@ -12,7 +12,7 @@
 
 - npmスクリプト(package.json)での記述の例
 
-    ```JSON
+    ```json
     "scripts": {
       "sass": "sass ./Src/Sass/sample.scss ./Dest/Css/sample.css",
     }
