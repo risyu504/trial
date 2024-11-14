@@ -14,7 +14,7 @@
 
 - webpack.config.jsでの記述の例
 
-    ```JavaScript
+    ```javascript
     const path = require('path')
     module.exports = {
       mode: 'development',
@@ -27,11 +27,9 @@
 
 - npmスクリプト(package.json)での記述の例
 
-    ```JSON
-    {
-      "scripts": {
-        "wp00": "webpack --mode=production"
-      }
+    ```json
+    "scripts": {
+      "wp00": "webpack --mode=production"
     }
     ```
 
