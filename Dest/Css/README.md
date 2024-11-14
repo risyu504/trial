@@ -10,9 +10,9 @@
 
 ## 使い方
 
-- npmスクリプトでの記述の例
+- npmスクリプト(package.json)での記述の例
 
-    ```JSON:package.json
+    ```JSON
     "scripts": {
       "sass": "sass ./Src/Sass/sample.scss ./Dest/Css/sample.css",
     }
