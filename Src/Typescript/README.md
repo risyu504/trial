@@ -59,9 +59,10 @@
   - [Sass開発](../../Sass/README.md)
   - [Typescript開発](../../Typescript/README.md)
   - [ソース](../README.md)
-    - **Typescript**
-    - [Pug開発](../Pug/README.md)
-    - [Sass開発](../Sass/README.md)
+    - [データ用](../Data/README.md)
+    - [Pug用](../Pug/README.md)
+    - [Sass用](../Sass/README.md)
+    - **Typescript用**
   - [出力先](../../Dest/README.md)
   - [書類倉庫](../../Document/README.md)
 
