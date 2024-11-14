@@ -12,9 +12,9 @@
 
 ## 使い方
 
-- npmスクリプトでの記述の例
+- npmスクリプト(package.json)での記述の例
 
-    ```JSON:package.json
+    ```JSON
     "scripts": {
       "pug": "pug ./Src/Pug/index.pug --out ./Dest/ --obj ./Src/Data/pug.json --extension htm --pretty",
     }
