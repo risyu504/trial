@@ -14,7 +14,7 @@
 
     ```JSON:package.json
     "scripts": {
-      "sass": "sass ./Sass/sample.scss ./Css/sample.css",
+      "sass": "sass ./Src/Sass/sample.scss ./Dest/Css/sample.css",
     }
     ```
 
