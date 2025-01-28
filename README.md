@@ -32,7 +32,12 @@ Furthermore, creating a website itself involves studying and using HTML, CSS, Ja
 
 ## フォルダ索引
 
-- [index](./index.md)
+1. [書類倉庫](./Document/README.md)
+2. [Pug開発](./Pug/README.md)
+3. [Sass開発](./Sass/README.md)
+4. [Typescript開発](./Typescript/README.md)
+5. [ソース](./Src/README.md)
+6. [出力先](./Dest/README.md)
 
 ## 作成者
 
