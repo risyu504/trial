@@ -1,8 +1,10 @@
 # 試用
 
-HTMLでWebサイトを作る事を想定して、その開発環境等の決まり事をまとめる事を目的としています。
+HTMLでWebサイトを作る事を想定して、その開発環境等の決まり事をまとめる事を目的としています。  
+尚、Webサイトの作成自体が、HTML, CSS, JavaScript などを調べて使う事であり学びを目的としています。  
 
-The purpose of this document is to summarize the rules for developing a website using HTML, such as the development environment.
+The purpose of this document is to summarize the rules for developing a website using HTML, such as the development environment.  
+Furthermore, creating a website itself involves studying and using HTML, CSS, JavaScript, etc., and is a learning experience.  
 
 ## 基本原則
 
@@ -34,4 +36,4 @@ The purpose of this document is to summarize the rules for developing a website 
 
 ## 作成者
 
-Copyright(C) 2024-2024 KOUTAN
+Copyright(C) 2024-2025 KOUTAN
