@@ -17,8 +17,8 @@
 - [基本原則](./basicprinciples.md) - 基本原則を記したものです。
 - [コーディングルール(内部共通規約)](./codingrules.md) - 内部に於いてのコーディング規約です。
 - [命名規則](./namingconvention.md) - 内部に於いての命名規則です。
-- [制御変数 説明書](./config.md) - 制御変数についての説明書です。
 - [構造設計](./structuraldesign.md) - 開発環境の構造設計です。
+- [制御変数 説明書](./config.md) - 制御変数についての説明書です。
 - [フォルダ構成](./folderstructure.md) - 開発ファルダ内のフォルダの配置です。
 - [BEM区分 説明書](./bemclass.md) - BEM区分という制御用の内部コードについての説明書です。
 
@@ -34,4 +34,4 @@
 
 ## 作成者
 
-Copyright(C) 2023-2024 KOUTAN
+Copyright(C) 2023-2025 KOUTAN
