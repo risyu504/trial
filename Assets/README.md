@@ -24,17 +24,6 @@
     2. ファイル名は、外部データを考慮して自由とする。
     3. ファイルは必要に応じて、フォルダで分ける事とする。
 
-## ナビ
-
-- [開発ホーム](../README.md)
-  - [出力先](../Dest/README.md)
-  - [設定ファイル](../Config/README.md)
-  - [データ](../Data/README.md)
-  - [パッケージ](../Module/README.md)
-  - [ソース](../Src/README.md)
-  - [書類倉庫](../Document/README.md)
-  - **資産**
-
 ## 作成者
 
 Copyright(C) 2025-2025 KOUTAN
