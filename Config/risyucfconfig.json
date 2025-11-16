@@ -1,0 +1,21 @@
+{
+  "joJsData" : {
+    "date"  : "'2025-11-16'",
+    "thememonth" : "'11'",
+    "theme" : "Ivory",
+    "risyu" : "bem",
+    "comment" : false,
+    "site"           : "'離珠のHTMLでしぃ！'",
+    "webSiteUrl"     : "'https://storage.googleapis.com/risyu/index.htm'",
+    "webSiteDescription" : "'Webページを作ってみようから始まった、いろいろなメモ書きや使い勝手の実証をまとめたサイトです。'",
+    "author"         : "'コータン (KOUTAN)'",
+    "authoralphabet" : "'KOUTAN'",
+    "googlefonts"      : true,
+    "googlebreadcrumb" : true,
+    "commentWK" : true,
+    "cssWK"      : ["'../Stylesheet/what.css'"],
+    "themecssWK" : ["'../Theme/themewhat.css'"],
+    "risyuSV1" : "free",
+    "risyuSV2" : "bem-risyu"
+  }
+}
