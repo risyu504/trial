@@ -21,7 +21,7 @@
 
 ## 構成
 
-- [`risyuconfig.json`](./risyuconfig.json) Sass, Pug 生成用制御ファイル
+- [`risyucfconfig.json`](./risyucfconfig.json) Sass, Pug 生成用制御ファイル
 - `README.md` 説明ファイル(このファイルです)
 
 ## ナビ
