@@ -1,0 +1,324 @@
+{
+  "GlobalEventHandlers": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "interface mixin",
+      "onabort": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onauxclick": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onbeforeinput": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onbeforematch": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onbeforetoggle": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onblur": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oncancel": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oncanplay": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oncanplaythrough": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onchange": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onclick": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onclose": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oncommand": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oncontextlost": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oncontextmenu": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oncontextrestored": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oncopy": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oncuechange": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oncut": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ondblclick": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ondrag": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ondragend": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ondragenter": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ondragleave": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ondragover": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ondragstart": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ondrop": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ondurationchange": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onemptied": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onended": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onerror": {
+        "attribute": "attribute",
+        "type": "OnErrorEventHandler"
+      },
+      "onfocus": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onformdata": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oninput": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "oninvalid": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onkeydown": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onkeypress": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onkeyup": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onload": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onloadeddata": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onloadedmetadata": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onloadstart": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onmousedown": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onmouseenter": {
+        "extendedattributes": "LegacyLenientThis",
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onmouseleave": {
+        "extendedattributes": "LegacyLenientThis",
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onmousemove": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onmouseout": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onmouseover": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onmouseup": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onpaste": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onpause": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onplay": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onplaying": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onprogress": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onratechange": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onreset": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onresize": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onscroll": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onscrollend": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onsecuritypolicyviolation": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onseeked": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onseeking": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onselect": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onslotchange": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onstalled": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onsubmit": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onsuspend": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ontimeupdate": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ontoggle": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onvolumechange": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onwaiting": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onwebkitanimationend": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onwebkitanimationiteration": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onwebkitanimationstart": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onwebkittransitionend": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onwheel": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 8.1.8.2 Event handlers on elements, Document objects, and Window objects. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/webappapis.html#idl-definitions",
+        "heading": "HTML Living Standard. 8.1.8.2 Event handlers on elements, Document objects, and Window objects",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

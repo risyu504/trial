@@ -1,0 +1,48 @@
+{
+  "HTMLOrSVGElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "interface mixin",
+      "dataset": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "DOMStringMap"
+      },
+      "nonce": {
+        "attribute": "attribute",
+        "type": "DOMString",
+        "commentIn": "intentionally no [CEReactions]"
+      },
+      "SPACE01": "",
+      "autofocus": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "tabIndex": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "long"
+      },
+      "focus(optional FocusOptions options = {})": {
+        "argument": [
+          {"type": "FocusOptions", "optional": "optional", "description": "options = {}"}
+        ],
+        "type": "undefined"
+      },
+      "blur()": {
+        "type": "undefined"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 3.2.2 Elements in the DOM. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/dom.html#elements-in-the-dom",
+        "heading": "HTML Living Standard. 3.2.2 Elements in the DOM",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

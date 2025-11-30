@@ -1,0 +1,28 @@
+{
+  "PopoverTargetAttributes": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "interface mixin",
+      "popoverTargetElement": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "Element?"
+      },
+      "popoverTargetAction": {
+        "extendedattributes": ["CEReactions"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 6.12.1 The popover target attributes. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/popover.html#popovertargetattributes",
+        "heading": "HTML Living Standard. 6.12.1 The popover target attributes",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

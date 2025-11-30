@@ -1,0 +1,32 @@
+{
+  "HTMLDetailsElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "name": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "open": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.11.1 The details element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element",
+        "heading": "HTML Living Standard. 4.11.1 The details element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

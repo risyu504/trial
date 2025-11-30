@@ -1,0 +1,57 @@
+{
+  "HTMLMenuItemElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "type": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "label": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "icon": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "disabled": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "checked": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "radiogroup": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "boolean default": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "boolean"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.11.4. The menuitem element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/interactive-elements.html#the-menuitem-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.11.4. The menuitem element",
+        "sub":     "W3C勧告、2016年11月1日"
+      }
+    ]
+  }
+}

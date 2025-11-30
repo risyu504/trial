@@ -1,0 +1,61 @@
+{
+  "CSSStyleSheet": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent": "StyleSheet",
+      "dictionary": ["CSSStyleSheetInit"],
+      "constructor(optional CSSStyleSheetInit options = {})": {
+        "argument": [
+          {"type": "CSSStyleSheetInit", "optional": "optional", "description": "options = {}"}
+        ]
+      },
+      "ownerRule": {
+        "attribute": "readonly attribute",
+        "type": "CSSRule?"
+      },
+      "cssRules": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "CSSRuleList"
+      },
+      "insertRule(CSSOMString rule, optional unsigned long index = 0)": {
+        "argument": [
+          {"type": "CSSOMString", "description": "rule"},
+          {"type": "unsigned long", "optional": "optional", "description": "index = 0"}
+        ],
+        "type": "unsigned long"
+      },
+      "deleteRule(unsigned long index)": {
+        "argument": [
+          {"type": "unsigned long", "description": "index"}
+        ],
+        "type": "undefined"
+      },
+      "SPACE01": "",
+      "replace(USVString text)": {
+        "argument": [
+          {"type": "USVString", "description": "text"}
+        ],
+        "type": "Promise&lt;CSSStyleSheet&gt;"
+      },
+      "replaceSync(USVString text)": {
+        "argument": [
+          {"type": "USVString", "description": "text"}
+        ],
+        "type": "undefined"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "CSS Object Model (CSSOM) Module Level 1. 6.1.2. The CSSStyleSheet Interface. Editor’s Draft, 12 October 2025",
+        "href":    "https://drafts.csswg.org/cssom/#the-cssstylesheet-interface",
+        "heading": "CSS Object Model (CSSOM) Module Level 1. 6.1.2. The CSSStyleSheet Interface",
+        "sub":     "編集者草稿、2025年10月12日"
+      }
+    ]
+  }
+}

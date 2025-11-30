@@ -1,0 +1,73 @@
+{
+  "HTMLFrameElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "name": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "scrolling": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "src": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "frameBorder": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "longDesc": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "noResize": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "contentDocument": {
+        "attribute": "readonly attribute",
+        "type": "Document?"
+      },
+      "contentWindow": {
+        "attribute": "readonly attribute",
+        "type": "WindowProxy?"
+      },
+      "SPACE02": "",
+      "marginHeight": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "legacyextendedattributes": "LegacyNullToEmptyString",
+        "type": "DOMString"
+      },
+      "marginWidth": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "legacyextendedattributes": "LegacyNullToEmptyString",
+        "type": "DOMString"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.3.2 Frames. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#frames",
+        "heading": "HTML Living Standard. 16.3.2 Frames",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

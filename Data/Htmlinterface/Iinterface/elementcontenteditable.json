@@ -1,0 +1,37 @@
+{
+  "ElementContentEditable": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "interface mixin",
+      "contentEditable": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "enterKeyHint": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "isContentEditable": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "inputMode": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 6.8.1 Making document regions editable: The contenteditable content attribute. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/interaction.html#contenteditable",
+        "heading": "HTML Living Standard. 6.8.1 Making document regions editable: The contenteditable content attribute",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

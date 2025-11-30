@@ -1,0 +1,30 @@
+{
+  "HTMLIsIndexElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "supplementaryExplanation": "この要素は、HTMLUnknownElementインターフェイス を使用しています。HTMLIsIndexElementインターフェイスは削除されています。",
+    "alias": "HTMLUnknownElement",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "form": {
+        "attribute": "readonly attribute",
+        "type": "HTMLFormElement"
+      },
+      "prompt": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 3.2.2 Elements in the DOM. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/dom.html#elements-in-the-dom",
+        "heading": "HTML Living Standard. 3.2.2 Elements in the DOM",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

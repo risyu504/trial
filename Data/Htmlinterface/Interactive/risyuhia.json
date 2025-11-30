@@ -1,0 +1,71 @@
+{
+  "HTMLAnchorElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "target": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "download": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "ping": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "rel": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "relList": {
+        "extendedattributes": ["SameObject", "PutForwards=value", "Reflect='rel'"],
+        "attribute": "readonly attribute",
+        "type": "DOMTokenList"
+      },
+      "hreflang": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "type": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE02": "",
+      "text": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE03": "",
+      "referrerPolicy": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "includes": ["HTMLHyperlinkElementUtils"],
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.1 The a element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+        "heading": "HTML Living Standard. 4.5.1 The a element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

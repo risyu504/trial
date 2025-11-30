@@ -1,0 +1,43 @@
+{
+  "HTMLMetaElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "name": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "httpEquiv": {
+        "extendedattributes": ["CEReactions", "Reflect=&quot;http-equiv&quot;"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "content": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "media": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.2.5 The meta element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/semantics.html#the-meta-element",
+        "heading": "HTML Living Standard. 4.2.5 The meta element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

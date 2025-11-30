@@ -1,0 +1,33 @@
+{
+  "HTMLFrameSetElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "includes": ["WindowEventHandlers"],
+      "SPACE01": "",
+      "cols": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "rows": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.3.2 Frames. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#frames",
+        "heading": "HTML Living Standard. 16.3.2 Frames",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

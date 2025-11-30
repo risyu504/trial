@@ -1,0 +1,148 @@
+{
+  "HTMLSelectElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "autocomplete": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "disabled": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "form": {
+        "attribute": "readonly attribute",
+        "type": "HTMLFormElement?"
+      },
+      "multiple": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "name": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "required": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "size": {
+        "extendedattributes": ["CEReactions", "Reflect", "ReflectDefault=0"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "SPACE02": "",
+      "type": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "SPACE03": "",
+      "options": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "HTMLOptionsCollection"
+      },
+      "length": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "LINE01": "getter HTMLOptionElement? item(unsigned long index);",
+      "namedItem(DOMString name)": {
+        "argument": [
+          {"type": "DOMString", "description": "name"}
+        ],
+        "type": "HTMLOptionElement?"
+      },
+      "add((HTMLOptionElement or HTMLOptGroupElement) element, optional (HTMLElement or long)? before = null)": {
+        "argument": [
+          {"type": "(HTMLOptionElement or HTMLOptGroupElement)", "description": "element"},
+          {"type": "(HTMLElement or long)?", "optional": "optional", "description": "before = null"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "remove()": {
+        "extendedattributes": "CEReactions",
+        "type": "undefined",
+        "commentIn": "ChildNode overload"
+      },
+      "remove(long index)": {
+        "argument": [
+          {"type": "long", "description": "index"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "LINE02": "[CEReactions] setter undefined (unsigned long index, HTMLOptionElement? option);",
+      "SPACE04": "",
+      "selectedOptions": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "HTMLCollection"
+      },
+      "selectedIndex": {
+        "attribute": "attribute",
+        "type": "long"
+      },
+      "value": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE05": "",
+      "willValidate": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "validity": {
+        "attribute": "readonly attribute",
+        "type": "ValidityState"
+      },
+      "validationMessage": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "checkValidity()": {
+        "type": "boolean"
+      },
+      "reportValidity()": {
+        "type": "boolean"
+      },
+      "setCustomValidity(DOMString error)": {
+        "argument": [
+          {"type": "DOMString", "description": "error"}
+        ],
+        "type": "undefined"
+      },
+      "SPACE06": "",
+      "showPicker()": {
+        "type": "undefined"
+      },
+      "SPACE07": "",
+      "labels": {
+        "attribute": "readonly attribute",
+        "type": "NodeList"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.7 The select element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element",
+        "heading": "HTML Living Standard. 4.10.7 The select element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

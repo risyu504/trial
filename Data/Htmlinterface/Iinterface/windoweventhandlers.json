@@ -1,0 +1,90 @@
+{
+  "WindowEventHandlers": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "interface mixin",
+      "onafterprint": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onbeforeprint": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onbeforeunload": {
+        "attribute": "attribute",
+        "type": "OnBeforeUnloadEventHandler"
+      },
+      "onhashchange": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onlanguagechange": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onmessage": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onmessageerror": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onoffline": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "ononline": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onpagehide": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onpagereveal": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onpageshow": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onpageswap": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onpopstate": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onrejectionhandled": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onstorage": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onunhandledrejection": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      },
+      "onunload": {
+        "attribute": "attribute",
+        "type": "EventHandler"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 8.1.8.2 Event handlers on elements, Document objects, and Window objects. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/webappapis.html#idl-definitions",
+        "heading": "HTML Living Standard. 8.1.8.2 Event handlers on elements, Document objects, and Window objects",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

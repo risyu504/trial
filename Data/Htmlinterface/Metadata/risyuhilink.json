@@ -1,0 +1,104 @@
+{
+  "HTMLLinkElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "includes": ["LinkStyle"],
+      "SPACE01": "",
+      "href": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "crossOrigin": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString?"
+      },
+      "rel": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "as": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "relList": {
+        "extendedattributes": ["SameObject", "PutForwards=value", "Reflect=&quot;rel&quot;"],
+        "attribute": "readonly attribute",
+        "type": "DOMTokenList"
+      },
+      "media": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "integrity": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "hreflang": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "type": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "sizes": {
+        "extendedattributes": ["SameObject", "PutForwards=value", "Reflect"],
+        "attribute": "readonly attribute",
+        "type": "DOMTokenList"
+      },
+      "imageSrcset": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "imageSizes": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "referrerPolicy": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "blocking": {
+        "extendedattributes": ["SameObject", "PutForwards=value", "Reflect"],
+        "attribute": "readonly attribute",
+        "type": "DOMTokenList"
+      },
+      "disabled": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "fetchPriority": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.2.4 The link element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/semantics.html#the-link-element",
+        "heading": "HTML Living Standard. 4.2.4 The link element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

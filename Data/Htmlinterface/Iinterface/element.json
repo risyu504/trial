@@ -1,0 +1,243 @@
+{
+  "Element": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent": "Node",
+      "dictionary": ["ShadowRootInit"],
+      "namespaceURI": {
+        "attribute": "readonly attribute",
+        "type": "DOMString?"
+      },
+      "prefix": {
+        "attribute": "readonly attribute",
+        "type": "DOMString?"
+      },
+      "localName": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "tagName": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "SPACE01": "",
+      "id": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "className": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "classList": {
+        "extendedattributes": ["SameObject", "PutForwards=value"],
+        "attribute": "readonly attribute",
+        "type": "DOMTokenList"
+      },
+      "slot": {
+        "extendedattributes": ["CEReactions", "Unscopable"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE02": "",
+      "hasAttributes()": {
+        "type": "boolean"
+      },
+      "attributes": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "NamedNodeMap"
+      },
+      "getAttributeNames()": {
+        "type": "sequence&lt;DOMString&gt;"
+      },
+      "getAttribute()": {
+        "argument": [{"type": "DOMString", "description": "qualifiedName"}],
+        "type": "DOMString?"
+      },
+      "getAttributeNS(DOMString? namespace, DOMString localName)": {
+        "argument": [
+          {"type": "DOMString?", "description": "namespace"},
+          {"type": "DOMString", "description": "localName"}
+        ],
+        "type": "DOMString?"
+      },
+      "setAttribute(DOMString qualifiedName, DOMString value)": {
+        "argument": [
+          {"type": "DOMString", "description": "qualifiedName"},
+          {"type": "DOMString", "description": "value"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "setAttributeNS(DOMString? namespace, DOMString qualifiedName, DOMString value)": {
+        "argument": [
+          {"type": "DOMString?", "description": "namespace"},
+          {"type": "DOMString", "description": "qualifiedName"},
+          {"type": "DOMString", "description": "value"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "removeAttribute(DOMString qualifiedName)": {
+        "argument": [
+          {"type": "DOMString", "description": "qualifiedName"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "removeAttributeNS(DOMString? namespace, DOMString localName)": {
+        "argument": [
+          {"type": "DOMString?", "description": "namespace"},
+          {"type": "DOMString", "description": "localName"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "toggleAttribute(DOMString qualifiedName, optional boolean force)": {
+        "argument": [
+          {"type": "DOMString", "description": "qualifiedName"},
+          {"type": "boolean", "optional": "optional", "description": "force"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "boolean"
+      },
+      "hasAttribute(DOMString qualifiedName)": {
+        "argument": [
+          {"type": "DOMString", "description": "qualifiedName"}
+        ],
+        "type": "boolean"
+      },
+      "hasAttributeNS(DOMString? namespace, DOMString localName)": {
+        "argument": [
+          {"type": "DOMString?", "description": "namespace"},
+          {"type": "DOMString", "description": "localName"}
+        ],
+        "type": "boolean"
+      },
+      "SPACE03": "",
+      "getAttributeNode(DOMString qualifiedName)": {
+        "argument": [
+          {"type": "DOMString", "description": "qualifiedName"}
+        ],
+        "type": "Attr?"
+      },
+      "getAttributeNodeNS(DOMString? namespace, DOMString localName)": {
+        "argument": [
+          {"type": "DOMString?", "description": "namespace"},
+          {"type": "DOMString", "description": "localName"}
+        ],
+        "type": "Attr?"
+      },
+      "setAttributeNode(Attr attr)": {
+        "argument": [
+          {"type": "Attr", "description": "attr"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "Attr?"
+      },
+      "setAttributeNodeNS(Attr attr)": {
+        "argument": [
+          {"type": "Attr", "description": "attr"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "Attr?"
+      },
+      "removeAttributeNode(Attr attr)": {
+        "argument": [
+          {"type": "Attr", "description": "attr"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "Attr"
+      },
+      "SPACE04": "",
+      "attachShadow(ShadowRootInit init)": {
+        "argument": [
+          {"type": "ShadowRootInit", "description": "init"}
+        ],
+        "type": "ShadowRoot"
+      },
+      "shadowRoot": {
+        "attribute": "readonly attribute",
+        "type": "ShadowRoot?"
+      },
+      "SPACE05": "",
+      "customElementRegistry": {
+        "attribute": "readonly attribute",
+        "type": "CustomElementRegistry?"
+      },
+      "SPACE06": "",
+      "closest(DOMString selectors)": {
+        "argument": [
+          {"type": "DOMString", "description": "selectors"}
+        ],
+        "type": "Element?"
+      },
+      "matches(DOMString selectors)": {
+        "argument": [
+          {"type": "DOMString", "description": "selectors"}
+        ],
+        "type": "boolean"
+      },
+      "webkitMatchesSelector(DOMString selectors)": {
+        "argument": [
+          {"type": "DOMString", "description": "selectors"}
+        ],
+        "type": "boolean",
+        "commentIn": "legacy alias of .matches"
+      },
+      "SPACE07": "",
+      "getElementsByTagName(DOMString qualifiedName)": {
+        "argument": [
+          {"type": "DOMString", "description": "qualifiedName"}
+        ],
+        "type": "HTMLCollection"
+      },
+      "getElementsByTagNameNS(DOMString? namespace, DOMString localName)": {
+        "argument": [
+          {"type": "DOMString?", "description": "namespace"},
+          {"type": "DOMString", "description": "localName"}
+        ],
+        "type": "HTMLCollection"
+      },
+      "getElementsByClassName(DOMString classNames)": {
+        "argument": [
+          {"type": "DOMString", "description": "classNames"}
+        ],
+        "type": "HTMLCollection"
+      },
+      "SPACE08": "",
+      "insertAdjacentElement(DOMString where, Element element)": {
+        "argument": [
+          {"type": "DOMString", "description": "where"},
+          {"type": "Element", "description": "element"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "Element?",
+        "commentIn": "legacy"
+      },
+      "insertAdjacentText(DOMString where, DOMString data)": {
+        "argument": [
+          {"type": "DOMString", "description": "where"},
+          {"type": "DOMString", "description": "data"}
+        ],
+        "type": "undefined",
+        "commentIn": "legacy"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "DOM Living Standard. 4.9. Interface Element. Last Updated 31 October 2025",
+        "href":    "https://dom.spec.whatwg.org/#interface-element",
+        "heading": "DOM Living Standard. 4.9. Interface Element",
+        "sub":     "最終更新日 2025年10月31日"
+      }
+    ]
+  }
+}

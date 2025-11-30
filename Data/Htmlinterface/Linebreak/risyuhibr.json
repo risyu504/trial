@@ -1,0 +1,22 @@
+{
+  "HTMLBRElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.27 The br element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element",
+        "heading": "HTML Living Standard. 4.5.27 The br element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

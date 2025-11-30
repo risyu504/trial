@@ -1,0 +1,72 @@
+{
+  "HTMLHyperlinkElementUtils": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "interface mixin",
+      "href": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "stringifier attribute",
+        "type": "USVString"
+      },
+      "origin": {
+        "attribute": "readonly attribute",
+        "type": "USVString origin"
+      },
+      "protocol": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "username": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "password": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "host": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "hostname": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "port": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "pathname": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "search": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "hash": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "USVString"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.6.3 API for a and area elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
+        "heading": "HTML Living Standard. 4.6.3 API for a and area elements",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

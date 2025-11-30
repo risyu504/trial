@@ -1,0 +1,45 @@
+{
+  "EventTarget": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "*",
+      "interface": "interface",
+      "constructor()": "",
+      "dictionary": ["AddEventListenerOptions", "EventListenerOptions"],
+      "callback": ["EventListener"],
+      "SPACE01": "",
+      "addEventListener(DOMString type, EventListener? callback, optional (AddEventListenerOptions or boolean) options = {})": {
+        "argument": [
+          {"type": "DOMString", "description": "type"},
+          {"type": "EventListener?", "description": "callback"},
+          {"type": "(AddEventListenerOptions or boolean)", "optional": "optional", "description": "options = {}"}
+        ],
+        "type": "undefined"
+      },
+      "removeEventListener(DOMString type, EventListener? callback, optional (EventListenerOptions or boolean) options = {})": {
+        "argument": [
+          {"type": "DOMString", "description": "type"},
+          {"type": "EventListener?", "description": "callback"},
+          {"type": "(EventListenerOptions or boolean)", "optional": "optional", "description": "options = {}"}
+        ],
+        "type": "undefined"
+      },
+      "dispatchEvent(Event event)": {
+        "argument": [
+          {"type": "Event", "description": "event"}
+        ],
+        "type": "boolean"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "DOM Living Standard. 2.7. Interface EventTarget. Last Updated 31 October 2025",
+        "href":    "https://dom.spec.whatwg.org/#interface-eventtarget",
+        "heading": "DOM Living Standard. 2.7. Interface EventTarget",
+        "sub":     "最終更新日 2025年10月31日"
+      }
+    ]
+  }
+}

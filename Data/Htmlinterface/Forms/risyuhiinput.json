@@ -1,0 +1,294 @@
+{
+  "HTMLInputElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "includes": ["PopoverInvokerElement"],
+      "SPACE01": "",
+      "accept": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "alpha": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "alt": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "autocomplete": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "defaultChecked": {
+        "extendedattributes": ["CEReactions", "Reflect='checked'"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "checked": {
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "colorSpace": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "dirName": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "disabled": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "form": {
+        "attribute": "readonly attribute",
+        "type": "HTMLFormElement?"
+      },
+      "files": {
+        "attribute": "attribute",
+        "type": "FileList?"
+      },
+      "formAction": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "formEnctype": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "formMethod": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "formNoValidate": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "formTarget": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "height": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "indeterminate": {
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "list": {
+        "attribute": "readonly attribute",
+        "type": "HTMLDataListElement?"
+      },
+      "max": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "maxLength": {
+        "extendedattributes": ["CEReactions", "ReflectNonNegative"],
+        "attribute": "attribute",
+        "type": "long"
+      },
+      "min": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "minLength": {
+        "extendedattributes": ["CEReactions", "ReflectNonNegative"],
+        "attribute": "attribute",
+        "type": "long"
+      },
+      "multiple": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "name": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "pattern": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "placeholder": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "readOnly": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "required": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "size": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "src": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "step": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "type": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "defaultValue": {
+        "extendedattributes": ["CEReactions", "Reflect='value'"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "value": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "legacyextendedattributes": "LegacyNullToEmptyString",
+        "type": "DOMString"
+      },
+      "valueAsDate": {
+        "attribute": "attribute",
+        "type": "object?"
+      },
+      "valueAsNumber": {
+        "attribute": "attribute",
+        "type": "unrestricted double"
+      },
+      "width": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "SPACE02": "",
+      "stepUp(optional long n = 1)": {
+        "argument": [
+          {"type": "long", "optional": "optional", "description": "n = 1"}
+        ],
+        "type": "undefined"
+      },
+      "stepDown(optional long n = 1)": {
+        "argument": [
+          {"type": "long", "optional": "optional", "description": "n = 1"}
+        ],
+        "type": "undefined"
+      },
+      "SPACE03": "",
+      "willValidate": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "validity": {
+        "attribute": "readonly attribute",
+        "type": "ValidityState"
+      },
+      "validationMessage": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "checkValidity()": {
+        "type": "boolean"
+      },
+      "reportValidity()": {
+        "type": "boolean"
+      },
+      "setCustomValidity(DOMString error)": {
+        "argument": [
+          {"type": "DOMString", "description": "error"}
+        ],
+        "type": "undefined"
+      },
+      "SPACE04": "",
+      "labels": {
+        "attribute": "readonly attribute",
+        "type": "NodeList?"
+      },
+      "SPACE05": "",
+      "select()": {
+        "type": "undefined"
+      },
+      "selectionStart": {
+        "attribute": "attribute",
+        "type": "unsigned long?"
+      },
+      "selectionEnd": {
+        "attribute": "attribute",
+        "type": "unsigned long?"
+      },
+      "selectionDirection": {
+        "attribute": "attribute",
+        "type": "DOMString?"
+      },
+      "setRangeText(DOMString replacement)": {
+        "argument": [
+          {"type": "DOMString", "description": "replacement"}
+        ],
+        "type": "undefined"
+      },
+      "setRangeText(DOMString replacement, unsigned long start, unsigned long end, optional SelectionMode selectionMode = &quot;preserve&quot;)": {
+        "argument": [
+          {"type": "DOMString", "description": "replacement"},
+          {"type": "unsigned long", "description": "start"},
+          {"type": "unsigned long", "description": "end"},
+          {"type": "SelectionMode", "optional": "optional", "description": "selectionMode = &quot;preserve&quot;"}
+        ],
+        "type": "undefined"
+      },
+      "setSelectionRange(unsigned long start, unsigned long end, optional DOMString direction)": {
+        "argument": [
+          {"type": "unsigned long", "description": "start"},
+          {"type": "unsigned long", "description": "end"},
+          {"type": "DOMString", "optional": "optional", "description": "direction"}
+        ],
+        "type": "undefined"
+      },
+      "SPACE06": "",
+      "showPicker()": {
+        "type": "undefined"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.5 The input element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/input.html#the-input-element",
+        "heading": "HTML Living Standard. 4.10.5 The input element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

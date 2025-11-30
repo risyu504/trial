@@ -1,0 +1,109 @@
+{
+  "HTMLFormElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": ["Window", "LegacyOverrideBuiltIns", "LegacyUnenumerableNamedProperties"],
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "acceptCharset": {
+        "extendedattributes": ["CEReactions", "Reflect='accept-charset'"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "action": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "autocomplete": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "enctype": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "encoding": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "method": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "name": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "noValidate": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "target": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "rel": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "relList": {
+        "extendedattributes": ["SameObject", "PutForwards=value", "Reflect='rel'"],
+        "attribute": "readonly attribute",
+        "type": "DOMTokenList"
+      },
+      "SPACE02": "",
+      "elements": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "HTMLFormControlsCollection"
+      },
+      "length": {
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "LINE01": "getter Element (unsigned long index);",
+      "LINE02": "getter (RadioNodeList or Element) (DOMString name);",
+      "SPACE03": "",
+      "submit()": {
+        "type": "undefined"
+      },
+      "requestSubmit(optional HTMLElement? submitter = null)": {
+        "argument": [
+          {"type": "HTMLElement?", "optional": "optional", "description": "submitter = null"}
+        ],
+        "type": "undefined"
+      },
+      "reset()": {
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "checkValidity()": {
+        "type": "boolean"
+      },
+      "reportValidity()": {
+        "type": "boolean"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.3 The form element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/forms.html#the-form-element",
+        "heading": "HTML Living Standard. 4.10.3 The form element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

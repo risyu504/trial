@@ -1,0 +1,22 @@
+{
+  "LinkStyle": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "interface mixin",
+      "sheet": {
+        "attribute": "readonly attribute",
+        "type": "CSSStyleSheet? "
+      }
+    }],
+    "reference": [
+      {
+        "title":   "CSS Object Model (CSSOM) Module Level 1. 6.3.2. The LinkStyle Interface. Editor’s Draft, 12 October 2025",
+        "href":    "https://drafts.csswg.org/cssom/#the-linkstyle-interface",
+        "heading": "CSS Object Model (CSSOM) Module Level 1. 6.3.2. The LinkStyle Interface",
+        "sub":     "編集者草稿、2025年10月12日"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "HTMLKeygenElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "supplementaryExplanation": "この要素は、HTMLUnknownElementインターフェイス を使用しています。HTMLKeygenElementインターフェイスは削除されています。",
+    "alias": "HTMLUnknownElement",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "autofocus": {
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "challenge": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "disabled": {
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "form": {
+        "attribute": "readonly attribute",
+        "type": "HTMLFormElement?"
+      },
+      "keytype": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "name": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE02": "",
+      "type": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "SPACE03": "",
+      "willValidate": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "validity": {
+        "attribute": "readonly attribute",
+        "type": "ValidityState"
+      },
+      "validationMessage": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "checkValidity()": {
+        "type": "boolean"
+      },
+      "setCustomValidity(DOMString error)": {
+        "argument": [
+          {"type": "DOMString", "description": "error"}
+        ],
+        "type": "void"
+      },
+      "SPACE04": "",
+      "labels": {
+        "attribute": "readonly attribute",
+        "type": "NodeList"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 3.2.2 Elements in the DOM. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/dom.html#elements-in-the-dom",
+        "heading": "HTML Living Standard. 3.2.2 Elements in the DOM",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

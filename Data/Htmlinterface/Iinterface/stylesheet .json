@@ -1,0 +1,48 @@
+{
+  "StyleSheet": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "type": {
+        "attribute": "readonly attribute",
+        "type": "CSSOMString"
+      },
+      "href": {
+        "attribute": "readonly attribute",
+        "type": "USVString?"
+      },
+      "ownerNode": {
+        "attribute": "readonly attribute",
+        "type": "(Element or ProcessingInstruction)? "
+      },
+      "parentStyleSheet": {
+        "attribute": "readonly attribute",
+        "type": "CSSStyleSheet?"
+      },
+      "title": {
+        "attribute": "readonly attribute",
+        "type": "DOMString?"
+      },
+      "media": {
+        "extendedattributes": "SameObject, PutForwards=mediaText",
+        "attribute": "readonly attribute",
+        "type": "MediaList"
+      },
+      "disabled": {
+        "attribute": "attribute",
+        "type": "boolean"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "CSS Object Model (CSSOM) Module Level 1. 6.1.1. The StyleSheet Interface. Editor’s Draft, 12 October 2025",
+        "href":    "https://drafts.csswg.org/cssom/#the-stylesheet-interface",
+        "heading": "CSS Object Model (CSSOM) Module Level 1. 6.1.1. The StyleSheet Interface",
+        "sub":     "編集者草稿、2025年10月12日"
+      }
+    ]
+  }
+}

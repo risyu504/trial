@@ -1,0 +1,60 @@
+{
+  "HTMLOptionElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": ["Window", "LegacyFactoryFunction=Option(optional DOMString text = &quot;&quot;&#044; optional DOMString value&#044; optional boolean defaultSelected = false&#044; optional boolean selected = false)"],
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "disabled": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "form": {
+        "attribute": "readonly attribute",
+        "type": "HTMLFormElement?"
+      },
+      "label": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "defaultSelected": {
+        "extendedattributes": ["CEReactions", "Reflect='selected'"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "selected": {
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "value": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE02": "",
+      "text": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "index": {
+        "attribute": "readonly attribute",
+        "type": "long"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.10 The option element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element",
+        "heading": "HTML Living Standard. 4.10.10 The option element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

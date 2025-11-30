@@ -1,0 +1,56 @@
+{
+  "HTMLMeterElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "value": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "double"
+      },
+      "min": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "double"
+      },
+      "max": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "double"
+      },
+      "low": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "double"
+      },
+      "high": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "double"
+      },
+      "optimum": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "double"
+      },
+      "labels": {
+        "attribute": "readonly attribute",
+        "type": "NodeList"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.14 The meter element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element",
+        "heading": "HTML Living Standard. 4.10.14 The meter element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

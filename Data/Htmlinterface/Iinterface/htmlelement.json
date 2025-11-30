@@ -1,0 +1,141 @@
+{
+  "HTMLElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent": "Element",
+      "constructor()": "HTMLConstructor",
+      "includes": ["GlobalEventHandlers", "ElementContentEditable", "HTMLOrSVGElement"],
+      "dictionary": ["TogglePopoverOptions", "ShowPopoverOptions"],
+      "comment01": "metadata attributes",
+      "title": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "lang": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "translate": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "dir": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "comment02": "user interaction",
+      "hidden": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "(boolean or unrestricted double or DOMString)?"
+      },
+      "inert": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "click()": {
+        "type": "undefined"
+      },
+      "accessKey": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "accessKeyLabel": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "draggable": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "spellcheck": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "writingSuggestions": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "autocapitalize": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "autocorrect": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "SPACE01": "",
+      "innerText": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "legacyextendedattributes": "LegacyNullToEmptyString",
+        "type": "DOMString"
+      },
+      "outerText": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "legacyextendedattributes": "LegacyNullToEmptyString",
+        "type": "DOMString"
+      },
+      "SPACE02": "",
+      "attachInternals()": {
+        "type": "ElementInternals"
+      },
+      "comment03": "The popover API",
+      "showPopover(optional ShowPopoverOptions options = {})": {
+        "argument": [
+          {"type": "ShowPopoverOptions", "optional": "optional", "description": "options = {}"}
+        ],
+        "type": "undefined"
+      },
+      "hidePopover()": {
+        "type": "undefined"
+      },
+      "togglePopover(optional (TogglePopoverOptions or boolean) options = {})": {
+        "argument": [
+          {"type": "(TogglePopoverOptions or boolean)", "optional": "optional", "description": "options = {}"}
+        ],
+        "type": "boolean"
+      },
+      "popover": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString?"
+      },
+      "SPACE03": "",
+      "headingOffset": {
+        "extendedattributes": ["CEReactions", "Reflect", "ReflectRange=(0, 8)"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "headingReset": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 3.2.2 Elements in the DOM. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/dom.html#elements-in-the-dom",
+        "heading": "HTML Living Standard. 3.2.2 Elements in the DOM",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

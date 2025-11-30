@@ -1,0 +1,81 @@
+{
+  "HTMLOutputElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "htmlFor": {
+        "extendedattributes": ["SameObject", "PutForwards=value", "Reflect='for'"],
+        "attribute": "readonly attribute",
+        "type": "DOMTokenList"
+      },
+      "form": {
+        "attribute": "readonly attribute",
+        "type": "HTMLFormElement?"
+      },
+      "name": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE02": "",
+      "type": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "defaultValue;": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "value": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE03": "",
+      "willValidate": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "validity": {
+        "attribute": "readonly attribute",
+        "type": "ValidityState"
+      },
+      "validationMessage": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "checkValidity()": {
+        "type": "boolean"
+      },
+      "reportValidity()": {
+        "type": "boolean"
+      },
+      "setCustomValidity(DOMString error)": {
+        "argument": [
+          {"type": "DOMString", "description": "error"}
+        ],
+        "type": "undefined"
+      },
+      "SPACE04": "",
+      "labels": {
+        "attribute": "readonly attribute",
+        "type": "NodeList"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.12 The output element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element",
+        "heading": "HTML Living Standard. 4.10.12 The output element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

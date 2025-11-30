@@ -1,0 +1,255 @@
+{
+  "Node": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent": "EventTarget",
+      "dictionary": ["GetRootNodeOptions"],
+      "ELEMENT_NODE=1": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "ATTRIBUTE_NODE=2": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "TEXT_NODE=3": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "CDATA_SECTION_NODE=4": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "ENTITY_REFERENCE_NODE=5": {
+        "attribute": "const",
+        "type": "unsigned short",
+        "commentIn": "legacy"
+      },
+      "ENTITY_NODE=6": {
+        "attribute": "const",
+        "type": "unsigned short",
+        "commentIn": "legacy"
+      },
+      "PROCESSING_INSTRUCTION_NODE=7": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "COMMENT_NODE=8": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "DOCUMENT_NODE=9": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "DOCUMENT_TYPE_NODE=10": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "DOCUMENT_FRAGMENT_NODE=11": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "NOTATION_NODE=12": {
+        "attribute": "const",
+        "type": "unsigned short",
+        "commentIn": "legacy"
+      },
+      "nodeType": {
+        "attribute": "readonly attribute",
+        "type": "unsigned short"
+      },
+      "nodeName": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "SPACE01": "",
+      "baseURI": {
+        "attribute": "readonly attribute",
+        "type": "USVString"
+      },
+      "SPACE02": "",
+      "isConnected": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "ownerDocument": {
+        "attribute": "readonly attribute",
+        "type": "Document?"
+      },
+      "getRootNode(optional GetRootNodeOptions options = {})": {
+        "argument": [
+          {"type": "GetRootNodeOptions", "optional": "optional", "description": "options = {}"}
+        ],
+        "type": "Node"
+      },
+      "parentNode": {
+        "attribute": "readonly attribute",
+        "type": "Node?"
+      },
+      "parentElement": {
+        "attribute": "readonly attribute",
+        "type": "Element?"
+      },
+      "hasChildNodes()": {
+        "type": "boolean"
+      },
+      "childNodes": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "NodeList"
+      },
+      "firstChild": {
+        "attribute": "readonly attribute",
+        "type": "Node?"
+      },
+      "lastChild": {
+        "attribute": "readonly attribute",
+        "type": "Node?"
+      },
+      "previousSibling": {
+        "attribute": "readonly attribute",
+        "type": "Node?"
+      },
+      "nextSibling": {
+        "attribute": "readonly attribute",
+        "type": "Node?"
+      },
+      "SPACE03": "",
+      "nodeValue": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString?"
+      },
+      "textContent": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString?"
+      },
+      "normalize()": {
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "SPACE04": "",
+      "cloneNode(optional boolean subtree = false)": {
+        "argument": [
+          {"type": "boolean", "optional": "optional", "description": "subtree = false"}
+        ],
+        "extendedattributes": "CEReactions, NewObject",
+        "type": "Node"
+      },
+      "isEqualNode(Node? otherNode)": {
+        "argument": [
+          {"type": "Node?", "description": "otherNode"}
+        ],
+        "type": "boolean"
+      },
+      "isSameNode(Node? otherNode)": {
+        "argument": [
+          {"type": "Node?", "description": "otherNode"}
+        ],
+        "type": "boolean",
+        "commentIn": "legacy alias of ==="
+      },
+      "SPACE05": "",
+      "DOCUMENT_POSITION_DISCONNECTED=0x01": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "DOCUMENT_POSITION_PRECEDING=0x02": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "DOCUMENT_POSITION_FOLLOWING=0x04": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "DOCUMENT_POSITION_CONTAINS=0x08": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "DOCUMENT_POSITION_CONTAINED_BY=0x10": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC=0x20": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "compareDocumentPosition(Node other)": {
+        "argument": [
+          {"type": "Node", "description": "other"}
+        ],
+        "type": "unsigned short"
+      },
+      "contains(Node? other)": {
+        "argument": [
+          {"type": "Node?", "description": "other"}
+        ],
+        "type": "boolean"
+      },
+      "SPACE06": "",
+      "lookupPrefix(DOMString? namespace)": {
+        "argument": [
+          {"type": "DOMString?", "description": "namespace"}
+        ],
+        "type": "DOMString?"
+      },
+      "lookupNamespaceURI(DOMString? prefix)": {
+        "argument": [
+          {"type": "DOMString?", "description": "prefix"}
+        ],
+        "type": "DOMString?"
+      },
+      "isDefaultNamespace(DOMString? namespace)": {
+        "argument": [
+          {"type": "DOMString?", "description": "namespace"}
+        ],
+        "type": "boolean"
+      },
+      "SPACE07": "",
+      "insertBefore(Node node, Node? child)": {
+        "argument": [
+          {"type": "Node", "description": "node"},
+          {"type": "Node?", "description": "child"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "Node"
+      },
+      "appendChild(Node node)": {
+        "argument": [
+          {"type": "Node", "description": "node"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "Node"
+      },
+      "replaceChild(Node node, Node child)": {
+        "argument": [
+          {"type": "Node", "description": "node"},
+          {"type": "Node", "description": "child"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "Node"
+      },
+      "removeChild(Node child)": {
+        "argument": [
+          {"type": "Node", "description": "child"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "Node"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "DOM Living Standard. 4.4. Interface Node. Last Updated 31 October 2025",
+        "href":    "https://dom.spec.whatwg.org/#node",
+        "heading": "DOM Living Standard. 4.4. Interface Node",
+        "sub":     "最終更新日 2025年10月31日"
+      }
+    ]
+  }
+}
