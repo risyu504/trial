@@ -33,8 +33,7 @@
 - [Htmlexample](./Htmlexample/README.md) [Hx] HTML サンプル用 データフォルダ
 - [Htmlinterface](./Htmlinterface/README.md) [Hi] DOM インターフェイス データフォルダ
 - [Htmlrendering](./Htmlrendering/README.md) [Hr] HTML レンダリング データフォルダ
-- [Risyubanner](./Risyubanner/README.md) コータンのおもちゃ箱 bannerリスト用データフォルダ
-- [Webcoocan](./Webcoocan/README.md) Webページ情報 データフォルダ
+- [Website](./Website/README.md) Webページ情報 データフォルダ
 
 ## 作成者
 
