@@ -1,0 +1,23 @@
+{
+  "isindex": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "supplementaryExplanation": "この要素は、廃止された要素です。レンダレングについて明記されていません。配置等の仕様より推測で記しています。",
+    "code": [
+      {"isindex": {
+        "display": "block"
+      }},
+      {"head isindex": {
+        "display": "none"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML 4.01 Specification. 22 Transitional Document Type Definition. W3C Recommendation 24 December 1999",
+        "href":    "https://www.w3.org/TR/html401/sgml/loosedtd.html#isindex",
+        "heading": "HTML 4.01 Specification. 22 Transitional Document Type Definition",
+        "sub":     "W3C勧告 1999年12月24日"
+      }
+    ]
+  }
+}

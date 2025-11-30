@@ -1,0 +1,19 @@
+{
+  "optgroup": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [{
+      "select optgroup": {
+        "font-weight": "bolder"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.16 The select element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.16 The select element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "keygen": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [{
+      "keygen": {
+        "display": "inline-block",
+        "binding": "keygen"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#form-controls",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.11. Form controls",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.5.16. The keygen element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#the-keygen-element-rendering",
+        "heading": "HTML 5.1 W3C 勧告. 10.5.16. The keygen element",
+        "sub":     "W3C勧告、2016年11月1日"
+      }
+    ]
+  }
+}

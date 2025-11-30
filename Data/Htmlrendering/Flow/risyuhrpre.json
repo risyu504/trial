@@ -1,0 +1,26 @@
+{
+  "pre": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"pre": {
+        "display": "block",
+        "margin-block": "1em",
+        "font-family": "monospace",
+        "white-space": "pre",
+        "unicode-bidi": "isolate"
+      }},
+      {"pre[wrap]": {
+        "white-space": "pre-wrap"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "hr": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"hr": {
+        "display": "block",
+        "color": "gray",
+        "border-style": "inset",
+        "border-width": "1px",
+        "margin-block": "0.5em",
+        "margin-inline": "auto",
+        "overflow": "hidden",
+        "unicode-bidi": "isolate"
+      }},
+      {"hr[align=left i]": {
+        "margin-left": "0",
+        "margin-right": "auto"
+      }},
+      {"hr[align=right i]": {
+        "margin-left": "auto",
+        "margin-right": "0"
+      }},
+      {"hr[align=center i]": {
+        "margin-left": "auto",
+        "margin-right": "auto"
+      }},
+      {"hr[color], hr[noshade]": {
+        "border-style": "solid"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.11 The hr element.",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-hr-element-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.11 The hr element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

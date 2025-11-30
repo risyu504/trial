@@ -1,0 +1,19 @@
+{
+  "frame": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [{
+      "frame": {
+        "display": "block"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.6 Frames and framesets. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#frames-and-framesets",
+        "heading": "HTML Living Standard. 15 Rendering 15.6 Frames and framesets",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

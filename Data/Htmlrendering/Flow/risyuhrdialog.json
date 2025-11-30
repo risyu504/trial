@@ -1,0 +1,42 @@
+{
+  "dialog": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"dialog": {
+        "display": "block",
+        "position": "absolute",
+        "inset-inline-start": "0",
+        "inset-inline-end": "0",
+        "width": "fit-content",
+        "height": "fit-content",
+        "margin": "auto",
+        "border": "solid",
+        "padding": "1em",
+        "background-color": "Canvas",
+        "color": "CanvasText"
+      }},
+      {"dialog:not([open])": {
+        "display": "none"
+      }},
+      {"dialog:modal": {
+        "position": "fixed",
+        "overflow": "auto",
+        "inset-block": "0",
+        "max-width": "calc(100% - 6px - 2em)",
+        "max-height": "calc(100% - 6px - 2em)"
+      }},
+      {"dialog::backdrop": {
+        "background": "rgba(0,0,0,0.1)"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

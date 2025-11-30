@@ -1,0 +1,20 @@
+{
+  "output": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "supplementaryExplanation": "この要素は、レンダリングについは双方向テキストくらいだけしか記されていません。",
+    "code": [{
+      "output": {
+        "unicode-bidi": "isolate"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.5 Bidirectional text. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#bidi-rendering",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.5 Bidirectional text",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "option": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"select option:enabled:hover": {
+        "background-color": "color-mix(in lab, currentColor 10%, transparent)"
+      }},
+      {"select option:enabled:active": {
+        "background-color": "color-mix(in lab, currentColor 20%, transparent)"
+      }},
+      {"select option:disabled": {
+        "color": "color-mix(in lab, currentColor 50%, transparent)"
+      }},
+      {"select option": {
+        "min-inline-size": "24px",
+        "min-block-size": "max(24px, 1lh)",
+        "padding-inline": "0.5em",
+        "padding-block-end": "0",
+        "display": "flex",
+        "align-items": "center",
+        "gap": "0.5em",
+        "white-space": "nowrap"
+      }},
+      {"select option::checkmark": {
+        "content": "'\\2713' / ''"
+      }},
+      {"select option:not(:checked)::checkmark": {
+        "visibility": "hidden"
+      }},
+      {"select optgroup option": {
+        "font-weight": "normal"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.16 The select element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.16 The select element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

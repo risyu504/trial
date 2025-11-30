@@ -1,0 +1,39 @@
+{
+  "legend": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"legend": {
+        "display": "block",
+        "padding-inline": "2px"
+      }},
+      {"legend[align=left i]": {
+        "justify-self": "left"
+      }},
+      {"legend[align=center i]": {
+        "justify-self": "center"
+      }},
+      {"legend[align=right i]": {
+        "justify-self": "right"
+      }},
+      {"select optgroup legend": {
+        "padding-inline": "0.5em",
+        "min-block-size": "1lh"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.12 The fieldset and legend elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-fieldset-and-legend-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.12 The fieldset and legend elements",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

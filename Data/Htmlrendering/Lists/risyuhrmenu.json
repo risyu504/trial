@@ -1,0 +1,33 @@
+{
+  "menu": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"menu": {
+        "display": "block",
+        "margin-block": "1em",
+        "padding-inline-start": "40px",
+        "counter-reset": "list-item",
+        "list-style-type": "disc",
+        "unicode-bidi": "isolate"
+      }},
+      {":is(dir, dl, menu, ol, ul) menu": {
+        "margin-block": "0"
+      }},
+      {":is(dir, menu, ol, ul) menu": {
+        "list-style-type": "circle"
+      }},
+      {":is(dir, menu, ol, ul) :is(dir, menu, ol, ul) menu": {
+        "list-style-type": "square"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.7 Lists. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#lists",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.7 Lists",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

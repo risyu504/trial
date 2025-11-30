@@ -1,0 +1,73 @@
+{
+  "select": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"select": {
+        "display": "inline-flex",
+        "letter-spacing": "initial",
+        "word-spacing": "initial",
+        "line-height": "initial",
+        "text-transform": "initial",
+        "text-indent": "initial",
+        "text-shadow": "initial",
+        "appearance": "auto",
+        "text-align": "initial",
+        "box-sizing": "border-box",
+        "background-color": "transparent",
+        "border": "1px solid currentColor",
+        "padding-block": "0.25em",
+        "padding-inline": "0.5em",
+        "min-block-size": "calc-size(auto, max(size, 24px, 1lh))",
+        "min-inline-size": "calc-size(auto, max(size, 24px))",
+        "gap": "0.5em",
+        "border-radius": "0.5em",
+        "user-select": "none",
+        "field-sizing": "content !important"
+      }},
+      {"select:enabled:hover": {
+        "background-color": "color-mix(in lab, currentColor 10%, transparent)"
+      }},
+      {"select:enabled:active": {
+        "background-color": "color-mix(in lab, currentColor 20%, transparent)"
+      }},
+      {"select:disabled": {
+        "color": "color-mix(in lab, currentColor 50%, transparent)"
+      }},
+      {"::picker(select)": {
+        "box-sizing": "border-box",
+        "border": "1px solid",
+        "padding": "0",
+        "color": "CanvasText",
+        "background-color": "Canvas",
+        "margin": "0",
+        "inset": "auto",
+        "min-inline-size": "anchor-size(self-inline)",
+        "max-block-size": "stretch",
+        "overflow": "auto",
+        "position-area": "block-end span-inline-end",
+        "position-try-order": "most-block-size",
+        "position-try-fallbacks": "block-start span-inline-end, block-end span-inline-start, block-start span-inline-start"
+      }},
+      {"select::picker-icon": {
+        "content": "counter(fake-counter-name, disclosure-open)",
+        "display": "block",
+        "margin-inline-start": "auto"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.10 Form controls. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#form-controls",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.10 Form controls",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.16 The select element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.16 The select element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

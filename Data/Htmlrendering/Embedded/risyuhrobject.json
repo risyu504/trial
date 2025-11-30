@@ -1,0 +1,44 @@
+{
+  "object": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "supplementaryExplanation": "この要素は、置換要素です。",
+    "code": [
+      {"object[align=left i]": {
+        "float": "left"
+      }},
+      {"object[align=right i]": {
+        "float": "right"
+      }},
+      {"object[align=top i]": {
+        "vertical-align": "top"
+      }},
+      {"object[align=baseline i]": {
+        "vertical-align": "baseline"
+      }},
+      {"object[align=texttop i]": {
+        "vertical-align": "text-top"
+      }},
+      {"object[align=absmiddle i], object[align=abscenter i]": {
+        "vertical-align": "middle"
+      }},
+      {"object[align=bottom i]": {
+        "vertical-align": "bottom"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.4 Replaced elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#replaced-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.4 Replaced elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.4.1 Embedded content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#embedded-content-rendering-rules",
+        "heading": "HTML Living Standard. 15 Rendering 15.4.1 Embedded content",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

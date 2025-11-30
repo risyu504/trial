@@ -1,0 +1,23 @@
+{
+  "font": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "supplementaryExplanation": "この要素は、属性値により装飾を指定できていました。",
+    "code": [{
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 15.2.2 Font modifier elements: FONT and BASEFONT. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/present/graphics.html#h-15.2.2",
+        "heading": "HTML 4.01 Specification W3C 勧告. 15.2.2 Font modifier elements: FONT and BASEFONT",
+        "sub":     "W3C勧告1999年12月24日"
+      }
+    ]
+  }
+}

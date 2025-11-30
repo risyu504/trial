@@ -1,0 +1,9 @@
+{
+  "applet": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "supplementaryExplanation": "この要素は、HTML5 では廃止された機能です。置換要素と推測されます。",
+    "code": [{
+    }]
+  }
+}
