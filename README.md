@@ -32,12 +32,15 @@ Furthermore, creating a website itself involves studying and using HTML, CSS, Ja
 
 ## フォルダ索引
 
-1. [書類倉庫](./Document/README.md)
-2. [Pug開発](./Pug/README.md)
-3. [Sass開発](./Sass/README.md)
-4. [Typescript開発](./Typescript/README.md)
-5. [ソース](./Src/README.md)
-6. [出力先](./Dest/README.md)
+1. [出力先フォルダ](./Dest/README.md)
+2. [ソースフォルダ](./Src/README.md)
+3. [書類倉庫](./Document/README.md)
+4. [実行ファイルフォルダ](./bin/README.md)
+5. [設定ファイルフォルダ](./Config/README.md)
+6. [データフォルダ](./Data/README.md)
+7. [資産フォルダ](./Assets/README.md)
+8. [Gulpフォルダ](./Gulpfile/README.md)
+9. [パッケージフォルダ](./Module/README.md)
 
 ## 作成者
 
