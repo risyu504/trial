@@ -1,0 +1,129 @@
+{
+  "h3": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Sections",
+    "element": "- - (%Phrasing)* -- heading level.3 (Normal elements.) [Flow|Heading|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "見出し",
+    "summaryEn": "heading.",
+    "point": ["文書中の見出し(構造)を", "表します。"],
+    "description": [
+      "これらの要素は見出しを表します。 見出しの見出しレベルが低いほど、見出しに含まれる祖先セクションが少なくなります。",
+      "見出しには、H1 (最も重要) から H6 (最も重要ではない) までの 6 つのレベルがあります。",
+      "アウトラインは、ツリー順に並べられたドキュメント内のすべての見出しです。",
+      "アウトラインは、目次を作成する場合など、ドキュメントのアウトラインを生成するために使用する必要があります。 インタラクティブな目次を作成する場合、エントリによってユーザーが関連する見出しにジャンプする必要があります。",
+      "ドキュメントに 1 つ以上の見出しがある場合、アウトライン内の少なくとも 1 つの見出しの見出しレベルが 1 である必要があります。",
+      "アウトライン内の別の見出しリードに続く各見出しの見出しレベルは、リードの見出しレベルより小さい、等しい、または 1 大きい必要があります。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Heading", "Palpable"],
+    "usedSummary": "%Heading H3",
+    "canUsedContexts": ["HGROUP H3", "%Heading H3"],
+    "contentSummary": "H3 %Phrasing",
+    "contentModel": ["H3 %Phrasing", "+(%Html4) H3 (%Inline)*"],
+    "tagOmission": ["-", "-"],
+    "rendering": ["Heading", "Bidirectional"],
+    "domInterface": "HTMLHeadingElement",
+    "contentAttributes": "Global",
+    "attributessupplement": [
+      "align属性がありましたが、廃止されました。代わりに CSS を使用してください。"
+    ],
+    "obsoleteAttributes": {
+      "align": "代わりに CSS を使用してください。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+        "heading": "HTML Living Standard. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.6 Sections and headings. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#sections-and-headings",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.6 Sections and headings",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.7. Sections and headings. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#sections-and-headings",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.7. Sections and headings",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements",
+        "heading": "HTML 5.2 W3C 勧告. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.7. Sections and headings. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#sections-and-headings",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.7. Sections and headings",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements",
+        "heading": "HTML 5.1 W3C 勧告. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.7. Sections and headings. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#sections-and-headings",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.7. Sections and headings",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+        "heading": "HTML 5 W3C 勧告. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.7 Sections and headings. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#sections-and-headings",
+        "heading": "HTML 5 W3C 勧告. 10.3.7 Sections and headings",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 7.5.5 Headings: The H1, H2, H3, H4, H5, H6 elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/global.html#h-7.5.5",
+        "heading": "HTML 4.01 Specification W3C 勧告. 7.5.5 Headings: The H1, H2, H3, H4, H5, H6 elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;h1&gt;-&lt;h6&gt;: The HTML Section Heading elements.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements/Heading_Elements",
+        "heading": "&lt;h1&gt;-&lt;h6&gt;: HTML の見出し要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}

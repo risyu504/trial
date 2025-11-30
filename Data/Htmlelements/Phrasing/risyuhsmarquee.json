@@ -1,0 +1,102 @@
+{
+  "marquee": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "phrasing",
+    "element": "- - (%Phrasing)* -- marquee. (Normal elements.) [Flow|Phrasing|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "behavior":     "CDATA  #IMPLIED -- behavior --",
+      "bgcolor":      "CDATA  #IMPLIED -- background color --",
+      "direction":    "CDATA  #IMPLIED -- direction --",
+      "height":       "CDATA  #IMPLIED -- height --",
+      "hspace":       "NUMBER #IMPLIED -- horizontal space --",
+      "loop":         "NUMBER #IMPLIED -- loop --",
+      "scrollamount": "NUMBER #IMPLIED -- scroll amount --",
+      "scrolldelay":  "NUMBER #IMPLIED -- scroll delay --",
+      "truespeed":    "(truespeed) #IMPLIED -- scroll delay Rounded --",
+      "vspace":       "NUMBER #IMPLIED -- vertical space --",
+      "width":        "CDATA  #IMPLIED -- width --"
+    },
+    "alias": "",
+    "summary": "文字などをスクロール (marquee.)",
+    "point": "文字などをスクロールします。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Palpable"],
+    "canUsedContexts": "%Phrasing MARQUEE",
+    "contentModel": "MARQUEE %Phrasing",
+    "tagOmission": ["-", "-"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLMarqueeElement",
+    "contentAttributes": {
+      "behavior":     "動作",
+      "bgcolor":      "背景色",
+      "direction":    "方向",
+      "height":       "高さ",
+      "hspace":       "水平方向の余白",
+      "loop":         "繰り返し回数",
+      "scrollamount": "スクロール量",
+      "scrolldelay":  "スクロール遅延",
+      "truespeed":    "スクロール遅延の丸め",
+      "vspace":       "垂直方向の余白",
+      "width":        "幅"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 16.3 Requirements for implementations. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#the-marquee-element",
+        "heading": "HTML Living Standard. 16.3 Requirements for implementations",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.3. Requirements for implementations. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#the-marquee-element",
+        "heading": "HTML 5.2 W3C 勧告. 11.3. Requirements for implementations",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.1 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.3. Requirements for implementations. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#the-marquee-element",
+        "heading": "HTML 5.1 W3C 勧告. 11.3. Requirements for implementations",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.2 Non-conforming features. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#non-conforming-features",
+        "heading": "HTML 5 W3C 勧告. 11.2 Non-conforming features",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.3 Requirements for implementations. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#the-marquee-element-0",
+        "heading": "HTML 5 W3C 勧告. 11.3 Requirements for implementations",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;marquee&gt;: The Marquee element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/marquee",
+        "heading": "MDN Web Docs. HTML &lt;marquee&gt;: マーキー要素"
+      }
+    ],
+    "version": {"first": "non", "latest": "non"}
+  }
+}

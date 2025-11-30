@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Sections",
+    "element": "- - (%Flow)* -- navigation section. (Normal elements.) [Flow|Sectioning|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "ナビゲーションセクション",
+    "summaryEn": "navigation section.",
+    "point": ["ナビゲーションリンクを", "提供する為の", "セクションを", "表します。"],
+    "description": "他のページまたはページ内のパーツにリンクするページのセクション、つまりナビゲーションリンクのあるセクションを表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Sectioning", "Palpable"],
+    "canUsedContexts": "%Sectioning NAV",
+    "contentModel": "NAV %Flow",
+    "tagOmission": ["-", "-"],
+    "rendering": ["Section", "Bidirectional"],
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.3.4 The nav element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/sections.html#the-nav-element",
+        "heading": "HTML Living Standard. 4.3.4 The nav element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.6 Sections and headings. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#sections-and-headings",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.6 Sections and headings",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.3.4 The nav element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sections.html#the-nav-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.3.4 The nav element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.7. Sections and headings. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#sections-and-headings",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.7. Sections and headings",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.3.4 The nav element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sections.html#the-nav-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.3.4 The nav element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.7. Sections and headings. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#sections-and-headings",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.7. Sections and headings",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.3.4 The nav element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sections.html#the-nav-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.3.4 The nav element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.7. Sections and headings. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#sections-and-headings",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.7. Sections and headings",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.3.4 The nav element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/sections.html#the-nav-element",
+        "heading": "HTML 5 W3C 勧告. 4.3.4 The nav element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.7 Sections and headings. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#sections-and-headings",
+        "heading": "HTML 5 W3C 勧告. 10.3.7 Sections and headings",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;nav&gt;: The Navigation Section element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/nav",
+        "heading": "&lt;nav&gt;: ナビゲーションセクション要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

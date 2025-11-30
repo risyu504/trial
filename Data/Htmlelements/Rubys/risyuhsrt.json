@@ -1,0 +1,97 @@
+{
+  "rt": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Rubys",
+    "element": "- O (%Phrasing) -- ruby text component. (Normal elements.) [None] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "ルビ文字列 (ruby text component)",
+    "point": "ルビ注釈のルビテキストコンポーネントをマークします。",
+    "description": [
+      "ルビ注釈のルビテキストコンポーネントをマークします。",
+      "rt要素が ruby​​要素の子である場合、それ自体は何も表しませんが、ruby要素は、それが表すものを決定する際にそれを使用します。",
+      "rt要素が ruby​​要素の子でない場合は、その子と同じものを表します。"
+    ],
+    "elementKind": "Normal",
+    "categories": "None",
+    "canUsedContexts": "RUBY RT+",
+    "contentModel": "RT %Phrasing",
+    "tagOmission": ["-", "O"],
+    "tagsupplement": [
+      "rt要素の直後に rt要素または rp要素が続く場合、または親要素にそれ以上コンテンツがない場合、rt要素の終了タグは省略できます。"
+    ],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.11 The rt element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rt-element",
+        "heading": "HTML Living Standard. 4.5.11 The rt element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.5.11 The rb element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/textlevel-semantics.html#the-rb-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.5.11 The rb element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.4. Phrasing content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.4. Phrasing content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.12 The rt element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-rt-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.12 The rt element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.12 The rt element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-rt-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.12 The rt element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.23 The rt element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-rt-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.23 The rt element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#phrasing-content-0",
+        "heading": "HTML 5 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;rt&gt;: The Ruby Text element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/rt",
+        "heading": "MDN Web Docs. HTML &lt;rt&gt;: ルビテキスト要素"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

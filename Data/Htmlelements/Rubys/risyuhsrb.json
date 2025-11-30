@@ -1,0 +1,89 @@
+{
+  "rb": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Rubys",
+    "element": "- - (%Phrasing) -- ruby base. (Normal elements.) [None] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "ルビベース (ruby base)",
+    "point": "ベーステキストをマークアップします。",
+    "description": [
+      "単純なルビマークアップの場合、rb要素は 1 つだけ出現します。",
+      "複雑なルビマークアップの場合、rbc要素内に複数の rb要素が出現します。",
+      "各 rb要素は、ルビ表示を細かく制御できるように、対応する rt要素に関連付けられています。"
+    ],
+    "elementKind": "Normal",
+    "categories": "None",
+    "canUsedContexts": "RUBY RB",
+    "contentModel": "RB %Phrasing -(RUBY)",
+    "contentmodelsupplement": "rb要素には、そのコンテンツとしてインライン要素または文字データを含めることができますが、ruby要素をその子孫要素として使用することはできません。",
+    "tagOmission": ["-", "-"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLUnknownElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title": "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href": "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.5.11 The rb element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/textlevel-semantics.html#the-rb-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.5.11 The rb element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 11.2. Non-conforming features. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 11.2. Non-conforming features.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.5.11 The rb element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/textlevel-semantics.html#the-rb-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.5.11 The rb element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.11 The rb element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-rb-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.12 The rb element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.11 The rb element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-rb-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.11 The rb element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.22 The rb element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-rb-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.22 The rb element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "Ruby Annotation W3C Recommendation. 2.5 The rb element. W3C Recommendation 31 May 2001 (Markup errors corrected 25 June 2008)",
+        "href":    "https://www.w3.org/TR/ruby/#rb",
+        "heading": "ルビ注釈 W3C 勧告. 2.5 The rb element",
+        "sub":     "W3C勧告、2001年 5月31日(2008年 6月 25日修正)"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;rb&gt;: The Ruby Base element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/rb",
+        "heading": "MDN Web Docs. HTML &lt;rb&gt;: ルビベース要素"
+      }
+    ],
+    "version": {"first": "Ruby W3C", "latest": "Ruby W3C"}
+  }
+}

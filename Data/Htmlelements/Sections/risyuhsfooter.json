@@ -1,0 +1,91 @@
+{
+  "footer": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Sections",
+    "element": "- - (%Flow)* -(HEADER|FOOTER) -- A group of information about a section. (Normal elements.) [Flow|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "区分に関する情報のグループ",
+    "summaryEn": "A group of information about a section.",
+    "point": ["通常、", "作成者, 関連文書へのリンク, 著作権データなど、", "そのセクションに関する情報が", "含まれています。"],
+    "description": "セクショニングコンテンツである最も近い祖先の要素のフッター、 またはそのような祖先が存在しない場合は body要素のフッターを表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Palpable"],
+    "canUsedContexts": "%Flow FOOTER -(HEADER|FOOTER|ADDRESS|DT|TH)",
+    "contentModel": "FOOTER %Flow -(HEADER|FOOTER)",
+    "tagOmission": ["-", "-"],
+    "rendering": ["Flow", "Bidirectional"],
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.3.9 The footer element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/sections.html#the-footer-element",
+        "heading": "HTML Living Standard. 4.3.9 The footer element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.3.8 The footer element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sections.html#the-footer-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.3.8 The footer element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.3. Flow content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.3. Flow content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.3.8 The footer element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sections.html#the-footer-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.3.8 The footer element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.3. Flow content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.3.8 The footer element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sections.html#the-footer-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.3.8 The footer element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.3. Flow content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.3.8 The footer element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/sections.html#the-footer-element",
+        "heading": "HTML 5 W3C 勧告. 4.3.8 The footer element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.3 Flow content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#flow-content-0",
+        "heading": "HTML 5 W3C 勧告. 10.3.3 Flow content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;footer&gt;: The Footer element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/footer",
+        "heading": "&lt;footer&gt;: - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

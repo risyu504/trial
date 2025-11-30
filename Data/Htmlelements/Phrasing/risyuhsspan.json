@@ -1,0 +1,59 @@
+{
+  "span": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "phrasing",
+    "element": "- - (%Phrasing)* -- generic language/style container. (Normal elements.) [Flow|Phrasing|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "汎用的な行内コンテナ (generic language/style container)",
+    "point": "汎用的な行内コンテナであり、それ自体では何も意味しません。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Palpable"],
+    "canUsedContexts": "%Phrasing SPAN",
+    "contentModel": "SPAN %Phrasing",
+    "tagOmission": ["-", "-"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLSpanElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.26 The span element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element",
+        "heading": "HTML Living Standard. 4.5.26 The span element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.28 The span element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-span-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.28 The span element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.28 The span element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-span-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.28 The span element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.28 The span element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-span-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.28 The span element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 7.5.4 Grouping elements: the DIV and SPAN elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/global.html#h-7.5.4",
+        "heading": "HTML 4.01 Specification W3C 勧告. 7.5.4 Grouping elements: the DIV and SPAN elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;span&gt;: The Content Span element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/span",
+        "heading": "MDN Web Docs. HTML &lt;span&gt;: コンテンツ区間要素"
+      }
+    ],
+    "version": {"first": "HTML4.01", "latest": "HTML Living Standard"}
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "table": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Tables",
+    "element": "- - (CAPTION?,COLGROUP*,THEAD?,(TBODY|TR)*,TFOOT?) +(%Scriptsupporting) -- table element. (Normal elements.) [Flow|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "表(テーブル)",
+    "summaryEn": "table element.",
+    "point": ["複数の次元を持つデータを、", "表の形式で", "表します。"],
+    "description": [
+      "複数のディメンションを持つデータを表(テーブル・table)の形式で表します。",
+      "ここでの表すとは、表形式の描画の比重が大きいのでその点を意識した方が良いと思います。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Palpable"],
+    "canUsedContexts": "%Flow TABLE -(CAPTION)",
+    "contentSummary": "TABLE (CAPTION?,COLGROUP*,THEAD?,(TBODY*|TR+),TFOOT?) +(%Scriptsupporting)",
+    "contentModel": ["TABLE (CAPTION?,COLGROUP*,THEAD?,(TBODY*|TR+),TFOOT?) +(%Scriptsupporting)", "+(%Html4) TABLE (CAPTION?, (COL*|COLGROUP*), THEAD?, TFOOT?, TBODY+)"],
+    "tagOmission": ["-", "-"],
+    "rendering": ["Tables", "Bidirectional"],
+    "domInterface": "HTMLTableElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": {
+      "datapagesize": "不要です。完全に省略してください。",
+      "summary": "代わりに、表を記述するための手法のいずれかを使用してください。",
+      "datasrc": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "dataformatas": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "align": "代わりに CSS を使用してください。",
+      "bgcolor": "代わりに CSS を使用してください。",
+      "border": "代わりに CSS を使用してください。",
+      "bordercolor": "代わりに CSS を使用してください。",
+      "cellpadding": "代わりに CSS を使用してください。",
+      "cellspacing": "代わりに CSS を使用してください。",
+      "frame": "代わりに CSS を使用してください。",
+      "height": "代わりに CSS を使用してください。",
+      "rules": "代わりに CSS を使用してください。",
+      "width": "代わりに CSS を使用してください。",
+      "background": "代わりに CSS を使用してください。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.9.1 The table element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/tables.html#the-table-element",
+        "heading": "HTML Living Standard. 4.9.1 The table element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.8 Tables. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#tables-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.8 Tables",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.9.1 The table element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/tabular-data.html#the-table-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.9.1 The table element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.9. Tables. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#tables",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.9. Tables",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.9.1 The table element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/tabular-data.html#the-table-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.9.1 The table element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.9. Tables. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#tables",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.9. Tables",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.9.1 The table element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/tabular-data.html#the-table-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.9.1 The table element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.9. Tables. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#tables",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.9. Tables",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.9.1 The table element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/tabular-data.html#the-table-element",
+        "heading": "HTML 5 W3C 勧告. 4.9.1 The table element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.9 Tables. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#tables",
+        "heading": "HTML 5 W3C 勧告. 10.3.9 Tables",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 11.2.1 The TABLE element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/tables.html#h-11.2.1",
+        "heading": "HTML 4.01 Specification W3C 勧告. 11.2.1 The TABLE element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;table&gt;: The Table element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/table",
+        "heading": "&lt;table&gt;: 表要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML3", "latest": "HTML Living Standard"}
+  }
+}

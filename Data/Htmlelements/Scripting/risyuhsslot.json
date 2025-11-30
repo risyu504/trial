@@ -1,0 +1,64 @@
+{
+  "slot": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Scripting",
+    "element": "- - (%Phrasing)* -- slot. (Normal elements.) [Flow|Phrasing] --",
+    "attlist": {
+      "%Global;": "",
+      "name": "CDATA  #IMPLIED -- Name of shadow tree slot --"
+    },
+    "alias": "",
+    "summary": "スロット",
+    "summaryEn": "slot.",
+    "point": ["スロットを", "作成します。"],
+    "description": [
+      "（コンテンツを受け取るための）スロットを定義します。",
+      "通常は、シャドウツリー内で使用されます。",
+      "スロット要素は、割り当てられたノードがあればそれを表示し、なければ自分の内容を表示します。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing"],
+    "canUsedContexts": "%Phrasing SLOT",
+    "contentModel": "SLOT %Transparent",
+    "tagOmission": ["-", "-"],
+    "rendering": "Flow",
+    "domInterface": "HTMLSlotElement",
+    "contentAttributes": {
+      "name": "シャドウツリースロットの名前"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.12.4 The slot element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element",
+        "heading": "HTML Living Standard. 4.12.4 The slot element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.3. Flow content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.3. Flow content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.3. Flow content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;slot&gt;: The Web Component Slot element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/slot",
+        "heading": "MDN Web Docs. HTML &lt;slot&gt;: ウェブコンポーネントのスロット要素"
+      }
+    ],
+    "version": {"first": "HTML Living Standard", "latest": "HTML Living Standard"}
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "noscript": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Scripting",
+    "element": "- - (%Transparent;)* -- alternate content container for non script-based rendering. (Normal elements.) [Metadata|Flow|Phrasing|selectinner|optgroupinner] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "スクリプトが無効な場合の為のマークアップ",
+    "summaryEn": "Salternate content container for non script-based rendering.",
+    "point": ["スクリプトが有効な場合は", "何も表さず、", "スクリプトが無効な場合は", "その子を表します。"],
+    "description": "これは、ドキュメントの解析方法に影響を与える事により、スクリプトをサポートするユーザーエージェントとスクリプトをサポートしないユーザーエージェントに異なるマークアップを提示する為に使用されます。",
+    "elementKind": "Normal",
+    "categories": ["Metadata", "Flow", "Phrasing", "selectinner", "optgroupinner"],
+    "canUsedContexts": [
+      "HEAD NOSCRIPT",
+      "%Phrasing NOSCRIPT -(NOSCRIPT)",
+      "SELECT *(NOSCRIPT) -(NOSCRIPT)",
+      "OPTGROUP *(NOSCRIPT) -(NOSCRIPT)"
+    ],
+    "usedsupplement": [
+      "HTML 文書の head 要素内（祖先に noscript 要素がない場合）。",
+      "HTML 文書内でフレージングコンテンツが期待される場所（祖先に noscript 要素がない場合）。",
+      "select要素の内部コンテンツ要素は、select要素の子孫として許可される要素です。",
+      "optgroup要素の内部コンテンツ要素は、optgroup要素の子孫として許可される要素です。"
+    ],
+    "contentModel": ["+(HEAD) NOSCRIPT (LINK|STYLE|META)*", "-(HEAD) NOSCRIPT %Transparent -(NOSCRIPT)"],
+    "contentmodelsupplement": [
+      "head要素内の場合、任意の順序で、0 個以上の link要素, 0 個以上の style要素、0 個以上の meta要素が含まれます。",
+      "head要素内ではない場合、透明(transparent) ですが、noscript要素の子孫があってはなりません。(透明な要素のコンテンツモデルは、その親要素のコンテンツモデルから派生します。コンテンツモデルの「透明」な部分に必要な要素は、その親のコンテンツモデルの部分に必要な要素と同じです。)"
+    ],
+    "tagOmission": ["-", "-"],
+    "rendering": "Scripting",
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.12.2 The noscript element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/scripting.html#the-noscript-element",
+        "heading": "HTML Living Standard. 4.12.2 The noscript element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.12.2 The noscript element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-scripting.html#the-noscript-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.12.2 The noscript element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.1. Hidden elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.12.2 The noscript element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-scripting.html#the-noscript-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.12.2 The noscript element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.12.2 The noscript element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-scripting.html#the-noscript-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.12.2 The noscript element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#hidden-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.12.2 The noscript element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/scripting-1.html#the-noscript-element",
+        "heading": "HTML 5 W3C 勧告. 4.12.2 The noscript element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#hidden-elements",
+        "heading": "HTML 5 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 18.3.1 Scripts: The NOSCRIPT element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/scripts.html#h-18.3.1",
+        "heading": "HTML 4.01 Specification W3C 勧告. 18.3.1 Scripts: The NOSCRIPT element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;noscript&gt;: The Noscript element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/noscript",
+        "heading": "&lt;noscript&gt;: スクリプト無し要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML4", "latest": "HTML Living Standard"}
+  }
+}

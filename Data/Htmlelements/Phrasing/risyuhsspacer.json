@@ -1,0 +1,61 @@
+{
+  "spacer": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "phrasing",
+    "element": "- X EMPTY -- spacer. (Void elements.) [Flow|Phrasing] --",
+    "attlist": {
+      "%Global;": "",
+      "type":   "CDATA  #IMPLIED -- type --",
+      "size":   "NUMBER #IMPLIED -- size --",
+      "height": "NUMBER #IMPLIED -- height --",
+      "width":  "NUMBER #IMPLIED -- width --",
+      "align":  "CDATA  #IMPLIED -- align --"
+    },
+    "alias": "",
+    "summary": "スペーサー (spacer.)",
+    "point": "指定した大きさのスペースを挿入します。",
+    "elementKind": "Void",
+    "categories": ["Flow", "Phrasing"],
+    "canUsedContexts": "%Phrasing SPACER",
+    "contentModel": "SPACER EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLUnknownElement",
+    "contentAttributes": {
+      "type":   "種類",
+      "size":   "サイズ",
+      "height": "高さ",
+      "width":  "幅",
+      "align":  "配置"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.1 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.2 Non-conforming features. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#non-conforming-features",
+        "heading": "HTML 5 W3C 勧告. 11.2 Non-conforming features",
+        "sub":     "W3C勧告、2014年10月28日"
+      }
+    ],
+    "version": {"first": "non", "latest": "non"}
+  }
+}

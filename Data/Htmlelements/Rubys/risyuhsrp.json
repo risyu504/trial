@@ -1,0 +1,98 @@
+{
+  "rp": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Rubys",
+    "element": "- O (#PCDATA) -- the ruby fallback parenthesis element. (Normal elements.)  [None] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "ルビの代替表示用括弧要素 (the ruby fallback parenthesis element)",
+    "point": "ルビ注釈をサポートしていないユーザーエージェントによって表示されます。",
+    "description": [
+      "ルビ注釈のルビテキストコンポーネントの周囲に括弧やその他のコンテンツを提供するために使用できます。",
+      "これは、ルビ注釈をサポートしていないユーザーエージェントによって表示されます。",
+      "ruby要素の子である rp要素は何も表しません。親要素がruby​​ 要素でない rp要素は、その子を表します。"
+    ],
+    "elementKind": "Normal",
+    "categories": "None",
+    "canUsedContexts": "RUBY RP*",
+    "usedsupplement": "ruby要素の子として、rt要素の直前または直後に配置します。",
+    "contentModel": "RP %Text",
+    "tagOmission": ["-", "O"],
+    "tagsupplement": [
+      "rp要素の直後に rt要素または rp要素が続く場合、または親要素にそれ以上コンテンツがない場合、rp要素の終了タグは省略できます。"
+    ],
+    "rendering": "Hidden",
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.12 The rp element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rp-element",
+        "heading": "HTML Living Standard. 4.5.12 The rp element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.5.14 The rp element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/textlevel-semantics.html#the-rp-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.5.14 The rp element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.1. Hidden elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.14 The rp element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-rp-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.14 The rp element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.1. Hidden elements.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.14 The rp element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-rp-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.14 The rp element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#hidden-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.25 The rp element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-rp-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.25 The rp element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#hidden-elements",
+        "heading": "HTML 5 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;rp&gt;: The Ruby Fallback Parenthesis element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/rp",
+        "heading": "MDN Web Docs. HTML &lt;rp&gt;: ルビの代替表示用括弧要素"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

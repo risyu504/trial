@@ -1,0 +1,83 @@
+{
+  "mark": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "phrasing",
+    "element": "- - (%Phrasing)* -- marked or highlighted. (Normal elements.) [Flow|Phrasing|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "マークまたは強調表示 (marked or highlighted)",
+    "point": "マークまたは強調表示を表します。",
+    "description": [
+      "ある文書内で、別のコンテキストでの関連性のために参照目的でマークまたは強調表示された一連のテキストを表します。",
+      "引用文や、散文から参照される他のテキストブロック内で使用される場合、元々存在しなかった強調表示を示します。",
+      "強調表示は、ブロックが最初に書かれたときには元の著者によって重要とは見なされなかった可能性があるが、現在では以前は予期していなかった精査の対象となっているテキストの一部に読者の注意を向けるために追加されたものです。",
+      "文書のメインの散文内で使用される場合、ユーザーの現在のアクティビティとの関連性が高いため強調表示された文書の一部を示します。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Palpable"],
+    "canUsedContexts": "%Phrasing MARK",
+    "contentModel": "MARK %Phrasing",
+    "tagOmission": ["-", "-"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.23 The mark element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-mark-element",
+        "heading": "HTML Living Standard. 4.5.23 The mark element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.25 The mark element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-mark-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.25 The mark element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.25 The mark element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-mark-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.25 The mark element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.20 The mark element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-mark-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.20 The mark element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#phrasing-content-0",
+        "heading": "HTML 5 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;mark&gt;: The Mark Text element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/mark",
+        "heading": "MDN Web Docs. HTML &lt;mark&gt;: テキストマーク要素"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

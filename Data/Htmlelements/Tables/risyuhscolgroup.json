@@ -1,0 +1,118 @@
+{
+  "colgroup": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Tables",
+    "element": "O O (COL|TEMPLATE)* -- table column group. (Normal elements.) [None] --",
+    "attlist": {
+      "%Global;": "",
+      "span": "NUMBER 1 -- default number of columns in group --"
+    },
+    "alias": "",
+    "summary": "表(テーブル)の列のグループ",
+    "summaryEn": "table column group.",
+    "point": ["列のグループを", "表します。"],
+    "description": "表(テーブル・table)の列のグループを表します。",
+    "elementKind": "Normal",
+    "categories": "None",
+    "canUsedContexts": "TABLE (CAPTION?, COLGROUP*, THEAD?, (TBODY*|TR+), TFOOT?)",
+    "usedsupplement": "table要素の子として、caption要素の後、thead, tbody, tfoot および tr要素の前にあります。",
+    "contentSummary": ["COLGROUP[span] EMPTY", "COLGROUP[-span] (COL|TEMPLATE)*"],
+    "contentModel": ["COLGROUP[span] EMPTY", "COLGROUP[-span] (COL|TEMPLATE)*", "+(%Html4) COLGROUP (COL)*"],
+    "contentmodelsupplement": "span属性が存在する場合は、なし。spam属性が存在しない場合は、0 個以上のcol要素と template要素。",
+    "tagOmission": ["O", "O"],
+    "tagsupplement": [
+      "colgroup要素内の最初の要素が col要素であり、その要素の直前に終了タグが省略された別の colgroup 要素が存在しない場合は、colgroup要素の開始タグを省略できます。 (要素が空の場合は省略できません。)",
+      "colgroup要素の直後に ASCII 空白またはコメントが続かない場合は、colgroup要素の終了タグを省略できます。"
+    ],
+    "rendering": ["Tables", "Bidirectional"],
+    "domInterface": "HTMLTableColElement",
+		"domsupplement": {
+			"span": "unsigned long"
+		},
+    "contentAttributes": {
+      "span": "要素がまたがる列の数"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.9.3 The colgroup element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/tables.html#the-colgroup-element",
+        "heading": "HTML Living Standard. 4.9.3 The colgroup element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.8 Tables. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#tables-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.8 Tables",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.9.3 The colgroup element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/tabular-data.html#the-colgroup-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.9.3 The colgroup element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.9. Tables. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#tables",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.9. Tables",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.9.3 The colgroup element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/tabular-data.html#the-colgroup-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.9.3 The colgroup element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.9. Tables. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#tables",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.9. Tables",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.9.3 The colgroup element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/tabular-data.html#the-colgroup-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.9.3 The colgroup element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.9. Tables. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#tables",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.9. Tables",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.9.3 The colgroup element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/tabular-data.html#the-colgroup-element",
+        "heading": "HTML 5 W3C 勧告. 4.9.3 The colgroup element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.9 Tables. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#tables",
+        "heading": "HTML 5 W3C 勧告. 10.3.9 Tables",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 11.2.4 Column groups: the COLGROUP and COL elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/tables.html#h-11.2.4",
+        "heading": "HTML 4.01 Specification W3C 勧告. 11.2.4 Column groups: the COLGROUP and COL elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;colgroup&gt;: The Table Column Group element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/colgroup",
+        "heading": "&lt;colgroup&gt;: 表の列グループ要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML4", "latest": "HTML Living Standard"}
+  }
+}

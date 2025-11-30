@@ -1,0 +1,150 @@
+{
+  "script": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Scripting",
+    "element": "- - %Script; -- script statements. (Raw text elements.) [Metadata|Flow|Phrasing|Script] --",
+    "attlist": {
+      "%Global;": "",
+      "type": "%ContentType; #REQUIRED -- content type of script language --",
+      "src": "%URI; #IMPLIED -- URI for an external script --",
+      "defer": "(defer) #IMPLIED -- UA may defer execution of script --",
+      "nomodule": "(nomodule) #IMPLIED -- Prevents execution in user agents that support module scripts --",
+      "async": "(async) #IMPLIED -- Execute script when available, without blocking while fetching --",
+      "crossorigin": "CDATA #IMPLIED -- How the element handles crossorigin requests --",
+      "integrity": "CDATA #IMPLIED -- Integrity metadata used in Subresource Integrity checks [SRI] --",
+      "referrerpolicy": "CDATA #IMPLIED -- Referrer policy for fetches initiated by the element --",
+      "blocking": "%Blocking; #IMPLIED -- Whether the element is potentially render-blocking --",
+      "fetchpriority": "CDATA #IMPLIED -- Sets the priority for fetches initiated by the element --"
+    },
+    "alias": "",
+    "summary": "スクリプト",
+    "summaryEn": "Script statements.",
+    "point": ["実行できるコードや", "データブロックを", "表します。"],
+    "description": "使用すると、作成者はドキュメントに動的スクリプトとデータブロックを含める事ができます。 この要素は、ユーザーのコンテンツを表すものではありません。",
+    "elementKind": "Raw",
+    "categories": ["Metadata", "Flow", "Phrasing", "Scriptsupporting"],
+    "canUsedContexts": [
+      "%Metadata SCRIPT",
+      "%Phrasing SCRIPT",
+      "%Scriptsupporting SCRIPT"
+    ],
+    "contentModel": "SCRIPT CDATA",
+    "contentmodelsupplement": [
+      "スクリプトのコンテンツ制限に一致するテキスト。",
+      "src属性がない場合は、type属性の値に依存しますが、スクリプトのコンテンツ制限に一致する必要があります。",
+      "src属性がある場合は、その要素は空であるか、スクリプトのコンテンツ制限にも一致するスクリプトドキュメントのみを含む必要があります。"
+    ],
+    "tagOmission": ["-", "-"],
+    "rendering": "Hidden",
+    "domInterface": "HTMLScriptElement",
+    "contentAttributes": {
+      "src": "リソースのアドレス",
+      "type": "スクリプトの種類",
+      "nomodule": "モジュールスクリプトをサポートするユーザーエージェントでの実行を防止します",
+      "async": "フェッチ中にブロックせずに、可能な場合はスクリプトを実行します",
+      "defer": "スクリプトの実行を延期する",
+      "crossorigin": "要素がクロスオリジンリクエストを処理する方法",
+      "integrity": "サブリソース整合性チェックで使用される整合性メタデータ[SRI]",
+      "referrerpolicy": "要素によって開始されたフェッチのリファラーポリシー",
+      "blocking": "要素が潜在的にレンダリングをブロックしているかどうか",
+      "fetchpriority": "要素によって開始されるフェッチの優先順位を設定します。"
+    },
+    "attributessupplement": [
+      "charset属性がありましたが、廃止されました。作成者はscript要素にcharset属性を指定すべきではありません。属性が存在する場合、その値は 'utf-8' の大文字小文字を区別しないASCIIマッチでなければなりません。(これは、UTF-8としてエンコードされるという要件に準拠している文書では効果がありません)。属性を省略します。ドキュメントもスクリプトもUTF-8を使うことが要求されており、スクリプト要素はドキュメントを継承しているので、スクリプト要素で指定するのは冗長です。",
+      "language属性がありましたが、廃止されました。作成者はscript要素にlanguage属性を指定すべきではありません。属性が存在する場合、その値は文字列 'JavaScript' のASCII大文字小文字の区別のないマッチでなければならず、type属性は省略されるか、その値は文字列 'text/javascript' のASCII大文字小文字の区別のないマッチでなければなりません。この属性は、完全に省略されるか ('JavaScript' という値では、何の効果もありません)、type属性で置き換えられるべきです。JavaScriptの場合はこの属性を省略します。データ・ブロックの場合は、代わりにtype属性を使用します。",
+      "event属性, for属性がありましたが、廃止されました。DOM イベントメカニズムを使用してイベントリスナーを登録します。"
+    ],
+    "obsoleteAttributes": {
+      "charset": "作成者はscript要素にcharset属性を指定すべきではありません。属性が存在する場合、その値は 'utf-8' の大文字小文字を区別しないASCIIマッチでなければなりません。(これは、UTF-8としてエンコードされるという要件に準拠している文書では効果がありません)。属性を省略します。ドキュメントもスクリプトもUTF-8を使うことが要求されており、スクリプト要素はドキュメントを継承しているので、スクリプト要素で指定するのは冗長です。",
+      "language": "作成者はscript要素にlanguage属性を指定すべきではありません。属性が存在する場合、その値は文字列 'JavaScript' のASCII大文字小文字の区別のないマッチでなければならず、type属性は省略されるか、その値は文字列 'text/javascript' のASCII大文字小文字の区別のないマッチでなければなりません。この属性は、完全に省略されるか ('JavaScript' という値では、何の効果もありません)、type属性で置き換えられるべきです。JavaScriptの場合はこの属性を省略します。データ・ブロックの場合は、代わりにtype属性を使用します。",
+      "event": "DOM イベントメカニズムを使用してイベントリスナーを登録します。",
+      "for": "DOM イベントメカニズムを使用してイベントリスナーを登録します。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.12.1 The script element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/scripting.html#the-script-element",
+        "heading": "HTML Living Standard. 4.12.1 The script element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.12.1 The script element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-scripting.html#the-script-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.12.1 The script element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.1. Hidden elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.12.1 The script element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-scripting.html#the-script-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.12.1 The script element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.12.1 The script element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-scripting.html#the-script-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.12.1 The script element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#hidden-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.12.1 The script element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/semantics-scripting.html#the-script-element",
+        "heading": "HTML 5 W3C 勧告. 4.12.1 The script element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/scripting-1.html#the-script-element",
+        "heading": "HTML 5 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 18.2.1 Scripts: The SCRIPT element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/scripts.html#h-18.2.1",
+        "heading": "HTML 4.01 Specification W3C 勧告. 18.2.1 Scripts: The SCRIPT element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#style",
+        "heading": "HTML 3.2 Reference Specification  STYLE and SCRIPT",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;script&gt;: The Script element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/script",
+        "heading": "&lt;script&gt;: スクリプト要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      },
+      {
+        "title":   "ECMAScriptR 2021 Language&nbsp;Specification.",
+        "href":    "https://tc39.es/ecma262/",
+        "heading": "ECMAScriptR 2021 Language&nbsp;Specification"
+      }
+    ],
+    "version": {"first": "HTML3", "latest": "HTML Living Standard"}
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "th": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Tables",
+    "element": "- O (%Flow)* -(%Heading|%Sectioning|HEADER|FOOTER) -- table header cell. (Normal elements.) [None] --",
+    "attlist": {
+      "%Global;": "",
+      "colspan": "NUMBER  1        -- Number of columns that the cell is to span --",
+      "rowspan": "NUMBER  1        -- Number of rows that the cell is to span --",
+      "headers": "IDREFS  #IMPLIED -- The header cells for this cell --",
+      "scope":   "%Scope; #IMPLIED -- Specifies which cells the header cell applies to --",
+      "abbr":    "%Text;  #IMPLIED -- Alternative label to use for the header cell when referencing the cell in other contexts --"
+    },
+    "alias": "",
+    "summary": "ヘッダーセル",
+    "summaryEn": "table header cell.",
+    "point": ["ヘッダーセルを", "表します。"],
+    "description": "表(テーブル・table)のヘッダーセルを表します。",
+    "elementKind": "Normal",
+    "categories": "None",
+    "canUsedContexts": "TR TH",
+    "contentSummary": "TH %Flow -(%Heading|%Sectioning|HEADER|FOOTER)",
+    "contentModel": ["TH %Flow -(%Heading|%Sectioning|HEADER|FOOTER)", "+(%Html4) TH (%Block|%Inline)*"],
+    "tagOmission": ["-", "O"],
+    "tagsupplement": "th要素の直後に td または th要素が続く場合、または親要素にそれ以上のコンテンツがない場合は、th要素の終了タグを省略できます。",
+    "rendering": ["Tables", "Bidirectional"],
+    "domInterface": "HTMLTableCellElement",
+    "contentAttributes": {
+      "colspan": "セルがまたがる列の数",
+      "rowspan": "セルがまたがる行数",
+      "headers": "このセルのヘッダーセル",
+      "scope": "ヘッダーセルを適用するセルを指定します",
+      "abbr": "他のコンテキストでセルを参照するときにヘッダーセルに使用する代替ラベル"
+    },
+    "obsoleteAttributes": {
+      "axis": "関連する th要素 の scope属性を使用します。",
+      "align": "代わりに CSS を使用してください。",
+      "bgcolor": "代わりに CSS を使用してください。",
+      "char": "代わりに CSS を使用してください。",
+      "charoff": "代わりに CSS を使用してください。",
+      "height": "代わりに CSS を使用してください。",
+      "nowrap": "代わりに CSS を使用してください。",
+      "valign": "代わりに CSS を使用してください。",
+      "width": "代わりに CSS を使用してください。",
+      "background": "代わりに CSS を使用してください。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.9.10 The th element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/tables.html#the-th-element",
+        "heading": "HTML Living Standard. 4.9.10 The th element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.8 Tables. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#tables-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.8 Tables",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.9.10 The th element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/tabular-data.html#the-th-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.9.10 The th element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.9. Tables. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#tables",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.9. Tables",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.9.10 The th element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/tabular-data.html#the-th-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.9.10 The th element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.9. Tables. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#tables",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.9. Tables",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.9.10 The th element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/tabular-data.html#the-th-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.9.10 The th element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.9. Tables. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#tables",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.9. Tables",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.9.10 The th element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/tabular-data.html#the-th-element",
+        "heading": "HTML 5 W3C 勧告. 4.9.10 The th element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.9. Tables. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#tables",
+        "heading": "HTML 5 W3C 勧告. 10.3.9. Tables",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 11.2.6 Table cells: The TH and TD elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/tables.html#h-11.2.6",
+        "heading": "HTML 4.01 Specification W3C 勧告. 11.2.6 Table cells: The TH and TD elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;th&gt;: The Table Header element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/th",
+        "heading": "&lt;th&gt;: 表見出し要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML3", "latest": "HTML Living Standard"}
+  }
+}

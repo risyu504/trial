@@ -1,0 +1,99 @@
+{
+  "canvas": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Scripting",
+    "element": "- - (%Transparent) -- Provides a bitmap canvas to a script. (Normal elements.) [Flow|Phrasing|Embedded|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "width":  "%Length; #IMPLIED -- Horizontal dimension --",
+      "height": "%Length; #IMPLIED -- Vertical dimension --"
+    },
+    "alias": "",
+    "summary": "ビットマップキャンバスをスクリプトに提供",
+    "summaryEn": "Provides a bitmap canvas to a script.",
+    "point": ["ビットマップキャンバスを", "スクリプトに提供します。"],
+    "description": "解像度に依存するビットマップキャンバスをスクリプトに提供します。これを使用して、グラフ, ゲームグラフィック, アート, またはその他の視覚イメージを即座にレンダリングできます。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Embedded", "Palpable"],
+    "canUsedContexts": "%Embedded CANVAS",
+    "contentModel": "CANVAS %Transparent",
+    "contentmodelsupplement": "透過的コンテンツですが、a要素, usemap属性を持つ img要素, button要素, type属性が Checkbox または Radio Button 状態である input要素, ボタンである input要素, および multiple属性または 1 より大きい表示サイズを持つ select要素を除いて、インタラクティブなコンテンツの子孫はありません。",
+    "tagOmission": ["-", "-"],
+    "rendering": "Replaced",
+    "domInterface": "HTMLCanvasElement",
+    "contentAttributes": {
+      "width": "水平寸法",
+      "height": "垂直寸法"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.12.5 The canvas element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element",
+        "heading": "HTML Living Standard. 4.12.5 The canvas element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.4.1 Embedded content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#embedded-content-rendering-rules",
+        "heading": "HTML Living Standard. 15 Rendering 15.4.1 Embedded content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.12.4 The canvas element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-scripting.html#the-canvas-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.12.4 The canvas element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.4.1. Embedded content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.4.1. Embedded content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.12.4. The canvas element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-scripting.html#the-canvas-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.12.4. The canvas element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.2 W3C 勧告. 10. Rendering 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.12.4. The canvas element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-scripting.html#the-canvas-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.12.4. The canvas element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.1 W3C 勧告. 10. Rendering 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.11.4 The canvas element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/scripting-1.html#the-canvas-element",
+        "heading": "HTML 5 W3C 勧告. 4.11.4 The canvas element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#embedded-content-1",
+        "heading": "HTML 5 W3C 勧告. 10. Rendering 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;canvas&gt;: The Graphics Canvas element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/canvas",
+        "heading": "MDN Web Docs. HTML &lt;canvas&gt;: グラフィックキャンバス要素"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

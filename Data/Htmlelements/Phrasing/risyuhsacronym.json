@@ -1,0 +1,87 @@
+{
+  "acronym": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "phrasing",
+    "element": "- - (%Phrasing)* -- Indicates an acronym. (Normal elements.) [Flow|Phrasing|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "頭字語 (Indicates an acronym.)",
+    "point": "頭字語を表します。",
+    "description": "頭字語を表します。代わりに abbr要素を使用してください。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Palpable"],
+    "canUsedContexts": "+(%Html4) %Phrasing ACRONYM",
+    "contentModel": "ACRONYM %Phrasing",
+    "tagOmission": ["-", "-"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "attributessupplement": [
+      "この要素の title属性には特別な意味があります: 完全な用語または略語の展開"
+    ],
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.1 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.2 Non-conforming features. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#non-conforming-features",
+        "heading": "HTML 5 W3C 勧告. 11.2 Non-conforming features",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#phrasing-content-0",
+        "heading": "HTML 5 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 9.2.1 Phrase elements: EM, STRONG, DFN, CODE, SAMP, KBD, VAR, CITE, ABBR, and ACRONYM. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/text.html#h-9.2.1",
+        "heading": "HTML 4.01 Specification W3C 勧告. 9.2.1 Phrase elements: EM, STRONG, DFN, CODE, SAMP, KBD, VAR, CITE, ABBR, and ACRONYM",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;acronym&gt;",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/acronym",
+        "heading": "MDN Web Docs. HTML &lt;acronym&gt;"
+      }
+    ],
+    "version": {"first": "HTML4.01 Transitional", "latest": "HTML4.01 Transitional"}
+  }
+}

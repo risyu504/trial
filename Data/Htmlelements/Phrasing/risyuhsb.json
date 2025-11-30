@@ -1,0 +1,104 @@
+{
+  "b": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "phrasing",
+    "element": "- - (%Phrasing)* -- a bring attention. (Normal elements.) [Flow|Phrasing|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "注目を集める (a bring attention)",
+    "point": "注目を集める事を表します。",
+    "description": [
+      "文書の要約内のキーワード, レビュー内の製品名, インタラクティブなテキスト駆動型ソフトウェア内の実行可能な単語, 記事のリードなど、追加の重要性を伝えず、別の声や気分を暗示することなく、実用的な目的で注意を向けるテキストの範囲を表します。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Palpable"],
+    "canUsedContexts": "%Phrasing B",
+    "contentModel": "B %Phrasing",
+    "tagOmission": ["-", "-"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.21 The b element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element",
+        "heading": "HTML Living Standard. 4.5.21 The b element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.23 The b element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-b-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.23 The b element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.23 The b element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-b-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.23 The b element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.18 The b element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-b-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.18 The b element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#phrasing-content-0",
+        "heading": "HTML 5 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 15.2.1 Font style elements: the TT, I, B, BIG, SMALL, STRIKE, S, and U elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/present/graphics.html#h-15.2.1",
+        "heading": "HTML 4.01 Specification W3C 勧告. 15.2.1 Font style elements: the TT, I, B, BIG, SMALL, STRIKE, S, and U elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. Font style elements. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#font-style",
+        "heading": "HTML 3.2 Reference Specification. Font style elements",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;b&gt;: The Bring Attention To element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/b",
+        "heading": "MDN Web Docs. HTML &lt;b&gt;: 注目付け要素"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}

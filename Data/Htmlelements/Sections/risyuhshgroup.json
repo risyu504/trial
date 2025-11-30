@@ -1,0 +1,43 @@
+{
+  "hgroup": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Sections",
+    "element": "- - (P*,(H1|H2|H3|H4|H5|H6),P*) +(%Scriptsupporting) -- heading and related content (Normal elements.) [Flow|Heading|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "見出しと関連コンテンツ",
+    "summaryEn": "heading and related content.",
+    "point": ["見出しと", "関連コンテンツを", "表します。"],
+    "description": "小見出し, 代替タイトル, キャッチフレーズを表すコンテンツを含む 1 つ以上の p要素を持つ h1要素などの見出しの要素(h1～h6) をグループ化する為に使用できます。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Heading", "Palpable"],
+    "canUsedContexts": "%Heading HGROUP",
+    "contentModel": "HGROUP (P*,(H1|H2|H3|H4|H5|H6),P*) +(%Scriptsupporting)",
+    "tagOmission": ["-", "-"],
+    "rendering": ["Heading", "Bidirectional"],
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.3.7 The hgroup element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/sections.html#the-hgroup-element",
+        "heading": "HTML Living Standard. 4.3.7 The hgroup element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.6 Sections and headings. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#sections-and-headings",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.6 Sections and headings",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;hgroup&gt;: The Heading Group element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/hgroup",
+        "heading": "&lt;hgroup&gt;: - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML Living Standard", "latest": "HTML Living Standard"}
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "rtc": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Rubys",
+    "element": "- - (%Phrasing) -- ruby text container. (Normal elements.) [None] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "ルビテキストコンテナ (ruby text container)",
+    "point": "rt要素のコンテナとして機能します。",
+    "description": [
+      "複雑なルビマークアップの場合に rt要素のコンテナとして機能します。",
+      "1 つまたは 2 つの rtc要素が ruby​要素内に出現して、rbc要素で表される単一のベーステキストにルビテキストを関連付けることができます。",
+      "2 つを超える rtc要素が ruby​​要素内に出現してはなりません。"
+    ],
+    "elementKind": "Normal",
+    "categories": "None",
+    "canUsedContexts": "RUBY RTC",
+    "usedsupplement": [
+      "1 つまたは 2 つの rtc要素が ruby​要素内に出現します。",
+      "2 つを超える rtc要素が ruby​​要素内に出現してはなりません。"
+    ],
+    "contentModel": "RTC (RT)+",
+    "tagOmission": ["-", "-"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLUnknownElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.5.13 The rtc element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/textlevel-semantics.html#the-rtc-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.5.13 The rtc element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 11.2. Non-conforming features. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 11.2. Non-conforming features.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.13 The rtc element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-rtc-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.13 The rtc element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.13 The rtc element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-rtc-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.13 The rtc element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.24 The rtc element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-rtc-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.24 The rtc element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "Ruby Annotation W3C Recommendation. 2.4 The rtc element. W3C Recommendation 31 May 2001 (Markup errors corrected 25 June 2008)",
+        "href":    "https://www.w3.org/TR/ruby/#rtc",
+        "heading": "ルビ注釈 W3C 勧告. 2.4 The rtc element",
+        "sub":     "W3C勧告、2001年 5月31日(2008年 6月 25日修正)"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;rtc&gt;: The Ruby Text Container element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/rtc",
+        "heading": "MDN Web Docs. HTML &lt;rtc&gt;: ルビテキストコンテナー要素"
+      }
+    ],
+    "version": {"first": "Ruby W3C", "latest": "Ruby W3C"}
+  }
+}

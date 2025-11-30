@@ -1,0 +1,118 @@
+{
+  "blockquote": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Flow",
+    "element": "- - (%Flow)* -- long quotation. (Normal elements.) [Flow|Sectioningroots|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "cite": "%URI; #IMPLIED -- Link to the source of the quotation or more information about the edit --"
+    },
+    "alias": "",
+    "summary": "長い引用 (long quotation)",
+    "point": "別のソースから引用されたセクションを表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Sectioningroots", "Palpable"],
+    "canUsedContexts": "%Flow BLOCKQUOTE",
+    "contentModel": "BLOCKQUOTE %Flow",
+    "tagOmission": ["-", "-"],
+    "rendering": ["Flow", "Bidirectional"],
+    "domInterface": "HTMLQuoteElement",
+    "contentAttributes": {
+      "cite": "引用元へのリンクまたは編集に関する詳細情報"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.4.4 The blockquote element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element",
+        "heading": "HTML Living Standard. 4.4.4 The blockquote element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.4.5 The blockquote element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/grouping-content.html#the-blockquote-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.4.5 The blockquote element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.3. Flow content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.3. Flow content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.4.5 The blockquote element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/grouping-content.html#the-blockquote-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.4.5 The blockquote element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.3. Flow content.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.4.4 The blockquote element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/grouping-content.html#the-blockquote-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.4.4 The blockquote element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.3. Flow content.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.4.4 The blockquote element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-blockquote-element",
+        "heading": "HTML 5 W3C 勧告. 4.4.4 The blockquote element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#flow-content-0",
+        "heading": "HTML 5 W3C 勧告. 10.3.3. Flow content.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 9.2.2 Quotations: The BLOCKQUOTE and Q elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/text.html#h-9.2.2",
+        "heading": "HTML 4.01 Specification W3C 勧告. 9.2.2 Quotations: The BLOCKQUOTE and Q elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#bq",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;blockquote&gt;: The Block Quotation element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/blockquote",
+        "heading": "&lt;blockquote&gt;: ブロック引用要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}

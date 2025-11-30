@@ -1,0 +1,107 @@
+{
+  "tfoot": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Tables",
+    "element": "- O (TR)* +(%Scriptsupporting) -- table footer. (Normal elements.) [None] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "表(テーブル)の列サマリ(フッター)",
+    "summaryEn": "table footer.",
+    "point": ["列サマリ(フッター)を", "表します。"],
+    "description": "表(テーブル・table)の列サマリ(フッター)を表します。",
+    "elementKind": "Normal",
+    "categories": "None",
+    "canUsedContexts": "TABLE (CAPTION?, COLGROUP*, THEAD?, (TBODY*|TR+), TFOOT?)",
+    "usedsupplement": "table要素の子として、caption, colgroup, thead, tbody および tr要素の後にありますが、table要素の子である他の tfoot要素がない場合に限ります。",
+    "contentSummary": "TFOOT (TR)* +(%Scriptsupporting)",
+    "contentModel": ["TFOOT (TR)* +(%Scriptsupporting)", "+(%Html4) TFOOT (TR)+"],
+    "tagOmission": ["-", "O"],
+    "tagsupplement": "親要素にそれ以上のコンテンツがない場合は、tfoot要素の終了タグを省略できます。",
+    "rendering": ["Tables", "Bidirectional"],
+    "domInterface": "HTMLTableSectionElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": {
+      "align": "代わりに CSS を使用してください。",
+      "char": "代わりに CSS を使用してください。",
+      "charoff": "代わりに CSS を使用してください。",
+      "height": "代わりに CSS を使用してください。",
+      "valign": "代わりに CSS を使用してください。",
+      "background": "代わりに CSS を使用してください。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.9.7 The tfoot element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/tables.html#the-tfoot-element",
+        "heading": "HTML Living Standard. 4.9.7 The tfoot element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.8 Tables. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#tables-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.8 Tables",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.9.7 The tfoot element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/tabular-data.html#the-tfoot-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.9.7 The tfoot element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.9. Tables. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#tables",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.9. Tables",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.9.7 The tfoot element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/tabular-data.html#the-tfoot-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.9.7 The tfoot element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.9. Tables. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#tables",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.9. Tables",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.9.7 The tfoot element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/tabular-data.html#the-tfoot-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.9.7 The tfoot element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.9. Tables. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#tables",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.9. Tables",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.9.7 The tfoot element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/tabular-data.html#the-tfoot-element",
+        "heading": "HTML 5 W3C 勧告. 4.9.7 The tfoot element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.9 Tables. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#tables",
+        "heading": "HTML 5 W3C 勧告. 10.3.9 Tables",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 11.2.3 Row groups: the THEAD, TFOOT, and TBODY elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/tables.html#h-11.2.3",
+        "heading": "HTML 4.01 Specification W3C 勧告. 11.2.3 Row groups: the THEAD, TFOOT, and TBODY elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;tfoot&gt;: The Table Foot element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/tfoot",
+        "heading": "&lt;tfoot&gt;: 表フッター要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML4", "latest": "HTML Living Standard"}
+  }
+}
