@@ -30,16 +30,6 @@
     1. この `README.md` ファイルなどの、説明用のファイルは配置してよい。
     2. 検証の為に一時的なセーブファイルを置くことも良いが、使用後は片づける事。
 
-## ナビ
-
-- [開発ホーム](../README.md)
-  - [Pug開発](../Pug/README.md)
-  - [Sass開発](../Sass/README.md)
-  - [Typescript開発](../Typescript/README.md)
-  - [ソース](../Src/README.md)
-  - **出力先**
-  - [書類倉庫](../Document/README.md)
-
 ## 作成者
 
-Copyright(C) 2022-2024 KOUTAN
+Copyright(C) 2022-2025 KOUTAN
