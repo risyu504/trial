@@ -1,0 +1,32 @@
+{
+  "HTMLModElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "cite": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "readonly attribute",
+        "type": "USVString"
+      },
+      "dateTime": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.7.3 Attributes common to ins and del elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/edits.html#attributes-common-to-ins-and-del-elements",
+        "heading": "HTML Living Standard. 4.7.3 Attributes common to ins and del elements",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

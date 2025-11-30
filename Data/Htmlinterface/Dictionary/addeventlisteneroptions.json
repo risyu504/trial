@@ -1,0 +1,22 @@
+{
+  "AddEventListenerOptions": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "dictionary",
+      "parent" : "EventListenerOptions",
+      "passive": { "type": "boolean" },
+      "once=false": { "type": "boolean" },
+      "signal": { "type": "AbortSignal" }
+    }],
+    "reference": [
+      {
+        "title":   "DOM Living Standard. 2.7. Interface EventTarget. Last Updated 31 October 2025",
+        "href":    "https://dom.spec.whatwg.org/#interface-eventtarget",
+        "heading": "DOM Living Standard. 2.7. Interface EventTarget",
+        "sub":     "最終更新日 2025年10月31日"
+      }
+    ]
+  }
+}

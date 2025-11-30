@@ -1,0 +1,24 @@
+{
+  "ShadowRootInit": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "dictionary",
+      "mode": { "type": "required ShadowRootMode" },
+      "delegatesFocus=false": { "type": "boolean" },
+      "slotAssignment='named'": { "type": "SlotAssignmentMode" },
+      "clonable=false": { "type": "boolean" },
+      "serializable=false": { "type": "boolean" },
+      "customElementRegistry=null": { "type": "CustomElementRegistry?" }
+    }],
+    "reference": [
+      {
+        "title":   "DOM Living Standard. 4.9. Interface Element. Last Updated 31 October 2025",
+        "href":    "https://dom.spec.whatwg.org/#interface-element",
+        "heading": "DOM Living Standard. 4.9. Interface Element",
+        "sub":     "最終更新日 2025年10月31日"
+      }
+    ]
+  }
+}

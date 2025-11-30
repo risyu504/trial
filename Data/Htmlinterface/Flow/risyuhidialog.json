@@ -1,0 +1,63 @@
+{
+  "HTMLDialogElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "open": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "returnValue": {
+        "extendedattributes": "",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "closedBy": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "show()": {
+        "extendedattributes": "CEReactions",
+        "attribute": "",
+        "type": "undefined"
+      },
+      "showModal()": {
+        "extendedattributes": "CEReactions",
+        "attribute": "",
+        "type": "undefined"
+      },
+      "close(optional DOMString returnValue)": {
+        "argument": [
+          {"type": "DOMString", "optional": "optional", "description": "returnValue"}
+        ],
+        "extendedattributes": "CEReactions",
+        "attribute": "",
+        "type": "undefined"
+      },
+      "requestClose(optional DOMString returnValue)": {
+        "argument": [
+          {"type": "DOMString", "optional": "optional", "description": "returnValue"}
+        ],
+        "extendedattributes": "CEReactions",
+        "attribute": "",
+        "type": "undefined"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.11.4 The dialog element. Last Updated 21 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element",
+        "heading": "HTML Living Standard. 4.11.4 The dialog element",
+        "sub":     "最終更新日 2025年11月21日"
+      }
+    ]
+  }
+}

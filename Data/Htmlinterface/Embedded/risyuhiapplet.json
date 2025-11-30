@@ -1,0 +1,67 @@
+{
+  "HTMLAppletElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "supplementaryExplanation": "この要素は、HTMLUnknownElementインターフェイス を使用しています。HTMLAppletElementインターフェイスは削除されています。",
+    "alias": "HTMLUnknownElement",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "align": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "alt": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "archive": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "code": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "codeBase": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "height": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "hspace": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "name": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "object": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "vspace": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "width": {
+        "attribute": "attribute",
+        "type": "DOMString"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 3.2.2 Elements in the DOM. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/dom.html#elements-in-the-dom",
+        "heading": "HTML Living Standard. 3.2.2 Elements in the DOM",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "HTMLSourceElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "src": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "type": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "srcset": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "sizes": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "media": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "width": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "height": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.2 The source element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/embedded-content.html#the-source-element",
+        "heading": "HTML Living Standard. 4.8.2 The source element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

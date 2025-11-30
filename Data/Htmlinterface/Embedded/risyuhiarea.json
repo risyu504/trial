@@ -1,0 +1,69 @@
+{
+  "HTMLAreaElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "alt": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "coords": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "shape": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "target": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "download": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "ping": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "rel": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "relList": {
+        "extendedattributes": ["SameObject", "PutForwards=value", "Reflect='rel'"],
+        "attribute": "readonly attribute",
+        "type": "DOMTokenList"
+      },
+      "referrerPolicy": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "comment": "also has obsolete members",
+      "includes": ["HTMLHyperlinkElementUtils"]
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.13 The area element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element",
+        "heading": "HTML Living Standard. 4.8.13 The area element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

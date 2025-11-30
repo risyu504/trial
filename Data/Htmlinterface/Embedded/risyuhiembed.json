@@ -1,0 +1,46 @@
+{
+  "HTMLEmbedElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "src": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "type": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "width": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "height": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "getSVGDocument()": {
+        "type": "Document?"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.6 The embed element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-embed-element",
+        "heading": "HTML Living Standard. 4.8.6 The embed element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

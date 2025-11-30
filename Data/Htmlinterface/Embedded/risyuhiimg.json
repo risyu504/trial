@@ -1,0 +1,110 @@
+{
+  "HTMLImageElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": ["Window", "LegacyFactoryFunction=Image(optional unsigned long width, optional unsigned long height)"],
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "alt": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "src": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "srcset": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "sizes": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "crossOrigin": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString?"
+      },
+      "useMap": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "isMap": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "width": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "height": {
+        "extendedattributes": ["CEReactions", "ReflectSetter"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "naturalWidth": {
+        "attribute": "readonly attribute",
+        "type": "unsigned long"
+      },
+      "naturalHeight": {
+        "attribute": "readonly attribute",
+        "type": "unsigned long"
+      },
+      "complete": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "currentSrc": {
+        "attribute": "readonly attribute",
+        "type": "USVString"
+      },
+      "referrerPolicy": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "decoding": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "loading": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "fetchPriority": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE02": "",
+      "decode()": {
+        "extendedattributes": "",
+        "attribute": "",
+        "type": "Promise&lt;undefined&gt;"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.3 The img element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+        "heading": "HTML Living Standard. 4.8.3 The img element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

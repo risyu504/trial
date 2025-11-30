@@ -1,0 +1,73 @@
+{
+  "HTMLTrackElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "kind": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "src": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "srclang": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "label": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "default": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "SPACE02": "",
+      "NONE = 0": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "LOADING = 1": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "LOADED = 2": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "ERROR = 3": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "readyState": {
+        "attribute": "readonly attribute",
+        "type": "unsigned short"
+      },
+      "SPACE03": "",
+      "track": {
+        "attribute": "readonly attribute",
+        "type": "TextTrack"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.10 The track element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/media.html#the-track-element",
+        "heading": "HTML Living Standard. 4.8.10 The track element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

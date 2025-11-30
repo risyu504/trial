@@ -1,0 +1,218 @@
+{
+  "HTMLMediaElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "enum"   : "CanPlayTypeResult",
+      "typedef": "MediaProvider",
+      "comment01": "error state",
+      "error": {
+        "attribute": "readonly attribute",
+        "type": "MediaError?"
+      },
+      "comment02": "network state",
+      "src": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "srcObject": {
+        "attribute": "attribute",
+        "type": "MediaProvider?"
+      },
+      "currentSrc": {
+        "attribute": "readonly attribute",
+        "type": "USVString"
+      },
+      "crossOrigin": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString?"
+      },
+      "NETWORK_EMPTY = 0": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "NETWORK_IDLE = 1": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "NETWORK_LOADING = 2": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "NETWORK_NO_SOURCE = 3": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "networkState": {
+        "attribute": "readonly attribute",
+        "type": "unsigned short"
+      },
+      "preload": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "buffered": {
+        "attribute": "readonly attribute",
+        "type": "TimeRanges"
+      },
+      "load()": {
+        "type": "undefined"
+      },
+      "canPlayType(DOMString type)": {
+        "argument": [
+          {"type": "DOMString", "description": "type"}
+        ],
+        "type": "CanPlayTypeResult"
+      },
+      "comment03": "ready state",
+      "HAVE_NOTHING = 0": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "HAVE_METADATA = 1": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "HAVE_CURRENT_DATA = 2": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "HAVE_FUTURE_DATA = 3": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "HAVE_ENOUGH_DATA = 4": {
+        "attribute": "const",
+        "type": "unsigned short"
+      },
+      "readyState": {
+        "attribute": "readonly attribute",
+        "type": "unsigned short"
+      },
+      "seeking": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "comment04": "playback state",
+      "currentTime": {
+        "attribute": "attribute",
+        "type": "double"
+      },
+      "fastSeek(double time)": {
+        "argument": [
+          {"type": "double", "description": "time"}
+        ],
+        "type": "undefined"
+      },
+      "duration": {
+        "attribute": "readonly attribute",
+        "type": "unrestricted double"
+      },
+      "getStartDate()": {
+        "type": "object"
+      },
+      "paused": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "defaultPlaybackRate": {
+        "attribute": "attribute",
+        "type": "double"
+      },
+      "playbackRate": {
+        "attribute": "attribute",
+        "type": "double"
+      },
+      "preservesPitch": {
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "played": {
+        "attribute": "readonly attribute",
+        "type": "TimeRanges"
+      },
+      "seekable": {
+        "attribute": "readonly attribute",
+        "type": "TimeRanges"
+      },
+      "ended": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "autoplay": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "loop": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "play()": {
+        "type": "Promise&lt;undefined&gt;"
+      },
+      "pause()": {
+        "type": "undefined"
+      },
+      "comment05": "controls",
+      "controls": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "volume": {
+        "attribute": "attribute",
+        "type": "double"
+      },
+      "muted": {
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "defaultMuted": {
+        "extendedattributes": ["CEReactions", "Reflect='muted'"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "comment06": "tracks",
+      "audioTracks": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "AudioTrackList"
+      },
+      "videoTracks": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "VideoTrackList"
+      },
+      "textTracks": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "TextTrackList"
+      },
+      "addTextTrack(TextTrackKind kind, optional DOMString label = &quot;&quot;, optional DOMString language = &quot;&quot;)": {
+        "argument": [
+          {"type": "TextTrackKind", "description": "kind"},
+          {"type": "DOMString", "optional": "optional", "description": "label = &quot;&quot"},
+          {"type": "DOMString", "optional": "optional", "description": "language = &quot;&quot"}
+        ],
+        "type": "TextTrack"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.11 Media elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/media.html#media-elements",
+        "heading": "HTML Living Standard. 4.8.11 Media elements",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

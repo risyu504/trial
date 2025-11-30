@@ -1,0 +1,21 @@
+{
+  "RenderingContext": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "typedef",
+      "RenderingContext": {
+        "type": "(CanvasRenderingContext2D or ImageBitmapRenderingContext or WebGLRenderingContext or WebGL2RenderingContext or GPUCanvasContext)"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.12.5 The canvas element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element",
+        "heading": "HTML Living Standard. 4.12.5 The canvas element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "HTMLObjectElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "data": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "type": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "name": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "form": {
+        "attribute": "readonly attribute",
+        "type": "HTMLFormElement?"
+      },
+      "width": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "height": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "contentDocument": {
+        "attribute": "readonly attribute",
+        "type": "Document?"
+      },
+      "contentWindow": {
+        "attribute": "readonly attribute",
+        "type": "WindowProxy?"
+      },
+      "getSVGDocument()": {
+        "type": "Document?"
+      },
+      "SPACE02": "",
+      "willValidate": {
+        "attribute": "readonly attribute",
+        "type": "boolean"
+      },
+      "validity": {
+        "attribute": "readonly attribute",
+        "type": "ValidityState"
+      },
+      "validationMessage": {
+        "attribute": "readonly attribute",
+        "type": "DOMString"
+      },
+      "checkValidity()": {
+        "type": "boolean"
+      },
+      "reportValidity()": {
+        "type": "boolean"
+      },
+      "setCustomValidity(DOMString error)": {
+        "argument": [
+          {"type": "DOMString", "description": "error"}
+        ],
+        "extendedattributes": "",
+        "attribute": "",
+        "type": "undefined"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.7 The object element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-object-element",
+        "heading": "HTML Living Standard. 4.8.7 The object element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

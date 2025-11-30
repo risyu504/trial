@@ -1,0 +1,19 @@
+{
+  "GetRootNodeOptions": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "interface": "dictionary",
+      "composed=false": { "type": "boolean" }
+    }],
+    "reference": [
+      {
+        "title":   "DOM Living Standard. 4.4. Interface Node. Last Updated 31 October 2025",
+        "href":    "https://dom.spec.whatwg.org/#node",
+        "heading": "DOM Living Standard. 4.4. Interface Node",
+        "sub":     "最終更新日 2025年10月31日"
+      }
+    ]
+  }
+}

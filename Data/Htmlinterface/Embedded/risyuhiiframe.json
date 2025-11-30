@@ -1,0 +1,84 @@
+{
+  "HTMLIFrameElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "src": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "srcdoc": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "(TrustedHTML or DOMString)"
+      },
+      "name": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "sandbox": {
+        "extendedattributes": ["SameObject", "PutForwards=value", "Reflect"],
+        "attribute": "readonly attribute",
+        "type": "DOMTokenList"
+      },
+      "allow": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "allowFullscreen": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "width": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "height": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "referrerPolicy": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "loading": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "contentDocument": {
+        "attribute": "readonly attribute",
+        "type": "Document?"
+      },
+      "contentWindow": {
+        "attribute": "readonly attribute",
+        "type": "WindowProxy?"
+      },
+      "getSVGDocument()": {
+        "type": "Document?"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.5 The iframe element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element",
+        "heading": "HTML Living Standard. 4.8.5 The iframe element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

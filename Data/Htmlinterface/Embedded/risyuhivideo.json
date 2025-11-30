@@ -1,0 +1,50 @@
+{
+  "HTMLVideoElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLMediaElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "width": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "height": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "videoWidth": {
+        "attribute": "readonly attribute",
+        "type": "unsigned long"
+      },
+      "videoHeight": {
+        "attribute": "readonly attribute",
+        "type": "unsigned long"
+      },
+      "poster": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "playsInline": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.8 The video element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/media.html#the-video-element",
+        "heading": "HTML Living Standard. 4.8.8 The video element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}
