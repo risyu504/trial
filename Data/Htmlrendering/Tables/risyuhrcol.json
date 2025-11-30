@@ -1,0 +1,24 @@
+{
+  "col": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"col": {
+        "display": "table-column",
+        "unicode-bidi": "isolate"
+      }},
+      {"col[hidden]": {
+        "display": "table-column",
+        "visibility": "collapse"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.8 Tables. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#tables-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.8 Tables",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

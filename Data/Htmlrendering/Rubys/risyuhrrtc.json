@@ -1,0 +1,9 @@
+{
+  "rtc": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "supplementaryExplanation": "この要素は、HTML5 では採用されていない機能です。レンダリングの記述はありません。",
+    "code": [{
+    }]
+  }
+}

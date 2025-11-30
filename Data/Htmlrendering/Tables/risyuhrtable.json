@@ -1,0 +1,64 @@
+{
+  "table": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"table": {
+        "display": "table",
+        "box-sizing": "border-box",
+        "border-spacing": "2px",
+        "border-collapse": "separate",
+        "text-indent": "initial",
+        "unicode-bidi": "isolate"
+      }},
+      {"table[align=left i]": {
+        "float": "left"
+      }},
+      {"table[align=right i]": {
+        "float": "right"
+      }},
+      {"table[align=center i]": {
+        "margin-inline": "auto"
+      }},
+      {"table[rules=none i], table[rules=groups i], table[rules=rows i], table[rules=cols i], table[rules=all i]": {
+        "border-style": "hidden",
+        "border-collapse": "collapse"
+      }},
+      {"table[border]": {
+        "border-style": "outset"
+      }},
+      {"table[frame=void i]": {
+        "border-style": "hidden"
+      }},
+      {"table[frame=above i]": {
+        "border-style": "outset hidden hidden hidden"
+      }},
+      {"table[frame=below i]": {
+        "border-style": "hidden hidden outset hidden"
+      }},
+      {"table[frame=hsides i]": {
+        "border-style": "outset hidden outset hidden"
+      }},
+      {"table[frame=lhs i]": {
+        "border-style": "hidden hidden hidden outset"
+      }},
+      {"table[frame=rhs i]": {
+        "border-style": "hidden outset hidden hidden"
+      }},
+      {"table[frame=vsides i]": {
+        "border-style": "hidden outset"
+      }},
+      {"table[frame=box i], table[frame=border i]": {
+        "border-style": "outset"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.8 Tables. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#tables-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.8 Tables",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

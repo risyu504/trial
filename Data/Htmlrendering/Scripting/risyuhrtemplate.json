@@ -1,0 +1,19 @@
+{
+  "template": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [{
+      "template": {
+        "display": "none"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.htmll#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

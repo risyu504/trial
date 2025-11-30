@@ -1,0 +1,60 @@
+{
+  "th": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"th": {
+        "display": "table-cell",
+        "vertical-align": "inherit",
+        "padding": "1px",
+        "font-weight": "bold"
+      }},
+      {"table[rules=none i] > tr > th, table[rules=groups i] > tr > th, table[rules=rows i] > tr > th, table[rules=cols i] > tr > th, table[rules=all i] > tr > th, table[rules=none i] > thead > tr > th, table[rules=groups i] > thead > tr > th, table[rules=rows i] > thead > tr > th, table[rules=cols i] > thead > tr > th, table[rules=all i] > thead > tr > th, table[rules=none i] > tbody > tr > th, table[rules=groups i] > tbody > tr > th, table[rules=rows i] > tbody > tr > th, table[rules=cols i] > tbody > tr > th, table[rules=all i] > tbody > tr > th, table[rules=none i] > tfoot > tr > th, table[rules=groups i] > tfoot > tr > th, table[rules=rows i] > tfoot > tr > th, table[rules=cols i] > tfoot > tr > th, table[rules=all i] > tfoot > tr > th": {
+        "border-color": "black"
+      }},
+      {"th[align=absmiddle i]": {
+        "text-align": "center"
+      }},
+      {"th[valign=top i]": {
+        "vertical-align": "top"
+      }},
+      {"th[valign=middle i]": {
+        "vertical-align": "middle"
+      }},
+      {"th[valign=bottom i]": {
+        "vertical-align": "bottom"
+      }},
+      {"th[valign=baseline i]": {
+        "vertical-align": "baseline"
+      }},
+      {"th[nowrap]": {
+        "white-space": "nowrap"
+      }},
+      {"table[border] > tr > th, table[border] > thead > tr > th, table[border] > tbody > tr > th, table[border] > tfoot > tr > th": {
+        "border-width": "1px",
+        "border-style": "inset"
+      }},
+      {"table[rules=none i] > tr > th, table[rules=none i] > thead > tr > th, table[rules=none i] > tbody > tr > th, table[rules=none i] > tfoot > tr > th, table[rules=groups i] > tr > th, table[rules=groups i] > thead > tr > th, table[rules=groups i] > tbody > tr > th, table[rules=groups i] > tfoot > tr > th, table[rules=rows i] > tr > th, table[rules=rows i] > thead > tr > th, table[rules=rows i] > tbody > tr > th, table[rules=rows i] > tfoot > tr > th": {
+        "border-width": "1px",
+        "border-style": "none"
+      }},
+      {"table[rules=cols i] > tr > th, table[rules=cols i] > thead > tr > th, table[rules=cols i] > tbody > tr > th, table[rules=cols i] > tfoot > tr > th": {
+        "border-width": "1px",
+        "border-block-style": "none",
+        "border-inline-style": "solid"
+      }},
+      {"table[rules=all i] > tr > th, table[rules=all i] > thead > tr > th, table[rules=all i] > tbody > tr > th, table[rules=all i] > tfoot > tr > th": {
+        "border-width": "1px",
+        "border-style": "solid"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.8 Tables. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#tables-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.8 Tables",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

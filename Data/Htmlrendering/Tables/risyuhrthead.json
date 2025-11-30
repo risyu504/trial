@@ -1,0 +1,45 @@
+{
+  "thead": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [
+      {"thead": {
+        "display": "table-header-group",
+        "border-color": "inherit",
+        "vertical-align": "middle",
+        "unicode-bidi": "isolate"
+      }},
+      {"thead[hidden]": {
+        "display": "table-header-group",
+        "visibility": "collapse"
+      }},
+      {"thead[align=absmiddle i]": {
+        "text-align": "center"
+      }},
+      {"thead[valign=top i]": {
+        "vertical-align": "top"
+      }},
+      {"thead[valign=middle i]": {
+        "vertical-align": "middle"
+      }},
+      {"thead[valign=bottom i]": {
+        "vertical-align": "bottom"
+      }},
+      {"thead[valign=baseline i]": {
+        "vertical-align": "baseline"
+      }},
+      {"table[rules=groups i] > thead": {
+        "border-block-width": "1px",
+        "border-block-style": "solid"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.8 Tables. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#tables-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.8 Tables",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "h6": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "supplementaryExplanation": [
+      "h1 要素のネストに関しての装飾の標準が変更されています。ご注意ください。",
+      ":heading という疑似クラスが提案されていますが、それ以前の表記方法で提示しています。"
+    ],
+    "code": [
+      {"h1, h2, h3, h4, h5, h6": {
+        "display": "block",
+        "font-weight": "bold",
+        "unicode-bidi": "isolate"
+      }},
+      {"h1": {
+        "margin-block": "0.67em",
+        "font-size": "2.00em"
+      }},
+      {"h2": {
+        "margin-block": "0.83em",
+        "font-size": "1.50em"
+      }},
+      {"h3": {
+        "margin-block": "1.00em",
+        "font-size": "1.17em"
+      }},
+      {"h4": {
+        "margin-block": "1.33em",
+        "font-size": "1.00em"
+      }},
+      {"h5": {
+        "margin-block": "1.67em",
+        "font-size": "0.83em"
+      }},
+      {"h6": {
+        "margin-block": "2.33em",
+        "font-size": "0.67em"
+      }}
+    ],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.6 Sections and headings. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#sections-and-headings",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.6 Sections and headings",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

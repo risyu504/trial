@@ -1,0 +1,21 @@
+{
+  "marquee": {
+    "@type": "codeCss",
+    "lastReviewed": "2025-11-16",
+    "code": [{
+      "marquee": {
+        "display": "inline-block",
+        "text-align": "initial",
+        "overflow": "hidden !important"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.3 Requirements for implementations. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#the-marquee-element",
+        "heading": "HTML Living Standard. 16.3 Requirements for implementations",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}
