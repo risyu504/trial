@@ -45,6 +45,7 @@
   - anagkbn: 区分
   - asagtype: コード種別("HTML")
 - code: このコンテンツのデータ。(HTML)
+  - %xxx: 制御用キーワード
   - tagname: タグ名
   - innerhtml: コンテンツ
   - inlinehtml: インラインコンテンツ
