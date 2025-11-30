@@ -1,0 +1,89 @@
+{
+  "HTMLTableElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "caption": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "HTMLTableCaptionElement?"
+      },
+      "createCaption()": {
+        "type": "HTMLTableCaptionElement"
+      },
+      "deleteCaption()": {
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "SPACE02": "",
+      "tHead": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "HTMLTableSectionElement?"
+      },
+      "createTHead()": {
+        "type": "HTMLTableSectionElement"
+      },
+      "deleteTHead()": {
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "SPACE03": "",
+      "tFoot": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "HTMLTableSectionElement?"
+      },
+      "createTFoot()": {
+        "type": "HTMLTableSectionElement"
+      },
+      "deleteTFoot()": {
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "SPACE04": "",
+      "tBodies": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "HTMLCollection"
+      },
+      "createTBody()": {
+        "type": "HTMLTableSectionElement"
+      },
+      "SPACE05": "",
+      "rows": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "HTMLCollection"
+      },
+      "insertRow(optional long index = -1)": {
+        "argument": [
+          {"type": "long", "optional": "optional", "description": "index = -1"}
+        ],
+        "type": "HTMLTableRowElement"
+      },
+      "deleteRow(long index)": {
+        "argument": [
+          {"type": "long", "description": "index"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.9.1 The table element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/tables.html#the-table-element",
+        "heading": "HTML Living Standard. 4.9.1 The table element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

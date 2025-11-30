@@ -1,0 +1,84 @@
+{
+  "HTMLMarqueeElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "behavior": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "bgColor": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "direction": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "height": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "hspace": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "loop": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "long"
+      },
+      "scrollAmount": {
+        "extendedattributes": ["CEReactions", "Reflect", "ReflectDefault=6"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "scrollDelay": {
+        "extendedattributes": ["CEReactions", "Reflect", "ReflectDefault=85"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "trueSpeed": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "vspace": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "width": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE02": "",
+      "start()": {
+        "type": "undefined"
+      },
+      "stop()": {
+        "type": "undefined"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.3.1 The marquee element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#the-marquee-element",
+        "heading": "HTML Living Standard. 16.3.1 The marquee element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

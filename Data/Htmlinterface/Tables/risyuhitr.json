@@ -1,0 +1,49 @@
+{
+  "HTMLTableRowElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "rowIndex": {
+        "attribute": "readonly attribute",
+        "type": "long"
+      },
+      "sectionRowIndex": {
+        "attribute": "readonly attribute",
+        "type": "long"
+      },
+      "cells": {
+        "extendedattributes": "SameObject",
+        "attribute": "readonly attribute",
+        "type": "HTMLCollection"
+      },
+      "insertCell(optional long index = -1)": {
+        "argument": [
+          {"type": "long", "optional": "optional", "description": "index = -1"}
+        ],
+        "type": "HTMLTableCellElement"
+      },
+      "deleteCell(long index)": {
+        "argument": [
+          {"type": "long", "description": "index"}
+        ],
+        "extendedattributes": "CEReactions",
+        "type": "undefined"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.9.8 The tr element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/tables.html#the-tr-element",
+        "heading": "HTML Living Standard. 4.9.8 The tr element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

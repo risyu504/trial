@@ -1,0 +1,51 @@
+{
+  "HTMLTemplateElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "content": {
+        "attribute": "readonly attribute",
+        "type": "DocumentFragment"
+      },
+      "shadowRootMode": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "shadowRootDelegatesFocus": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "shadowRootClonable": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "shadowRootSerializable": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "shadowRootCustomElementRegistry": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.12.3 The template element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+        "heading": "HTML Living Standard. 4.12.3 The template element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

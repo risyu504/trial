@@ -1,0 +1,18 @@
+{
+  "thead": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "supplementaryExplanation": "この要素は、HTMLTableSectionElementインターフェイス を使用しています。",
+    "alias": "HTMLTableSectionElement",
+    "code": [{
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.9.6 The thead element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/tables.html#the-thead-element",
+        "heading": "HTML Living Standard. 4.9.6 The thead element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

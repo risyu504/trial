@@ -1,0 +1,86 @@
+{
+  "HTMLScriptElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "type": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "src": {
+        "extendedattributes": ["CEReactions", "ReflectURL"],
+        "attribute": "attribute",
+        "type": "USVString"
+      },
+      "noModule": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "async": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "defer": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "boolean"
+      },
+      "blocking": {
+        "extendedattributes": ["SameObject", "PutForwards=value", "Reflect"],
+        "attribute": "readonly attribute",
+        "type": "DOMTokenList"
+      },
+      "crossOrigin": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString?"
+      },
+      "referrerpolicy": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "integrity": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "fetchPriority": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE02": "",
+      "text": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "SPACE03": "",
+      "supports(DOMString type)": {
+        "argument": [
+          {"type": "DOMString", "description": "type"}
+        ],
+        "type": "static boolean"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.12.1 The script element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/scripting.html#the-script-element",
+        "heading": "HTML Living Standard. 4.12.1 The script element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "HTMLTableColElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "span": {
+        "extendedattributes": ["CEReactions", "Reflect", "ReflectDefault=1", "ReflectRange=(1, 1000)"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.9.3 The colgroup element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/tables.html#the-colgroup-element",
+        "heading": "HTML Living Standard. 4.9.3 The colgroup element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

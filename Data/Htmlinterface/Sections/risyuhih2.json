@@ -1,0 +1,18 @@
+{
+  "h2": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "supplementaryExplanation": "この要素は、HTMLHeadingElementインターフェイス を使用しています。",
+    "alias": "HTMLHeadingElement",
+    "code": [{
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+        "heading": "HTML Living Standard. 4.3.6 The h1, h2, h3, h4, h5, and h6 elements",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

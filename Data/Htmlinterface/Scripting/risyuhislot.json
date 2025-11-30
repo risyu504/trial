@@ -1,0 +1,45 @@
+{
+  "HTMLSlotElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "name": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "assignedNodes(optional AssignedNodesOptions options = {})": {
+        "argument": [
+          {"type": "AssignedNodesOptions", "optional": "optional", "description": "options = {}"}
+        ],
+        "type": "sequence&lt;Node&gt;"
+      },
+      "assignedElements(optional AssignedNodesOptions options = {})": {
+        "argument": [
+          {"type": "AssignedNodesOptions", "optional": "optional", "description": "options = {}"}
+        ],
+        "type": "sequence&lt;Element&gt;"
+      },
+      "assign((Element or Text)... nodes)": {
+        "argument": [
+          {"type": "(Element or Text)...", "description": "nodes"}
+        ],
+        "type": "undefined"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.12.4 The slot element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element",
+        "heading": "HTML Living Standard. 4.12.4 The slot element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

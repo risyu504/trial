@@ -1,0 +1,18 @@
+{
+  "main": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "supplementaryExplanation": "この要素は、HTMLElementインターフェイス を使用しています。",
+    "alias": "HTMLElement",
+    "code": [{
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.4.14 The main element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/grouping-content.html#the-main-element",
+        "heading": "HTML Living Standard. 4.4.14 The main element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

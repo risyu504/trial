@@ -1,0 +1,55 @@
+{
+  "HTMLTableCellElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "SPACE01": "",
+      "colSpan": {
+        "extendedattributes": ["CEReactions", "Reflect", "ReflectDefault=1", "ReflectRange=(1, 1000)"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "rowSpan": {
+        "extendedattributes": ["CEReactions", "Reflect", "ReflectDefault=1", "ReflectRange=(0, 65534)"],
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "headers": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString"
+      },
+      "cellIndex": {
+        "attribute": "readonly attribute",
+        "type": "long"
+      },
+      "SPACE02": "",
+      "scope": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "DOMString",
+        "commentIn": "only conforming for th elements"
+      },
+      "abbr": {
+        "extendedattributes": ["CEReactions", "Reflect"],
+        "attribute": "attribute",
+        "type": "DOMString",
+        "commentIn": "only conforming for th elements"
+      },
+      "comment": "also has obsolete members"
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.9.9 The td element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/tables.html#the-td-element",
+        "heading": "HTML Living Standard. 4.9.9 The td element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}

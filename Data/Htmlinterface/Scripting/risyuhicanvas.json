@@ -1,0 +1,61 @@
+{
+  "HTMLCanvasElement": {
+    "@type": "codeWebidl",
+    "lastReviewed": "2025-11-30",
+    "alias": "",
+    "code": [{
+      "exposed": "Window",
+      "interface": "interface",
+      "parent" : "HTMLElement",
+      "constructor()": { "extendedattributes": "HTMLConstructor" },
+      "typedef": ["RenderingContext"],
+      "callback": ["BlobCallback"],
+      "SPACE01": "",
+      "width": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "height": {
+        "extendedattributes": "CEReactions",
+        "attribute": "attribute",
+        "type": "unsigned long"
+      },
+      "SPACE02": "",
+      "getContext(DOMString contextId, optional any options = null)": {
+        "argument": [
+          {"type": "DOMString", "description": "contextId"},
+          {"type": "any", "optional": "optional", "description": "options = null"}
+        ],
+        "type": "RenderingContext?"
+      },
+      "SPACE03": "",
+      "toDataURL(optional DOMString type = &quot;image/png&quot;, optional any quality)": {
+        "argument": [
+          {"type": "DOMString", "optional": "optional", "description": "type = &quot;image/png&quot;"},
+          {"type": "any", "optional": "optional", "description": "quality"}
+        ],
+        "type": "USVString"
+      },
+      "toBlob(BlobCallback _callback, optional DOMString type = &quot;image/png&quot;, optional any quality)": {
+        "argument": [
+          {"type": "BlobCallback", "description": "_callback"},
+          {"type": "DOMString", "optional": "optional", "description": "type = &quot;image/png&quot;"},
+          {"type": "any", "optional": "optional", "description": "quality"}
+        ],
+        "type": "undefined"
+      },
+      "transferControlToOffscreen()": {
+        "type": "OffscreenCanvas"
+      }
+    }],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.12.5 The canvas element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element",
+        "heading": "HTML Living Standard. 4.12.5 The canvas element",
+        "sub":     "最終更新日 2025年11月13日"
+      }
+    ]
+  }
+}
