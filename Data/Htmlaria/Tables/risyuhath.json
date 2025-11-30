@@ -1,0 +1,19 @@
+{
+  "th": {
+    "@type": "htmlAria",
+    "lastReviewed": "2025-11-16",
+    "implicit": ["columnheader", "rowheader", "cell", "gridcell"],
+    "implicitsupplement": "祖先のtable要素がrole=tableとして公開されている場合、role=columnheader、rowheader、またはcell。祖先のテーブル要素が role=grid または treegrid として公開されている場合、 role=columnheader、rowheader または gridcell。祖先のテーブル要素が role=table、grid、treegrid として公開されていない場合、対応する役割はありません。",
+    "role": "No",
+    "rolesupplement": "祖先のtable要素がrole=table、grid、treegridの場合、以下の役割以外は許しません。祖先のtable要素がrole=tableとして公開されている場合、columnheader、rowheader、cellは許可されますが、推奨されません（NOT RECOMMENDED）。祖先のtable要素がrole=gridまたはtreegridとして公開されている場合、columnheader、rowheader、gridcellが許可されますが、推奨されません（NOT RECOMMENDED）。そうでない場合、祖先となるテーブル要素がrole=table、grid、treegridとして公開されていなければ、どのような役割でも構いません。",
+    "ariaattributes": "GlobalAny",
+    "reference": [
+      {
+        "title":   "ARIA in HTML W3C Editor's Draft. 4. Document conformance requirements for use of ARIA attributes in HTML. 22 September 2025",
+        "href":    "https://w3c.github.io/html-aria/#el-th",
+        "heading": "ARIA in HTML. 4. HTMLにおけるARIA属性の使用に関する適合要件を文書化する",
+        "sub":     "最終更新日 2025年9月22日"
+      }
+    ]
+  }
+}

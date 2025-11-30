@@ -1,0 +1,8 @@
+{
+  "rtc": {
+    "@type": "htmlAria",
+    "lastReviewed": "2025-11-16",
+    "supplementaryExplanation": "この要素は、HTML5 では採用されていない機能です。ARIA in HTML に、この要素の記述はありません。",
+    "implicit": "Obsolete"
+  }
+}

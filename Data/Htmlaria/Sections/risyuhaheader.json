@@ -1,0 +1,21 @@
+{
+  "header": {
+    "@type": "htmlAria",
+    "lastReviewed": "2025-11-16",
+    "implicit": ["banner", "generic"],
+    "implicitsupplement": "article, aside, main, nav, section 要素の子孫でない場合、または role=article, complementary, main, navigation, region の要素でない場合は role=banner です。それ以外の場合は、role=generic",
+    "role": ["group", "none", "presentation"],
+    "rolesupplement": "generic として公開されている場合は、命名が禁止されます。",
+    "ariaattributes": "GlobalAny",
+    "naming": "generic",
+    "prohibited": {"generic": ["aria-label", "aria-labelledby", "aria-roledescription"]},
+    "reference": [
+      {
+        "title":   "ARIA in HTML W3C Editor's Draft. 4. Document conformance requirements for use of ARIA attributes in HTML. 22 September 2025",
+        "href":    "https://w3c.github.io/html-aria/#el-header",
+        "heading": "ARIA in HTML. 4. HTMLにおけるARIA属性の使用に関する適合要件を文書化する",
+        "sub":     "最終更新日 2025年9月22日"
+      }
+    ]
+  }
+}
