@@ -1,0 +1,19 @@
+{
+  "menuitem": {
+    "@type": "htmlAria",
+    "lastReviewed": "2025-11-16",
+    "supplementaryExplanation": "HTML5.1 で追加, HTML5.2 で廃止の要素です。ARIA in HTML に、この要素の記述はありません。HTML5.1 に記されている仕様です。",
+    "implicit": "No",
+    "implicitsupplement": "ARIA in HTML に、この要素の記述はありません。HTML5.1 に記されている仕様です。",
+    "role": "menuitem",
+    "ariaattributes": "GlobalAny",
+    "reference": [
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.11.4. The menuitem element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/interactive-elements.html#the-menuitem-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.11.4. The menuitem element",
+        "sub":     "W3C勧告、2016年11月1日"
+      }
+    ]
+  }
+}

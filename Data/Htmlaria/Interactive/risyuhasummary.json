@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "@type": "htmlAria",
+    "lastReviewed": "2025-11-16",
+    "implicit": "No",
+    "role": "No",
+    "ariaattributes": "Global aria-*, aria-disabled, aria-haspopup",
+    "ariaattributessupplement": "グローバル aria-* 属性、aria-disabled、および aria-haspopup 属性。",
+    "reference": [
+      {
+        "title":   "ARIA in HTML W3C Editor's Draft. 4. Document conformance requirements for use of ARIA attributes in HTML. 22 September 2025",
+        "href":    "https://w3c.github.io/html-aria/#el-summary",
+        "heading": "ARIA in HTML. 4. HTMLにおけるARIA属性の使用に関する適合要件を文書化する",
+        "sub":     "最終更新日 2025年9月22日"
+      }
+    ]
+  }
+}

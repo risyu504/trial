@@ -1,0 +1,20 @@
+{
+  "select": {
+    "@type": "htmlAria",
+    "lastReviewed": "2025-11-16",
+    "implicit": ["combobox", "listbox"],
+    "implicitsupplement": "multiple属性がなく、size属性の値が1以上でない場合は role=combobox multiple属性を持つまたはsize属性の値が1より大きい場合の場合は role=listbox",
+    "role": ["menu", "No"],
+    "rolesupplement": "multiple属性がなく、size属性の値が1以上でない場合は role=menu multiple属性を持つまたはsize属性の値が1より大きい場合の場合は No role",
+    "ariaattributes": "GlobalAny",
+    "ariaattributessupplement": "作者はselect要素にaria-multiselectable属性を使うべきではありません。",
+    "reference": [
+      {
+        "title":   "ARIA in HTML W3C Editor's Draft. 4. Document conformance requirements for use of ARIA attributes in HTML. 22 September 2025",
+        "href":    "https://w3c.github.io/html-aria/#el-select",
+        "heading": "ARIA in HTML. 4. HTMLにおけるARIA属性の使用に関する適合要件を文書化する",
+        "sub":     "最終更新日 2025年9月22日"
+      }
+    ]
+  }
+}

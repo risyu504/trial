@@ -1,0 +1,23 @@
+{
+  "img": {
+    "@type": "htmlAria",
+    "lastReviewed": "2025-11-16",
+    "implicit": "img",
+    "implicitsupplement": [
+      "空でない alt (alt='some text') がある場合、またはアクセス可能な名前が指定されている場合は、role=img",
+      "空の alt (alt='') があり、その他の img 命名方法がない場合は、role=none, role=presentation",
+      "alt属性がなく、その他の img 命名方法がない場合、role=img"
+    ],
+    "role": ["button", "checkbox", "link", "menuitem", "menuitemcheckbox", "menuitemradio", "meter", "option", "progressbar", "radio", "scrollbar", "separator", "slider", "switch", "tab", "treeitem"],
+    "dpub": "doc-cover",
+    "ariaattributes": "GlobalAny",
+    "reference": [
+      {
+        "title":   "ARIA in HTML W3C Editor's Draft. 4. Document conformance requirements for use of ARIA attributes in HTML. 22 September 2025",
+        "href":    "https://w3c.github.io/html-aria/#el-img",
+        "heading": "ARIA in HTML. 4. HTMLにおけるARIA属性の使用に関する適合要件を文書化する",
+        "sub":     "最終更新日 2025年9月22日"
+      }
+    ]
+  }
+}

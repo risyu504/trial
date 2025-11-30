@@ -1,0 +1,21 @@
+{
+  "li": {
+    "@type": "htmlAria",
+    "lastReviewed": "2025-11-16",
+    "implicit": ["listitem", "generic"],
+    "implicitsupplement": "li要素がリスト要素 (ul、ol、menu) の子である場合、role=listitem。li要素がリスト要素の子でない場合は、role=generic",
+    "role": "No",
+    "rolesupplement": "親リスト要素に暗黙的または明示的なリストロールがある場合、listitem 以外のロールはありません (推奨されません)。それ以外の場合、親リスト要素が暗黙的または明示的なリストロールを公開していない場合は、任意のロールです。",
+    "dpubsupplement": "著者は、次の非推奨の DPub ロールを使用しないでください: doc-biblioentry, doc-endnote。",
+    "ariaattributes": "GlobalAny",
+    "prohibited": {"generic": ["aria-label", "aria-labelledby", "aria-roledescription"]},
+    "reference": [
+      {
+        "title":   "ARIA in HTML W3C Editor's Draft. 4. Document conformance requirements for use of ARIA attributes in HTML. 22 September 2025",
+        "href":    "https://w3c.github.io/html-aria/#el-li",
+        "heading": "ARIA in HTML. 4. HTMLにおけるARIA属性の使用に関する適合要件を文書化する",
+        "sub":     "最終更新日 2025年9月22日"
+      }
+    ]
+  }
+}

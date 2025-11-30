@@ -1,0 +1,24 @@
+{
+  "keygen": {
+    "@type": "htmlAria",
+    "lastReviewed": "2025-11-16",
+    "supplementaryExplanation": "HTML5 で追加, HTML5.2 で廃止の要素です。ARIA in HTML に、この要素の記述はありません。HTML5.1 に記されている仕様です。",
+    "implicit": "No",
+    "role": "No",
+    "ariaattributes": "Global",
+    "reference": [
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.12. The keygen element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-keygen-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.12. The keygen element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.12 The keygen element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-keygen-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.12 The keygen element",
+        "sub":     "W3C勧告、2014年10月28日"
+      }
+    ]
+  }
+}
