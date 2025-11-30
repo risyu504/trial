@@ -4,7 +4,8 @@
 
 ## 概要
 
-- このフォルダは、gulp の gulpfile.js のフォルダです。
+- このフォルダは、gulp の gulpfile.js のフォルダです。(フォルダ構成は「[フォルダ構成・方針](../Document/00_Materials/folder_policy.md)」で記しています。)
+- [開発フォルダ](../README.md)の下位フォルダとする事を、想定しています。
 - gulpfile.js ファイルを分割する事が目的です。
 - 名称: **Gulpfile**, 区分: **Gu** です。
 
