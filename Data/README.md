@@ -28,11 +28,11 @@
 
 ## 構成
 
-- [Htmlaria](./Htmlaria/README.md) ARIA in HTML データフォルダ
-- [Htmlexample](./Htmlexample/README.md) HTML サンプル用 データフォルダ
-- [Htmlinterface](./Htmlinterface/README.md) DOM インターフェイス データフォルダ
-- [Htmlrendering](./Htmlrendering/README.md) HTML レンダリング データフォルダ
-- [Htmlspec](./Htmlspec/README.md) HTML 仕様 データフォルダ
+- [Htmlaria](./Htmlaria/README.md) [Ha] ARIA in HTML データフォルダ
+- [Htmlelements](./Htmlelements/README.md) [Hs] HTML 要素 データフォルダ
+- [Htmlexample](./Htmlexample/README.md) [Hx] HTML サンプル用 データフォルダ
+- [Htmlinterface](./Htmlinterface/README.md) [Hi] DOM インターフェイス データフォルダ
+- [Htmlrendering](./Htmlrendering/README.md) [Hr] HTML レンダリング データフォルダ
 - [Risyubanner](./Risyubanner/README.md) コータンのおもちゃ箱 bannerリスト用データフォルダ
 - [Webcoocan](./Webcoocan/README.md) Webページ情報 データフォルダ
 
