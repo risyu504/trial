@@ -1,0 +1,74 @@
+{
+  "dialog": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Flow",
+    "element": "- - (%Flow)* -- dialog box. (Normal elements.) [Flow|Sectioningroots] --",
+    "attlist": {
+      "%Global;": "",
+      "closedby": "NAME auto -- Which user actions will close the dialog --",
+      "open": "(open) #IMPLIED -- Whether the dialog box is showing --"
+    },
+    "alias": "",
+    "summary": "ダイアログボックス",
+    "summaryEn": "dialog box.",
+    "point": ["ダイアログボックスの形式で", "アプリケーションの", "一時的な部分を", "表します。"],
+    "description": "小さなウィンドウ (「ダイアログボックス」) の形式でアプリケーションの一時的な部分を表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Sectioningroots"],
+    "canUsedContexts": "%Flow DIALOG",
+    "contentModel": "DIALOG %Flow",
+    "tagOmission": ["-", "-"],
+    "rendering": ["Flow"],
+    "domInterface": "HTMLDialogElement",
+    "contentAttributes": {
+      "closedby": "ダイアログを閉じるユーザーアクション",
+      "open": "ダイアログボックスが表示されているかどうか"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.11.4 The dialog element. Last Updated 21 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element",
+        "heading": "HTML Living Standard. 4.11.4 The dialog element",
+        "sub":     "最終更新日 2025年11月21日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 21 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月21日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.11.4 The dialog element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/interactive-elements.html#the-dialog-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.11.4 The dialog element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.3. Flow content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.3. Flow content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.11.4. The dialog element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/interactive-elements.html#the-dialog-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.11.4. The dialog element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.3. Flow content.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;dialog&gt;: The Dialog element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/dialog",
+        "heading": "&lt;dialog&gt;: ダイアログ要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML5.2", "latest": "HTML Living Standard"}
+  }
+}

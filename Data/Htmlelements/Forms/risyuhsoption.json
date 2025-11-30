@@ -1,0 +1,128 @@
+{
+  "option": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- O (#PCDATA) -- selectable choice. (Normal elements.) [None] --",
+    "attlist": {
+      "%Global;": "",
+      "disabled": "(disabled) #IMPLIED -- Whether the form control is disabled --",
+      "label":    "%Text;     #IMPLIED -- User-visible label --",
+      "selected": "(selected) #IMPLIED -- Whether the option is selected by default --",
+      "value":    "CDATA      #IMPLIED -- Value to be used for form submission --"
+    },
+    "alias": "",
+    "summary": "選択可能な選択肢",
+    "summaryEn": "selectable choice.",
+    "point": ["select要素内のオプション、", "または datalist要素内の提案リストの", "一部としてのオプションを", "表します。"],
+    "description": "select要素内のオプション、または datalist要素内の提案リストの一部としてのオプションを表します。",
+    "elementKind": "Normal",
+    "categories": ["Selectinner", "Optgroupinner"],
+    "canUsedContexts": [
+      "SELECT *(OPTION)",
+      "DATALIST *(OPTION)",
+      "OPTGROUP *(OPTION)"
+    ],
+    "usedsupplement": [
+      "select要素の子孫として。",
+      "datalist要素の子孫として。",
+      "optgroup要素の子孫として。"
+    ],
+    "contentModel": ["OPTION PCDATA", "SELECT *OPTION[-label] %Optioninner"],
+    "contentmodelsupplement": [
+      "要素に label属性と value属性がある場合は、Nothing",
+      "要素に label属性はあるが value属性がない場合は、テキスト",
+      "要素に label属性がなく、datalist要素の子孫でない場合: 0 個以上の option要素内部コンテンツ要素。",
+      "要素に label属性がなく、datalist要素の子孫である場合: テキスト。"
+    ],
+    "tagOmission": ["-", "O"],
+    "tagsupplement": "option要素の直後に別のoption要素が続く場合、その直後に optgroup要素が続く場合、直後に hr要素が続く場合、または親要素にそれ以上のコンテンツがない場合、option要素の終了タグは省略できます。",
+    "rendering": "None",
+    "domInterface": "HTMLOptionElement",
+    "contentAttributes": {
+      "disabled": "フォームコントロールが無効かどうか",
+      "label": "ユーザーに見えるラベル",
+      "selected": "オプションがデフォルトで選択されているかどうか",
+      "value": "フォーム送信に使用される値"
+    },
+    "obsoleteAttributes": {
+      "name": "代わりに id 属性を使用してください。",
+      "datasrc": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "dataformatas": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.10 The option element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element",
+        "heading": "HTML Living Standard. 4.10.10 The option element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.16 The select element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.16 The select element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 4.11 Interactive elements 4.11.3.5 Using the option element to define a command. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/interactive-elements.html#using-the-option-element-to-define-a-command",
+        "heading": "HTML Living Standard. 4.11 Interactive elements 4.11.3.5 Using the option element to define a command",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.10 The option element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-option-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.10 The option element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.11. Form controls. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#form-controls",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.11. Form controls.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.10 The option element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-option-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.10 The option element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.10 The option element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-option-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.10 The option element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.10 The option element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-option-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.10 The option element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 17.6 The SELECT, OPTGROUP, and OPTION elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/forms.html#h-17.6",
+        "heading": "HTML 4.01 Specification W3C 勧告. 17.6 The SELECT, OPTGROUP, and OPTION elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#select",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;option&gt;: The HTML Option element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/option",
+        "heading": "&lt;option&gt;: HTML 選択肢要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML2", "latest": "HTML Living Standard"}
+  }
+}

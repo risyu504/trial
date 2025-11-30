@@ -1,0 +1,136 @@
+{
+  "style": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Metadata",
+    "element": "- - %StyleSheet; -- style info. (Raw text elements.) [Metadata] --",
+    "attlist": {
+      "%Global;": "",
+      "media": "%MediaDesc; #IMPLIED -- designed for use with these media --",
+      "title": "%Text; #IMPLIED -- advisory title --",
+      "blocking": "%Blocking;  #IMPLIED -- Whether the element is potentially render-blocking --"
+    },
+    "alias": "",
+    "summary": "スタイル情報",
+    "summaryEn": "Style info.",
+    "point": ["文書あるいは", "文書の一部分の", "スタイル情報を", "表します。"],
+    "description": [
+      "使用すると、作成者はCSSスタイルシートをドキュメントに埋め込む事ができます。style要素は、スタイリング処理モデルへのいくつかの入力の1つです。この要素は、ユーザーのコンテンツを表すものではありません。",
+      "スタイルシート(Style Sheets.)とは、文書の見栄えに関する情報を記録等したデータやファイル等の事です。"
+    ],
+    "elementKind": "Raw",
+    "categories": "Metadata",
+    "usedSummary": "%Metadata STYLE",
+    "canUsedContexts": [
+      "%Metadata STYLE",
+      "HEAD NOSCRIPT STYLE"
+    ],
+    "usedsupplement": [
+      "メタデータコンテンツが期待される場所。",
+      "head 要素の子である noscript 要素内。"
+    ],
+    "contentSummary": "STYLE CDATA",
+    "contentModel": "STYLE CDATA",
+    "contentmodelsupplement": "適合したスタイルシートを与えるテキスト。",
+    "tagOmission": ["-", "-"],
+    "rendering": "Hidden",
+    "domInterface": "HTMLStyleElement",
+    "contentAttributes": {
+      "media": "該当するメディア",
+      "blocking": "要素が潜在的にレンダリングをブロックしているかどうか",
+      "title": "この要素に特別なセマンティクスで、CSSスタイルシートセット名。"
+    },
+    "attributessupplement": [
+      "type属性がありましたが、廃止されました。作成者はstyle要素にtype属性を指定すべきではありません。属性が存在する場合、その値は 'text/css'の大文字小文字を区別しないASCIIマッチでなければなりません。データ・ブロックでは、 style要素の代わりに script要素をコンテナとして使います。"
+    ],
+    "obsoleteAttributes": {
+      "type": "作成者はstyle要素にtype属性を指定すべきではありません。属性が存在する場合、その値は 'text/css'の大文字小文字を区別しないASCIIマッチでなければなりません。データ・ブロックでは、 style要素の代わりに script要素をコンテナとして使います。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.2.6 The style element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/semantics.html#the-style-element",
+        "heading": "HTML Living Standard. 4.2.6 The style element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.2.6 The style element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/document-metadata.html#the-style-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.2.6 The style element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.1. Hidden elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.2.6 The style element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/document-metadata.html#the-style-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.2.6 The style element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.1. Hidden elements.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.2.6 The style element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/document-metadata.html#the-style-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.2.6 The style element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#hidden-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.2.6 The style element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/document-metadata.html#the-style-element",
+        "heading": "HTML 5 W3C 勧告. 4.2.6 The style element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#hidden-elements",
+        "heading": "HTML 5 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 14.2.3 Header style information: the STYLE element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/present/styles.html#h-14.2.3",
+        "heading": "HTML 4.01 Specification W3C 勧告. 14.2.3 Header style information: the STYLE element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#style",
+        "heading": "HTML 3.2 Reference Specification  STYLE and SCRIPT",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;style&gt;: The Style Information element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/style",
+        "heading": "&lt;style&gt;: スタイル情報要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      },
+      {
+        "title":   "CSS Text Module Level 3.",
+        "href":    "https://drafts.csswg.org/css-text-3/",
+        "heading": "CSS Text Module Level 3",
+        "sub":     "編集者草案2023年10月20日"
+      }
+    ],
+    "version": {"first": "HTML3", "latest": "HTML Living Standard"}
+  }
+}

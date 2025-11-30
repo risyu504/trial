@@ -1,0 +1,38 @@
+{
+  "selectedcontent": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- - EMPTY -- Selected option element. (Normal elements.) [Phrasing] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "選択されたoption要素",
+    "summaryEn": "Selected option element.",
+    "point": ["select要素の", "現在選択されている", "option要素の内容を", "反映します。"],
+    "description": "select要素の現在選択されているoption要素の内容を反映します。",
+    "elementKind": "Normal",
+    "categories": ["Phrasing"],
+    "canUsedContexts": "SELECT BUTTON *(SELECTEDCONTENT)?",
+    "usedsupplement": "select要素の子である button要素の子孫として、使用できます。",
+    "contentModel": "SELECTEDCONTENT EMPTY",
+    "tagOmission": ["-", "-"],
+    "rendering": "None",
+    "domInterface": "HTMLSelectedContentElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.17 The selectedcontent element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-selectedcontent-element",
+        "heading": "HTML Living Standard. 4.10.17 The selectedcontent element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;selectedcontent&gt;: The selected option display element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements/selectedcontent",
+        "heading": "&lt;selectedcontent&gt;: 選択中選択肢表示要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML Living Standard", "latest": "HTML Living Standard"}
+  }
+}

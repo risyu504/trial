@@ -1,0 +1,98 @@
+{
+  "bdo": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "bidirectional",
+    "element": "- - (%Phrasing)* -- text directionality. (Normal elements.) [Flow|Phrasing|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "テキストの方向性 (text directionality)",
+    "point": "テキストの方向性を表します。",
+    "description": [
+      "その子に対する明示的なテキスト方向の書式設定コントロールを表します。",
+      "これにより、作成者は方向オーバーライドを明示的に指定することで、Unicode 双方向アルゴリズムをオーバーライドできます。",
+      "作成者は、この要素の dir属性を指定する必要があります。",
+      "値 ltr は左から右へのオーバーライドを指定し、値 rtl は右から左へのオーバーライドを指定します。auto 値は指定しないでください。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Palpable"],
+    "canUsedContexts": "%Phrasing BDO",
+    "contentModel": "BDO %Phrasing",
+    "tagOmission": ["-", "-"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "attributessupplement": [
+      "dirグローバル属性はこの要素に対して特別なセマンティクスを持ちます。"
+    ],
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.25 The bdo element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdo-element",
+        "heading": "HTML Living Standard. 4.5.25 The bdo element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.5 Bidirectional text. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#bidi-rendering",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.5 Bidirectional text",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.5.27 The bdo element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/textlevel-semantics.html#the-bdo-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.5.27 The bdo element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.5. Bidirectional text. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#bidirectional-text",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.5. Bidirectional text",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.27 The bdo element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-bdo-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.27 The bdo element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.5. Bidirectional text. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#bidirectional-text",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.5. Bidirectional text",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.27 The bdo element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-bdo-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.27 The bdo element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.5. Bidirectional text. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#bidirectional-text",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.5. Bidirectional text",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.27 The bdo element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-bdo-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.27 The bdo element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.5. Bidirectional text. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#bidi-rendering",
+        "heading": "HTML 5 W3C 勧告. 10.3.5. Bidirectional text",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;bdo&gt;: The Bidirectional Text Override element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/bdo",
+        "heading": "MDN Web Docs. HTML &lt;bdo&gt;: 双方向文字列上書き要素"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

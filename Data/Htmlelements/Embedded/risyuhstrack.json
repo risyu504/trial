@@ -1,0 +1,99 @@
+{
+  "track": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Embedded",
+    "element": "- X EMPTY -- external timed text tracks. (Void elements.) [None] --",
+    "attlist": {
+      "%Global;": "",
+      "elementKind":    "CDATA #IMPLIED -- The type of text track --",
+      "src":     "%URI; #IMPLIED -- Address of the resource --",
+      "srclang": "%LanguageCode; #IMPLIED -- Language of the text track --",
+      "label":   "CDATA #IMPLIED -- User-visible label --",
+      "default": "(default) #IMPLIED -- Enable the track if no other text track is more suitable --"
+    },
+    "alias": "",
+    "summary": "外部のタイムドテキストトラック (external timed text tracks)",
+    "point": "外部のタイムドテキストトラックを指定できます。",
+    "description": "track要素を使用すると、作成者はメディア要素に対して明示的に外部のタイムドテキストトラックを指定できます。それ自体では何も表しません。",
+    "elementKind": "Void",
+    "categories": "None",
+    "canUsedContexts": "%Media (SOURCE*, TRACK*, %Transparent)",
+    "usedsupplement": [
+      "メディア要素の子として、フロー コンテンツの前に配置します。",
+      "メディア要素のコンテンツモデルですが、「要素に src属性がある場合: 0 個以上の track要素と、それに続くトランスパレントコンテンツモデルになりますが、子孫のメディア要素はありません。要素に src属性がない場合: 0 個以上の source要素と、それに続く 0 個以上の track要素と、それに続くトランスパレントコンテンツモデルになりますが、子孫のメディア要素はありません。」です。"
+    ],
+    "contentModel": "TRACK EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Embedded",
+    "renderingsupplement": [
+      "字幕やキャプションは、関連するレンダリング ルールで定義されているように、ビデオ要素の上に直接オーバーレイされることが想定されています。WebVTT の場合、これらは WebVTT テキスト トラックの表示を更新するためのルールです。",
+      "ユーザー エージェントがビデオ要素のユーザー インターフェイスの公開を開始すると、ユーザー エージェントは、ビデオ要素のテキスト トラック リスト内の表示中の各テキスト トラックのテキスト トラック レンダリングを更新するためのルールを実行する必要があります。テキスト トラックの種類は字幕またはキャプションのいずれかです (たとえば、WebVTT に基づくテキスト トラックの場合、WebVTT テキスト トラックの表示を更新するためのルール)。"
+    ],
+    "domInterface": "HTMLTrackElement",
+    "contentAttributes": {
+      "elementKind": "テキストトラックの種類",
+      "src": "リソースのアドレス",
+      "srclang": "テキストトラックの言語",
+      "label": "ユーザーに見えるラベル",
+      "default": "他に適切なテキストトラックがない場合は、このトラックを有効にします"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.10 The track element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/media.html#the-track-element",
+        "heading": "HTML Living Standard. 4.8.10 The track element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.4.1 Embedded content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#embedded-content-rendering-rules",
+        "heading": "HTML Living Standard. 15 Rendering 15.4.1 Embedded content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.7.12. The track element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-embedded-content.html#the-track-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.7.12. The track element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.7.12. The track element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-track-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.7.12. The track element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.7.8 The track element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-track-element",
+        "heading": "HTML 5 W3C 勧告. 4.7.8 The track element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.4.1 Embedded content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#embedded-content-1",
+        "heading": "HTML 5 W3C 勧告. 10.4.1 Embedded content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;track&gt;: The Embed Text Track element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/audio",
+        "heading": "MDN Web Docs. HTML &lt;track&gt;: 埋め込みテキストトラック要素"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

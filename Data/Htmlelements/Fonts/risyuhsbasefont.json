@@ -1,0 +1,93 @@
+{
+  "basefont": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "phrasing",
+    "element": "- X EMPTY -- base font size (1 to 7). (Void elements.) [Flow|Phrasing] --",
+    "attlist": {
+      "%Global;": "",
+      "size":  "CDATA   #IMPLIED -- e.g. size=4, defaults to 3 --",
+      "color": "%Color; #IMPLIED -- text color --",
+      "face":  "CDATA   #IMPLIED -- comma-separated list of font names --"
+    },
+    "alias": "",
+    "summary": "基本フォントサイズ (base font size.)",
+    "point": "基本フォントサイズを表します。",
+    "elementKind": "Void",
+    "categories": ["Flow", "Phrasing"],
+    "canUsedContexts": "+(%Html4) %Phrasing BASEFONT",
+    "contentModel": "BASEFONT EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLUnknownElement",
+    "contentAttributes": {
+      "size":  "フォントサイズ",
+      "color": "色",
+      "face":  "フォント名"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.1. Hidden elements.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.1 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#hidden-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.2 Non-conforming features. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#non-conforming-features",
+        "heading": "HTML 5 W3C 勧告. 11.2 Non-conforming features",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#hidden-elements",
+        "heading": "HTML 5 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 15.2.2 Font modifier elements: FONT and BASEFONT. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/present/graphics.html#h-15.2.2",
+        "heading": "HTML 4.01 Specification W3C 勧告. 15.2.2 Font modifier elements: FONT and BASEFONT",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. BASEFONT. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#basefont",
+        "heading": "HTML 3.2 Reference Specification. BASEFONT",
+        "sub":     "W3C勧告1997年1月14日"
+      }
+    ],
+    "version": {"first": "HTML3.2", "latest": "HTML4.01 Transitional"}
+  }
+}

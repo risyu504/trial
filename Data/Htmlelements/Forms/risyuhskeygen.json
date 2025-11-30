@@ -1,0 +1,81 @@
+{
+  "keygen": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- X EMPTY -- key pair generator control. (Void elements.) [Flow|Phrasing|Interactive|Listed|Labelable|Submittable|Resettable|Form|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "autofocus": "(autofocus) #IMPLIED -- Automatically focus the form control when the page is loaded --",
+      "challenge": "CDATA       #IMPLIED -- String to package with the generated and signed public key --",
+      "disabled":  "(disabled)  #IMPLIED -- Whether the form control is disabled --",
+      "form":      "IDREF       #IMPLIED -- Associates the control with a form element --",
+      "keytype":   "(rsa)       rsa      -- The type of cryptographic key to generate --",
+      "name":      "CDATA       #IMPLIED -- Name of form control to use for §4.10.22 Form submission and in the form.elements API --"
+    },
+    "alias": "",
+    "summary": "一対の鍵作成コントロール",
+    "summaryEn": "key pair generator control.",
+    "point": ["一対の鍵作成コントロールを", "備えています。"],
+    "description": [
+      "コントロールのフォームが送信されると、秘密キーがローカルキーストアに保存され、公開キーがパッケージ化されてサーバーに送信されます。",
+      "サポートされていない可能性もあるので、デモというよりとりあえずのソースコードの例示と思って頂けたら幸いです。"
+    ],
+    "elementKind": "Void",
+    "categories": ["Flow", "Phrasing", "Interactive", "Listed", "Labelable", "Submittable", "Resettable", "Formassociated", "Palpable"],
+    "canUsedContexts": "%Phrasing KEYGEN -(%Interactive)",
+    "usedsupplement": "フレージングコンテンツが期待される場所。",
+    "contentModel": "KEYGEN EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": ["Form", "Bidirectional"],
+    "domInterface": "HTMLUnknownElement",
+    "contentAttributes": {
+      "autofocus": "ページが読み込まれたときにフォームコントロールに自動的にフォーカスする",
+      "challenge": "生成され署名された公開鍵をパッケージ化する文字列",
+      "disabled": "フォームコントロールが無効かどうか",
+      "form": "コントロールをフォーム要素に関連付けます",
+      "keytype": "生成する暗号鍵の種類",
+      "name": "§4.10.22 フォーム送信および form.elements API で使用するフォームコントロールの名前"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#keygen",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.12. The keygen element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-keygen-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.12. The keygen element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#form-controls",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.11. Form controls",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.5.16. The keygen element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#the-keygen-element-rendering",
+        "heading": "HTML 5.1 W3C 勧告. 10.5.16. The keygen element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.12 The keygen element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-keygen-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.12 The keygen element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.5.15 The keygen element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#the-keygen-element-0",
+        "heading": "HTML 5 W3C 勧告. 10.5.15 The keygen element.",
+        "sub":     "W3C勧告、2014年10月28日"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML5.1"}
+  }
+}

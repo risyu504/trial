@@ -1,0 +1,155 @@
+{
+  "button": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- - (%Phrasing)* -(%Interactive) -- push button. (Normal elements.) [Flow|Phrasing|Interactive|Listed|Labelable|Submittable|Autocapitalize|Form|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "disabled":       "(disabled)        #IMPLIED -- Whether the form control is disabled --",
+      "form":           "IDREF             #IMPLIED -- Associates the element with a form element --",
+      "formaction":     "%URI;             #IMPLIED -- URL to use for form submission --",
+      "formenctype":    "%ContentType;     #IMPLIED -- Entry list encoding type to use for form submission --",
+      "formmethod":     "(get|post|dialog) #IMPLIED -- Variant to use for form submission --",
+      "formnovalidate": "(formnovalidate)  #IMPLIED -- Bypass form control validation for form submission --",
+      "formtarget":     "%FrameTarget;     #IMPLIED -- Navigable for form submission --",
+      "name":           "CDATA             #IMPLIED -- Name of the element to use for form submission and in the form.elements API --",
+      "popovertarget":  "IDREF             #IMPLIED -- Targets a popover element to toggle, show, or hide --",
+      "popovertargetaction": "(toggle|show|hide) #IMPLIED -- Indicates whether a targeted popover element is to be toggled, shown, or hidden --",
+      "type":           "(submit|reset|button) submit -- Type of button --",
+      "value":          "CDATA             #IMPLIED -- Value to be used for form submission --"
+    },
+    "alias": "",
+    "summary": "押すボタン",
+    "summaryEn": "push button.",
+    "point": ["その内容によって", "ラベル付けされた", "ボタンを", "表します。"],
+    "description": "その内容によってラベル付けされたボタンを表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Interactive", "Listed", "Labelable", "Submittable", "Autocapitalize", "Formassociated", "Palpable"],
+    "canUsedContexts": ["%Phrasing BUTTON -(%Interactive)", "SELECT (BUTTON?, %Selectinner*)"],
+    "usedsupplement": [
+      "フレージングコンテンツが期待される場所。",
+      "select 要素の最初の子として。"
+    ],
+    "contentSummary": ["BUTTON %Phrasing -(%Interactive)", "SELECT BUTTON *SELECTEDCONTENT?"],
+    "contentModel": ["BUTTON %Phrasing -(%Interactive)", "SELECT BUTTON *SELECTEDCONTENT?", "+(%Html4) BUTTON (%flow;)* -(A|%formctrl;|FORM|FIELDSET)"],
+    "contentmodelsupplement": [
+      "インタラクティブコンテンツの子孫や tabindex属性が指定された子孫があってはなりません。",
+      "要素がselect要素の最初の子である場合、子孫に0個または1個のselectedcontent要素が存在する場合があります。"
+    ],
+    "tagOmission": ["-", "-"],
+    "rendering": "Form",
+    "domInterface": "HTMLButtonElement",
+    "contentAttributes": {
+      "disabled": "フォームコントロールが無効かどうか",
+      "form": "要素をフォーム要素に関連付けます",
+      "formaction": "フォーム送信に使用するURL",
+      "formenctype": "フォーム送信に使用するエントリリストのエンコードタイプ",
+      "formmethod": "フォーム送信に使用するHTTPメソッド",
+      "formnovalidate": "フォーム送信時のフォームコントロールの検証をバイパスする",
+      "formtarget": "フォーム送信にナビゲート可能",
+      "name": "フォーム送信および form.elements API で使用する要素の名前",
+      "popovertarget": "ポップオーバー要素を切り替え、表示、または非表示にする対象とします。",
+      "popovertargetaction": "ターゲットのポップオーバー要素を切り替えるか、表示するか、非表示にするかを示します。",
+      "type": "ボタンの種類",
+      "value": "フォーム送信に使用される値"
+    },
+    "obsoleteAttributes": {
+      "datasrc": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "datafld": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "dataformatas": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.6 The button element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element",
+        "heading": "HTML Living Standard. 4.10.6 The button element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.10 Form controls. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#form-controls",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.10 Form controls",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.3 Button layout. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#button-layout",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.3 Button layout",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.4 The button element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-button-element-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.4 The button element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 4.11 Interactive elements 4.11.3.3 Using the button element to define a command. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/interactive-elements.html#using-the-button-element-to-define-a-command",
+        "heading": "HTML Living Standard. 4.11 Interactive elements 4.11.3.3 Using the button element to define a command",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.6 The button element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-button-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.6 The button element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.11. Form controls. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#form-controls",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.11. Form controls.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.6 The button element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-button-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.6 The button element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#form-controls",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.6 The button element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-button-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.6 The button element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#form-controls",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.6 The button element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-button-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.6 The button element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#form-controls",
+        "heading": "HTML 5 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 17.5 The BUTTON element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/forms.html#h-17.5",
+        "heading": "HTML 4.01 Specification W3C 勧告. 17.5 The BUTTON element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;button&gt;: The Button element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/button",
+        "heading": "&lt;button&gt;: ボタン要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML4", "latest": "HTML Living Standard"}
+  }
+}

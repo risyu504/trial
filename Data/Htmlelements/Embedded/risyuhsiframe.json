@@ -1,0 +1,119 @@
+{
+  "iframe": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Embedded",
+    "element": "- - EMPTY -- inline subwindow. (Normal elements.) [Flow|Phrasing|Embedded|Interactive|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "src":     "%URI; #IMPLIED -- Address of the resource --",
+      "srcdoc":  "CDATA #IMPLIED -- A document to render in the iframe --",
+      "name":    "CDATA #IMPLIED -- Name of content navigable --",
+      "sandbox": "%Sandbox #IMPLIED -- Security rules for nested content --",
+      "allow": "%Policy #IMPLIED -- Permissions policy to be applied to the iframe's contents --",
+      "allowfullscreen": "(allowfullscreen) #IMPLIED -- Whether to allow the iframe's contents to use requestFullscreen() --",
+      "width":  "%Length; #IMPLIED -- Horizontal dimension --",
+      "height": "%Length; #IMPLIED -- Vertical dimension --",
+      "referrerpolicy": "CDATA #IMPLIED  -- Referrer policy for fetches initiated by the element --",
+      "loading":        "CDATA #IMPLIED -- Used when determining loading deferral --"
+    },
+    "alias": "",
+    "summary": "インラインフレーム (inline subwindow)",
+    "point": "そのコンテンツナビゲート可能要素を表します。",
+    "description": "src属性は、要素のコンテンツナビゲート可能要素に含まれるページの URL を指定します。属性が存在する場合、その属性は、スペースで囲まれている可能性のある、有効な空でない URL である必要があります。iframe要素で itemprop属性が指定されている場合は、src属性も指定する必要があります。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Embedded", "Interactive", "Palpable"],
+    "canUsedContexts": "%Embedded IFRAME -(%Interactive)",
+    "contentModel": "IFRAME EMPTY",
+    "tagOmission": ["-", "-"],
+    "rendering": "Embedded",
+    "domInterface": "HTMLIFrameElement",
+    "contentAttributes": {
+      "src": "リソースのアドレス",
+      "srcdoc": "iframe にレンダリングするドキュメント",
+      "name": "ナビゲート可能なコンテンツの名前",
+      "sandbox": "ネストされたコンテンツのセキュリティルール",
+      "allow": "iframe のコンテンツに適用される権限ポリシー",
+      "allowfullscreen": "iframe のコンテンツに requestFullscreen() の使用を許可するかどうか",
+      "width": "水平寸法",
+      "height": "垂直寸法",
+      "referrerpolicy": "要素によって開始されたフェッチのリファラーポリシー",
+      "loading": "積載延期を決定する際に使用"
+    },
+    "obsoleteAttributes": ["longdesc", "datasrc", "datafld", "align", "allowtransparency", "frameborder", "framespacing", "hspace", "marginheight", "marginwidth", "scrolling", "vspace"],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.5 The iframe element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element",
+        "heading": "HTML Living Standard. 4.8.5 The iframe element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.4.1 Embedded content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#embedded-content-rendering-rules",
+        "heading": "HTML Living Standard. 15 Rendering 15.4.1 Embedded content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.7.6 The iframe element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-embedded-content.html#the-iframe-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.7.6 The iframe element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.4.1. Embedded content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.4.1. Embedded content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.7.6. The iframe element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-embedded-content.html#the-iframe-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.7.6. The iframe element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.7.6. The iframe element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-iframe-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.7.6. The iframe element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.7.2 The iframe element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-iframe-element",
+        "heading": "HTML 5 W3C 勧告. 4.7.2 The iframe element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.4.1 Embedded content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#embedded-content-1",
+        "heading": "HTML 5 W3C 勧告. 10.4.1 Embedded content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 16.5 Inline frames: the IFRAME element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/present/frames.html#h-16.5",
+        "heading": "HTML 4.01 Specification W3C 勧告. 16.5 Inline frames: the IFRAME element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;iframe&gt;: The Inline Frame element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/iframe",
+        "heading": "MDN Web Docs. HTML &lt;iframe&gt;: インラインフレーム要素"
+      }
+    ],
+    "version": {"first": "HTML4.01 Transitional", "latest": "HTML Living Standard"}
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "label": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- - (%Phrasing)* -- form field label text. (Normal elements.) [Flow|Phrasing|Interactive|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "for": "IDREF #IMPLIED -- Associate the label with form control --"
+    },
+    "alias": "",
+    "summary": "フォームフィールドのラベルテキスト",
+    "summaryEn": "form field label text.",
+    "point": ["ユーザーインターフェイスの", "キャプションを", "表します。"],
+    "description": "ユーザーインターフェイスのキャプションを表します。キャプションは、for属性を使用するか、label要素自体の中にフォームコントロールを配置することによって、label要素のラベル付きコントロールとして知られる特定のフォームコントロールに関連付けることができます。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Interactive", "Palpable"],
+    "canUsedContexts": "%Phrasing LABEL -(%Interactive)",
+    "contentSummary": "LABEL %Phrasing",
+    "contentModel": ["LABEL %Phrasing", "+(%Html4) LABEL (%Inline)* -(LABEL)"],
+    "contentmodelsupplement": [
+      "要素のラベル付きコントロールである場合を除き、子孫にラベル付け可能な要素はなく、子孫ラベル要素もありません。",
+      "ラベル付けされたコントロールは、for属性を使用するか、ラベル要素自体の中にフォームコントロールを配置することによって作成されます。"
+    ],
+    "tagOmission": ["-", "-"],
+    "rendering": "None",
+    "domInterface": "HTMLLabelElement",
+    "contentAttributes": {
+      "for": "ラベルをフォームコントロールに関連付ける"
+    },
+    "obsoleteAttributes": {
+      "datasrc": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "datafld": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "dataformatas": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.4 The label element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/forms.html#the-label-element",
+        "heading": "HTML Living Standard. 4.10.4 The label element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.4 The label element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-label-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.4 The label element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.4. The label element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-label-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.4. The label element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.4. The label element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-label-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.4. The label element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.4 The label element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-label-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.4 The label element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 17.9.1 The LABEL element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/forms.html#h-17.9.1",
+        "heading": "HTML 4.01 Specification W3C 勧告. 17.9.1 The LABEL element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;label&gt;: The Label element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/label",
+        "heading": "&lt;label&gt;: ラベル要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML4", "latest": "HTML Living Standard"}
+  }
+}

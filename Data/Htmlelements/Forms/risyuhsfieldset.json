@@ -1,0 +1,109 @@
+{
+  "fieldset": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- - (LEGEND,(%Flow)*) -- form control group. (Normal elements.) [Flow|Sectioningroots|Listed|Autocapitalize|Form|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "disabled": "(disabled) #IMPLIED -- Whether the descendant form controls, except any inside legend, are disabled --",
+      "form":     "IDREF      #IMPLIED -- Associates the element with a form element --",
+      "name":     "CDATA      #IMPLIED -- Name of the element to use in the form.elements API. --"
+    },
+    "alias": "",
+    "summary": "フォームコントロールグループ",
+    "summaryEn": "form control group.",
+    "point": ["グループ化された", "フォームコントロール", "(またはその他のコンテンツ)", "のセットを", "表します。"],
+    "description": "グループ化されたフォームコントロール (またはその他のコンテンツ) のセットを表し、オプションでキャプションも付けられます。キャプションは、fieldset要素の子である最初の legend要素 (存在する場合) によって与えられます。残りの子孫がグループを形成します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Sectioningroots", "Listed", "Autocapitalize", "Formassociated", "Palpable"],
+    "canUsedContexts": "%Flow FIELDSET",
+    "contentModel": "FIELDSET (LEGEND,%Flow*)",
+    "contentmodelsupplement": "オプションで、legend要素とそれに続くフロー コンテンツ。",
+    "tagOmission": ["-", "-"],
+    "rendering": "Flow",
+    "domInterface": "HTMLFieldSetElement",
+    "contentAttributes": {
+      "disabled": "内部の凡例を除く子孫フォームコントロールが無効になっているかどうか",
+      "form": "要素をフォーム要素に関連付けます",
+      "name": "form.elements API で使用する要素の名前"
+    },
+    "obsoleteAttributes": {
+      "datafld": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.15 The fieldset element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-fieldset-element",
+        "heading": "HTML Living Standard. 4.10.15 The fieldset element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.12 The fieldset and legend elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-fieldset-and-legend-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.12 The fieldset and legend elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.15 The fieldset element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-fieldset-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.15 The fieldset element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.13. The fieldset and legend elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#the-fieldset-and-legend-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.13. The fieldset and legend elements.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.15. The fieldset element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-fieldset-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.15. The fieldset element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.13. The fieldset and legend elements. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#the-fieldset-and-legend-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.13. The fieldset and legend elements.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.16. The fieldset element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-fieldset-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.16. The fieldset element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.13. The fieldset and legend elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#the-fieldset-and-legend-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.13. The fieldset and legend elements.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.16 The fieldset element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-fieldset-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.16 The fieldset element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.13 The fieldset and legend elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#the-fieldset-and-legend-elements",
+        "heading": "HTML 5 W3C 勧告. 10.3.13 The fieldset and legend elements.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 17.10 Adding structure to forms: the FIELDSET and LEGEND elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/forms.html#h-17.10",
+        "heading": "HTML 4.01 Specification W3C 勧告. 17.10 Adding structure to forms: the FIELDSET and LEGEND elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;fieldset&gt;: The Field Set element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/fieldset",
+        "heading": "&lt;fieldset&gt;: フィールドセット要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML4", "latest": "HTML Living Standard"}
+  }
+}

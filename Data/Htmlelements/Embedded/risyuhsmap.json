@@ -1,0 +1,107 @@
+{
+  "map": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Embedded",
+    "element": "- - (%Transparent) -- client-side image map. (Normal elements.) [Flow|Phrasing|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "name": "CDATA #IMPLIED -- Name of image map to reference from the usemap attribute"
+    },
+    "alias": "",
+    "summary": "イメージマップ (client-side image map)",
+    "point": "イメージマップを定義します。",
+    "description": "img要素および任意の area要素の子孫と連動して、イメージマップを定義します。要素はその子を表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Palpable"],
+    "canUsedContexts": "%Phrasing MAP",
+    "contentModel": "MAP %Transparent",
+    "tagOmission": ["-", "-"],
+    "rendering": "Imagemaps",
+    "domInterface": "HTMLMapElement",
+    "contentAttributes": {
+      "name": "usemap属性から参照するイメージマップの名前"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.12 The map element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/image-maps.html#the-map-element",
+        "heading": "HTML Living Standard. 4.8.12 The map element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.4.4 Image maps. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#image-maps-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.4.4 Image maps",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.7.14 The map element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-embedded-content.html#the-map-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.7.14 The map element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.4.2. Images. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#replaced-elements-images",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.4.2. Images",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.7.14. The map element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-embedded-content.html#the-map-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.7.14. The map element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.4.4. Image maps. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#replaced-elements-image-maps",
+        "heading": "HTML 5.2 W3C 勧告. 10.4.4. Image maps",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.7.15. The map element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-map-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.7.15. The map element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.4.4. Image maps. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#replaced-elements-image-maps",
+        "heading": "HTML 5.1 W3C 勧告. 10.4.4. Image maps",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.7.11 The map element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-map-element",
+        "heading": "HTML 5 W3C 勧告. 4.7.11 The map element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.4.4. Image maps. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#image-maps-1",
+        "heading": "HTML 5 W3C 勧告. 10.4.4. Image maps",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 13.6.1 Client-side image maps: the MAP and AREA elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/objects.html#edef-MAP",
+        "heading": "HTML 4.01 Specification W3C 勧告. 13.6.1 Client-side image maps: the MAP and AREA elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#map",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;map&gt;: The Image Map element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/map",
+        "heading": "MDN Web Docs. HTML &lt;map&gt;: イメージマップ要素"
+      }
+    ],
+    "version": {"first": "HTML3.2", "latest": "HTML Living Standard"}
+  }
+}

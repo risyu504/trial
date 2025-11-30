@@ -1,0 +1,62 @@
+{
+  "data": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "phrasing",
+    "element": "- - (%Phrasing)* -- a machine-readable. (Normal elements.) [Flow|Phrasing|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "value": "CDATA #IMPLIED -- Machine-readable value --"
+    },
+    "alias": "",
+    "summary": "機械可読 (a machine-readable)",
+    "point": "その内容と、その内容の機械可読形式を value属性で表します。",
+    "description": [
+      "その内容と、その内容の機械可読形式を value属性で表します。",
+      "value属性は必ず存在する必要があります。その値は、要素の内容を機械可読形式で表したものでなければなりません。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Palpable"],
+    "canUsedContexts": "%Phrasing DATA",
+    "contentModel": "DATA %Phrasing",
+    "tagOmission": ["-", "-"],
+    "rendering": "None",
+    "domInterface": "HTMLDataElement",
+    "contentAttributes": {
+      "value": "機械可読値"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.13 The data element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-data-element",
+        "heading": "HTML Living Standard. 4.5.13 The data element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.15 The data element. W3C Recommendation, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-data-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.15 The data element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.15 The data element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-data-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.15 The data element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.10 The data element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-data-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.10 The data element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;data&gt;: The Data element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/data",
+        "heading": "MDN Web Docs. HTML &lt;data&gt;: データ要素"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

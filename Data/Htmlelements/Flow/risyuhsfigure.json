@@ -1,0 +1,103 @@
+{
+  "figure": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Flow",
+    "element": "- - ((FIGCAPTION)?&(%Flow)*) -- figure with caption. (Normal elements.) [Flow|Sectioningroots|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "キャプション付き図",
+    "summaryEn": "figure with caption.",
+    "point": ["キャプションを", "オプションで持つ", "フローコンテンツを", "表します。"],
+    "description": [
+      "キャプションをオプションで持つ、フローコンテンツを表します。このフローコンテンツは自己完結型 (完全な文のように) であり、通常はドキュメントのメインフローから単一の単位として参照されます。",
+      "この要素は、イラスト, 図, 写真, コードリストなどに注釈を付ける為に使用できます。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Sectioningroots", "Palpable"],
+    "canUsedContexts": "%Flow FIGURE",
+    "contentModel": [
+      "FIGURE (FIGCAPTION,(%Flow)*)",
+      "FIGURE ((%Flow)*,FIGCAPTION)",
+      "FIGURE %Flow"
+    ],
+    "contentmodelsupplement": [
+      "いずれか: 1 つの figcaption要素の後にフローコンテンツが続きます。",
+      "または: フローコンテンツの後に 1 つの figcaption要素が続きます。",
+      "または: フローコンテンツ。"
+    ],
+    "tagOmission": ["-", "-"],
+    "rendering": ["Flow", "Bidirectional"],
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.4.12 The figure element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element",
+        "heading": "HTML Living Standard. 4.4.12 The figure element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.4.12 The figure element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/grouping-content.html#the-figure-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.4.12 The figure element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.3. Flow content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.3. Flow content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.4.12 The figure element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/grouping-content.html#the-figure-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.4.12 The figure element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.3. Flow content.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.4.11 The figure element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/grouping-content.html#the-figure-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.4.11 The figure element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.3. Flow content.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.4.11 The figure element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-figure-element",
+        "heading": "HTML 5 W3C 勧告. 4.4.11 The figure element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#flow-content-0",
+        "heading": "HTML 5 W3C 勧告. 10.3.3. Flow content.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;figure&gt;: The Figure with Optional Caption element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/figure",
+        "heading": "&lt;figure&gt;: キャプションが付けられる図要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

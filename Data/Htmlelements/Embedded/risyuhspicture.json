@@ -1,0 +1,54 @@
+{
+  "picture": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Embedded",
+    "element": "- - (source+,img) +(%Script) -- a container which provides multiple sources. (Normal elements.) [Flow|Phrasing|Embedded|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "複数のソースを提供するコンテナ (a container which provides multiple sources)",
+    "point": "含まれる img要素に複数のソースを提供するコンテナです。",
+    "description": "含まれる img要素に複数のソースを提供するコンテナです。これにより、作成者は、画面のピクセル密度、ビューポートのサイズ、画像形式、その他の要素に基づいて、どの画像リソースを使用するかについて、ユーザー エージェントに宣言的に制御したりヒントを提供したりできます。picture要素は、その子を表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Embedded", "Palpable"],
+    "canUsedContexts": "%Embedded PICTURE",
+    "contentModel": "PICTURE (SOURCE*,IMG) +(%Scriptsupporting)",
+    "tagOmission": ["-", "-"],
+    "rendering": "None",
+    "domInterface": "HTMLPictureElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.1 The picture element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element",
+        "heading": "HTML Living Standard. 4.8.1 The picture element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.7.3 The picture element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-embedded-content.html#the-picture-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.7.3 The picture element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.7.3. The picture element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-embedded-content.html#the-picture-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.7.3. The picture element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.7.3. The picture element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-picture-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.7.3. The picture element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;picture&gt;: The Picture element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/picture",
+        "heading": "MDN Web Docs. HTML &lt;picture&gt;: 画像要素"
+      }
+    ],
+    "version": {"first": "HTML5.1", "latest": "HTML Living Standard"}
+  }
+}

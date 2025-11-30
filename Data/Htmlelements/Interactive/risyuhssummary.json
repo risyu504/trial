@@ -1,0 +1,78 @@
+{
+  "summary": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Interactive",
+    "element": "- - (%Phrasing) +(%Heading) -- summary, caption, or legend. (Normal elements.) [None] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "概要, キャプション, 凡例 (summary, caption, or legend.)",
+    "point": "概要、キャプション、凡例を表します",
+    "description": "summary要素の親details要素の残りのコンテンツ(存在する場合)の概要, キャプション, または凡例を表します。",
+    "elementKind": "Normal",
+    "categories": "None",
+    "canUsedContexts": "DETAILS (SUMMARY, %Flow*)",
+    "contentModel": "SUMMARY %Phrasing +(%Heading)",
+    "tagOmission": ["-", "-"],
+    "rendering": "details",
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.11.2 The summary element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-summary-element",
+        "heading": "HTML Living Standard. 4.11.2 The summary element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.5 The details and summary elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-details-and-summary-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.5 The details and summary elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.11.2 The summary element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/interactive-elements.html#the-summary-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.11.2 The summary element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.5.3. The details and summary elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#the-details-element-rendering",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.5.3. The details and summary elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.11.2 The summary element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/interactive-elements.html#the-summary-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.11.2 The summary element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.5.3. The details and summary elements. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#the-details-element-rendering",
+        "heading": "HTML 5.2 W3C 勧告. 10.5.3. The details and summary elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.11.2 The summary element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/interactive-elements.html#the-summary-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.11.2 The summary element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.5.3. The details element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#the-details-element-rendering",
+        "heading": "HTML 5.1 W3C 勧告. 10.5.3. The details element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;summary&gt;: The Disclosure Summary element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/summary",
+        "heading": "MDN Web Docs. HTML &lt;summary&gt;: 概要明示要素"
+      }
+    ],
+    "version": {"first": "HTML5.1", "latest": "HTML Living Standard"}
+  }
+}

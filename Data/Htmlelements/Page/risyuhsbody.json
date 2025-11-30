@@ -1,0 +1,157 @@
+{
+  "body": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Page",
+    "element": "O O (%Flow)* -- document body. (Normal elements.) [Sectioningroots] --",
+    "attlist": {
+      "%Global;": "",
+      "%Eventhandler;": ""
+    },
+    "alias": "",
+    "summary": "HTML文書のコンテンツ",
+    "summaryEn": "document Body.",
+    "point": ["HTML文書の", "内容(コンテンツ)を", "表します。"],
+    "description": "body要素は、適合ドキュメントでは、1つだけです。body要素は、イベントハンドラのコンテンツ属性として、Windowオブジェクトの多数のイベントハンドラを公開します。また、イベントハンドラーのIDL属性もミラーリングします。",
+    "elementKind": "Normal",
+    "categories": "Sectioningroots",
+    "usedSummary": "HTML (HEAD, BODY)",
+    "canUsedContexts": ["-(%Frameset) HTML (HEAD, BODY)", "+(%Frameset) NOFRAMES (BODY)"],
+    "contentSummary": "BODY %Flow",
+    "contentModel": ["BODY %Flow", "+(%Html4) BODY (%Block|SCRIPT)+ +(INS|DEL)"],
+    "tagOmission": ["O", "O"],
+    "tagsupplement": [
+      "開始タグは、要素が空の場合は省略してもよいし、body要素内の先頭が meta要素, link要素, style要素, script要素, template要素でない場合なら省略できます。",
+      "終了タグは、body要素の直後にコメントがない場合は、省略できます。"
+    ],
+    "rendering": "Page",
+    "domInterface": "HTMLBodyElement",
+    "contentAttributes": {
+      "onafterprint": "印刷後に発生",
+      "onbeforeprint": "印刷前に発生",
+      "onbeforeunload": "ページがアンロードされようとしている時に発生",
+      "onhashchange": "ドキュメントのURLのフラグメント部分が変更された時に発生",
+      "onlanguagechange": "ユーザーの優先言語が変更された時に発生",
+      "onmessage": "サーバーからメッセージを受信した時に発生",
+      "onmessageerror": "デシリアライズできないメッセージを受信した時に発生",
+      "onoffline": "ネットワーク接続に障害が発生した時に発生",
+      "ononline": "ネットワーク接続が戻った時に発生",
+      "onpagehide": "セッション履歴内のページのエントリが現在のエントリでなくなった時に発生",
+      "onpageshow": "セッション履歴内のページのエントリが現在のエントリになった時に発生",
+      "onpopstate": "ユーザーがセッション履歴をナビゲートした時に発生",
+      "onrejectionhandled": "promise拒否がreject関数で処理される時に発生",
+      "onstorage": "対応するlocalStorageまたはsessionStorageストレージ領域が変更された時に発生",
+      "onunhandledrejection": "promise拒否がreject関数で処理されなかった時に発生",
+      "onunload": "ウィンドウがコンテンツとリソースをアンロードする時に発生"
+    },
+    "attributessupplement": [
+      "alink属性, background属性, bgcolor属性, bottommargin属性, leftmargin属性, link属性, marginheight属性, marginwidth属性, rightmargin属性, text属性, topmargin属性, vlink属性がありましたが、廃止されました。代わりに CSS を使用してください。"
+    ],
+    "obsoleteAttributes": {
+      "alink": "代わりに CSS を使用してください。",
+      "bgcolor": "代わりに CSS を使用してください。",
+      "bottommargin": "代わりに CSS を使用してください。",
+      "leftmargin": "代わりに CSS を使用してください。",
+      "link": "代わりに CSS を使用してください。",
+      "marginheight": "代わりに CSS を使用してください。",
+      "marginwidth": "代わりに CSS を使用してください。",
+      "rightmargin": "代わりに CSS を使用してください。",
+      "text": "代わりに CSS を使用してください。",
+      "topmargin": "代わりに CSS を使用してください。",
+      "vlink": "代わりに CSS を使用してください。",
+      "background": "代わりに CSS を使用してください。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.3.1 The body element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/sections.html#the-body-element",
+        "heading": "HTML Living Standard. 4.3.1 The body element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.2 The page. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-page",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.2 The page",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.3.1 The body element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sections.html#the-body-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.3.1 The body element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10. Rendering 10.3.2. The page. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#the-page",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.2. The page",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.3.1 The body element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sections.html#the-body-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.3.1 The body element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10. Rendering 10.3.2. The page. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#the-page",
+        "heading": "HTML 5.2 W3C 勧告. 10. Rendering 10.3.2. The page",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.3.1 The body element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sections.html#the-body-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.3.1 The body element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10. Rendering 10.3.2. The page. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#the-page",
+        "heading": "HTML 5.1 W3C 勧告. 10. Rendering 10.3.2. The page",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.3.1 The body element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/sections.html#the-body-element",
+        "heading": "HTML 5 W3C 勧告. 4.3.1 The body element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10. Rendering 10.3.2. The page. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#the-page",
+        "heading": "HTML 5 W3C 勧告. 10. Rendering 10.3.2. The page",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 7.5.1 The BODY element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/global.html#h-7.5.1",
+        "heading": "HTML 4.01 Specification W3C 勧告. 7.5.1 The BODY element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. The BODY element. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#body",
+        "heading": "HTML 3.2 Reference Specification. The BODY element",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;body&gt;: The Document Body element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/body",
+        "heading": "MDN Web Docs. HTML &lt;body&gt;: 文書本体要素"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}

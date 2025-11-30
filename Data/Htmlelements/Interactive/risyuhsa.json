@@ -1,0 +1,139 @@
+{
+  "a": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Interactive",
+    "element": "- - (%Transparent) -(%Interactive) -- anchor. (Normal elements.) [Flow|Phrasing|Interactive|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "href":     "%URI; #IMPLIED  -- URI for linked resource --",
+      "target":   "CDATA #IMPLIED  -- Navigable for hyperlink navigation --",
+      "download": "CDATA #IMPLIED  -- Whether to download the resource instead of navigating to it, and its filename if so --",
+      "ping":     "%URI; #IMPLIED  -- URLs to ping --",
+      "rel":      "%LinkTypes;    #IMPLIED  -- forward link types --",
+      "hreflang": "%LanguageCode; #IMPLIED  -- language code --",
+      "type":     "%ContentType;  #IMPLIED  -- advisory content type --",
+      "referrerpolicy": "CDATA    #IMPLIED  -- Referrer policy for fetches initiated by the element --"
+    },
+    "alias": "",
+    "summary": "アンカー (anchor)",
+    "point": "アンカー(anchor) を表します。",
+    "description": [
+      "アンカー(anchor) を表します。",
+      "a要素にhref属性がある場合、その内容でラベル付けされたハイパーリンク(ハイパーテキストアンカー)を表します。",
+      "a要素にhref属性がない場合、要素は、要素のコンテンツのみで構成される、関連性があった場合にリンクが配置された可能性のある場所のプレースホルダーを表します。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Interactivelimited", "Palpable"],
+    "categoriessupplement": "href属性がある場合は、インタラクティブコンテンツ。",
+    "canUsedContexts": ["%Phrasing A", "%Phrasing A[href] -(%Interactive)"],
+    "contentModel": "A %Transparent -(%Interactive)",
+    "contentmodelsupplement": "透明ですが、インタラクティブコンテンツの子孫、要素の子孫、または tabindex属性が指定された子孫は存在してはなりません。",
+    "tagOmission": ["-", "-"],
+    "rendering": "Phrasing",
+    "domInterface": "HTMLAnchorElement",
+    "contentAttributes": {
+      "href": "ハイパーリンクのアドレス",
+      "target": "ハイパーリンクナビゲーションに対応",
+      "download": "リソースに移動するのではなくダウンロードするかどうか、またダウンロードする場合はそのファイル名",
+      "ping": "pingするURL",
+      "rel": "ハイパーリンクを含む文書内の場所とリンク先のリソースの関係",
+      "hreflang": "リンクされたリソースの言語",
+      "type": "参照されるリソースの種類のヒント",
+      "referrerpolicy": "要素によって開始されたフェッチのリファラーポリシー"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.1 The a element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+        "heading": "HTML Living Standard. 4.5.1 The a element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#phrasing-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.4 Phrasing content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.5.1 The a element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/textlevel-semantics.html#the-a-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.5.1 The a element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.4. Phrasing content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.4. Phrasing content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.1 The a element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-a-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.1 The a element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.1 The a element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-a-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.1 The a element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#non-replaced-elements-phrasing-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.1 The a element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-a-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.1 The a element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.4. Phrasing content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#phrasing-content-0",
+        "heading": "HTML 5 W3C 勧告. 10.3.4. Phrasing content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 12.2 The A element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/links.html#h-12.2",
+        "heading": "HTML 4.01 Specification W3C 勧告. 12.2 The A element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. The A (anchor) element. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#anchor",
+        "heading": "HTML 3.2 Reference Specification. The A (anchor) element",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;a&gt;: The Anchor element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/a",
+        "heading": "MDN Web Docs. HTML &lt;a&gt;: アンカー要素"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}

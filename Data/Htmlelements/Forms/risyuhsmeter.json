@@ -1,0 +1,106 @@
+{
+  "meter": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- - (%Phrasing)* -(METER) -- meter. (Normal elements.) [Flow|Phrasing|Labelable|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "value":   "NUMBER #IMPLIED -- Current value of the element --",
+      "min":     "NUMBER 0        -- Lower bound of range --",
+      "max":     "NUMBER 1.0      -- Upper bound of range --",
+      "low":     "NUMBER #IMPLIED -- High limit of low range --",
+      "high":    "NUMBER #IMPLIED -- Low limit of high range --",
+      "optimum": "NUMBER #IMPLIED -- Optimum value in gauge --"
+    },
+    "alias": "",
+    "summary": "メーター",
+    "summaryEn": "meter",
+    "point": ["既知の範囲内の", "スカラー測定値、", "または分数値を", "表します。"],
+    "description": "既知の範囲内のスカラー測定値、または分数値を表します。たとえば、ディスク使用量、クエリ結果の関連性、特定の候補者を選択した投票人口の割合などです。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Labelable", "Palpable"],
+    "canUsedContexts": "%Phrasing METER -(METER)",
+    "contentModel": "METER %Phrasing -(METER)",
+    "tagOmission": ["-", "-"],
+    "rendering": "Form",
+    "domInterface": "HTMLMeterElement",
+    "contentAttributes": {
+      "value": "要素の現在値",
+      "min": "範囲の下限",
+      "max": "範囲の上限",
+      "low": "低域の上限",
+      "high": "高域の下限",
+      "optimum": "ゲージの最適値"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.14 The meter element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element",
+        "heading": "HTML Living Standard. 4.10.14 The meter element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.14 The meter element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-meter-element-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.14 The meter element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.14 The meter element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-meter-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.14 The meter element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.5.12. The meter element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#the-meter-element-rendering",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.5.12. The meter element.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.14 The meter element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-meter-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.14 The meter element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.5.12. The meter element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#the-meter-element-rendering",
+        "heading": "HTML 5.2 W3C 勧告. 10.5.12. The meter element.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.15. The meter element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-meter-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.15. The meter element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.5.12. The meter element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#the-meter-element-rendering",
+        "heading": "HTML 5.1 W3C 勧告. 10.5.12. The meter element.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.15 The meter element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-meter-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.15 The meter element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.5.11 The meter element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#the-meter-element-0",
+        "heading": "HTML 5 W3C 勧告. 10.5.11 The meter element.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;meter&gt;: The HTML Meter element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/meter",
+        "heading": "&lt;meter&gt;: HTML メーター要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

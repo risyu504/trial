@@ -1,0 +1,207 @@
+{
+  "input": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- X EMPTY -- Typed data fields. (Void elements.) [Flow|Phrasing||Interactivelimited|Listed|Labelablelimited|Submittable|Resettable|Autocapitalize|Form|Palpablelimited] --",
+    "attlist": {
+      "%Global;": "",
+      "accept":         "%ContentTypes;    #IMPLIED -- Hint for expected file type in file upload controls --",
+      "alpha":          "(alpha)           #IMPLIED -- Allow the color's alpha component to be set --",
+      "alt":            "CDATA             #IMPLIED -- Replacement text for use when images are not available --",
+      "autocomplete":   "(on|off)          on       -- Hint for form autofill feature --",
+      "checked":        "(checked)         #IMPLIED -- Whether the control is checked --",
+      "colorspace":     "CDATA             #IMPLIED -- The color space of the serialized color --",
+      "dirname":        "CDATA             #IMPLIED -- Name of form control to use for sending the element's directionality in form submission --",
+      "disabled":       "(disabled)        #IMPLIED -- Whether the form control is disabled --",
+      "form":           "IDREF             #IMPLIED -- Associates the element with a form element --",
+      "formaction":     "%URI;             #IMPLIED -- URL to use for form submission --",
+      "formenctype":    "%ContentType;     #IMPLIED -- Entry list encoding type to use for form submission --",
+      "formmethod":     "(get|post|dialog) #IMPLIED -- Variant to use for form submission --",
+      "formnovalidate": "(formnovalidate)  #IMPLIED -- Bypass form control validation for form submission --",
+      "formtarget":     "%FrameTarget;     #IMPLIED -- Navigable for form submission --",
+      "height":         "NUMBER            #IMPLIED -- Vertical dimension --",
+      "list":           "IDREF             #IMPLIED -- List of autocomplete options --",
+      "max":            "CDATA             #IMPLIED -- Maximum value --",
+      "maxlength":      "NUMBER            #IMPLIED -- Maximum length of value --",
+      "min":            "CDATA             #IMPLIED -- Minimum value --",
+      "minlength":      "NUMBER            #IMPLIED -- Minimum length of value --",
+      "multiple":       "(multiple)        #IMPLIED -- Whether to allow multiple values --",
+      "name":           "CDATA             #IMPLIED -- Name of the element to use for form submission and in the form.elements API --",
+      "pattern":        "CDATA             #IMPLIED -- Pattern to be matched by the form control's value --",
+      "placeholder":    "CDATA             #IMPLIED -- User-visible label to be placed within the form control --",
+      "popovertarget":  "IDREF             #IMPLIED -- Targets a popover element to toggle, show, or hide --",
+      "popovertargetaction": "(toggle|show|hide) #IMPLIED -- Indicates whether a targeted popover element is to be toggled, shown, or hidden --",
+      "readonly":       "(readonly)        #IMPLIED -- Whether to allow the value to be edited by the user --",
+      "required":       "(required)        #IMPLIED -- Whether the control is required for form submission --",
+      "size":           "CDATA             #IMPLIED -- Size of the control --",
+      "src":            "%URI;             #IMPLIED -- Address of the resource --",
+      "step":           "(NUMBER|any)      #IMPLIED -- Granularity to be matched by the form control's value --",
+      "type":           "%InputType;       text     -- Type of form control --",
+      "value":          "CDATA             #IMPLIED -- Value of the form control --",
+      "width":          "NUMBER            #IMPLIED -- Horizontal dimension --"
+    },
+    "alias": "",
+    "summary": "型付きデータフィールド",
+    "summaryEn": "Typed data fields.",
+    "point": ["型指定された", "データフィールドを", "表します。"],
+    "description": "型指定されたデータフィールドを表し、通常はユーザーがデータを編集できるようにするフォームコントロールを備えています。",
+    "elementKind": "Void",
+    "categories": ["Flow", "Phrasing", "Interactivelimited", "Listed", "Labelablelimited", "Submittable", "Resettable", "Autocapitalize", "Formassociated", "Palpablelimited"],
+    "categoriessupplement": [
+      "type属性が Hidden状態でない場合は、インタラクティブコンテンツ, リストされた要素, ラベル付け可能な要素, 送信可能な要素, リセット可能な要素, 自動大文字化継承要素, フォーム関連要素, パルパブルコンテンツ。",
+      "type属性が Hidden状態の場合は、 リストされた要素, 送信可能な要素, リセット可能な要素, 自動大文字化継承要素, フォーム関連要素。"
+    ],
+    "canUsedContexts": "%Phrasing INPUT -(%Interactive)",
+    "contentModel": "INPUT EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": ["Form", "Bidirectional", "Replaced", "Hidden"],
+    "domInterface": "HTMLInputElement",
+    "contentAttributes": {
+      "accept": "ファイルアップロードコントロールで予期されるファイルタイプのヒント",
+      "alpha": "色のアルファ成分を設定できるようにする",
+      "alt": "画像が利用できない場合に使用する置換テキスト",
+      "autocomplete": "フォーム自動入力機能のヒント",
+      "checked": "コントロールがチェックされているかどうか",
+      "colorspace": "シリアル化された色の色空間",
+      "dirname": "フォーム送信時に要素の方向性を送信するために使用するフォームコントロールの名前",
+      "disabled": "フォームコントロールが無効かどうか",
+      "form": "要素をフォーム要素に関連付けます",
+      "formaction": "フォーム送信に使用するURL",
+      "formenctype": "フォーム送信に使用するエントリリストのエンコードタイプ",
+      "formmethod": "フォーム送信に使用するHTTPメソッド",
+      "formnovalidate": "フォーム送信時のフォームコントロールの検証をバイパスする",
+      "formtarget": "フォーム送信にナビゲート可能",
+      "height": "縦寸法",
+      "list": "オートコンプリートオプションのリスト",
+      "max": "最大値",
+      "maxlength": "値の最大長",
+      "min": "最小値",
+      "minlength": "値の最小長",
+      "multiple": "複数の値を許可するかどうか",
+      "name": "フォーム送信および form.elements API で使用する要素の名前",
+      "pattern": "フォームコントロールの値と一致するパターン",
+      "placeholder": "フォームコントロール内に配置されるユーザーに見えるラベル",
+      "popovertarget": "ポップオーバー要素を切り替え、表示、または非表示にする対象とします。",
+      "popovertargetaction": "ターゲットのポップオーバー要素を切り替えるか、表示するか、非表示にするかを示します。",
+      "readonly": "ユーザーによる値の編集を許可するかどうか",
+      "required": "フォーム送信にコントロールが必要かどうか",
+      "size": "コントロールのサイズ",
+      "src": "リソースのアドレス",
+      "step": "フォームコントロールの値と一致する粒度",
+      "type": "フォームコントロールの種類",
+      "value": "フォームコントロールの値",
+      "width": "水平寸法",
+      "title": "この要素に特別なセマンティクスで、パターンの説明 (パターン属性とともに使用される場合)"
+    },
+    "obsoleteAttributes": {
+      "ismap": "不要です。完全に省略してください。Image Button 状態にある type属性を持つすべての input要素は、サーバー側イメージマップとして処理されます。",
+      "usemap": "イメージマップには img要素を使用します。",
+      "datasrc": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "datafld": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "dataformatas": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "align": "代わりに CSS を使用してください",
+      "border": "代わりに CSS を使用してください",
+      "hspace": "代わりに CSS を使用してください",
+      "vspace": "代わりに CSS を使用してください"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10 Forms 4.10.5 The input element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/input.html#the-input-element",
+        "heading": "HTML Living Standard. 4.10 Forms 4.10.5 The input element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.10 Form controls. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#form-controls",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.10 Form controls",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.6 The input element as a text entry widget. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-input-element-as-a-text-entry-widget",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.6 The input element as a text entry widget",
+        "sub":     " (15.5.12 まで input要素の記述が続きます。) 最終更新日 2025年9月25日"
+      },
+      {
+        "title":   "HTML Living Standard. 4.11 Interactive elements 4.11.3.4 Using the input element to define a command. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/interactive-elements.html#using-the-input-element-to-define-a-command",
+        "heading": "HTML Living Standard. 4.11 Interactive elements 4.11.3.4 Using the input element to define a command",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.5 The input element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-input-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.5 The input element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.11. Form controls. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#form-controls",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.11. Form controls.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.5 The input element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-input-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.5 The input element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#form-controls",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.5 The input element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-input-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.5 The input element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#form-controls",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.5 The input element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-label-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.5 The input element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#form-controls",
+        "heading": "HTML 5 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 17.4 The INPUT element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/forms.html#h-17.4",
+        "heading": "HTML 4.01 Specification W3C 勧告. 17.4 The INPUT elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#fields",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;input&gt;: The Input (Form Input) element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/input",
+        "heading": "&lt;input&gt;: 入力欄（フォーム入力）要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML2", "latest": "HTML Living Standard"}
+  }
+}

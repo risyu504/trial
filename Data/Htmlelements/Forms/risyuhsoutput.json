@@ -1,0 +1,70 @@
+{
+  "output": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- - (%Phrasing)* -- output. (Normal elements.) [Flow|Phrasing|Listed|Labelable|Resettable|Autocapitalize|Form|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "for":  "IDREFS #IMPLIED -- Specifies controls from which the output was calculated --",
+      "form": "IDREF  #IMPLIED -- Associates the element with a form element --",
+      "name": "CDATA  #IMPLIED -- Name of the element to use in the form.elements API. --"
+    },
+    "alias": "",
+    "summary": "出力",
+    "summaryEn": "output.",
+    "point": ["アプリケーションによって", "実行された計算の結果、", "またはユーザーの", "アクションの結果を", "表します。"],
+    "description": "アプリケーションによって実行された計算の結果、またはユーザーのアクションの結果を表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Listed", "Labelable", "Resettable", "Autocapitalize", "Formassociated", "Palpable"],
+    "canUsedContexts": "%Phrasing OUTPUT",
+    "contentModel": "OUTPUT %Phrasing",
+    "tagOmission": ["-", "-"],
+    "rendering": ["Form", "Bidirectional"],
+    "domInterface": "HTMLOutputElement",
+    "contentAttributes": {
+      "for": "出力の計算元となったコントロールを指定します",
+      "form": "要素をフォーム要素に関連付けます",
+      "name": "form.elements API で使用する要素の名前。"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.12 The output element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element",
+        "heading": "HTML Living Standard. 4.10.12 The output element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.12 The output element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-output-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.12 The output element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.12 The output element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-output-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.6 The output element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.13 The output element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-output-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.13 The output element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.13 The output element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-output-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.13 The output element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;output&gt;: The Output element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/output",
+        "heading": "&lt;output&gt;: 出力要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

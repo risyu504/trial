@@ -1,0 +1,102 @@
+{
+  "isindex": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Metadata",
+    "element": "- X EMPTY -- A single line text input field. (Void elements.) [Metadata|Flow] --",
+    "attlist": {
+      "%Global;": "",
+      "prompt": "CDATA #IMPLIED -- prompt message --"
+    },
+    "alias": "",
+    "summary": "一行プロンプト",
+    "summaryEn": "single line prompt.",
+    "point": ["単一行の", "テキスト入力コントロールを", "作成します。"],
+    "description": [
+      "isindex要素は、HTML5 で廃止された要素です。HTML4.01 では非推奨でした。以下の記述は HTML3.2 での記述を記したものです。一応の知識として参照して下さい。既存の isindex要素の使用意図が不明で input要素に置き換える事が出来ない場合のみ、その環境で試行錯誤で頑張ってみて下さい。出来る限り、input要素の採用をお勧めします。",
+      "ユーザーエージェントがクエリ文字列を入力する為の 1 行のテキスト入力フィールドを提供する必要がある事を示します。入力できる文字数に制限はありません。prompt属性は、入力フィールドのプロンプト文字列を指定する為に使用できます。",
+      "現在、isindex要素のセマンティクスは、それを囲むドキュメントのベース URL が HTTP URL である場合にのみ明確に定義されています。通常、ユーザーが Enter(リターン) キーを押すと、このドキュメントのベース URL によって識別されるサーバーにクエリ文字列が送信されます。",
+      "スペース文字は「+」文字にマップされ、通常の URL 文字エスケープメカニズムが適用されることに注意してください。詳細については、HTTP 仕様を参照してください。実際には、URL にはクエリの文字セットを指定するメカニズムが現在存在しない為、クエリ文字列は Latin-1 に制限される事に注意してください。"
+    ],
+    "elementKind": "Void",
+    "categories": ["Metadata", "Flow"],
+    "categoriessupplement": "配置できた箇所から想定。",
+    "usedSummary": "HEAD (ISINDEX)?",
+    "canUsedContexts": [
+      "+(%Html4) HEAD (ISINDEX)?",
+      "+(%Html4) %Block (ISINDEX)*"
+    ],
+    "contentSummary": "ISINDEX EMPTY",
+    "contentModel": "ISINDEX EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Hidden",
+    "domInterface": "HTMLUnknownElement",
+    "dominterfacesupplement": "HTMLIsIndexElementインターフェイスは削除されています。",
+    "contentAttributes": {
+      "prompt": "プロンプトメッセージ"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 11.2. Non-conforming features. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 11.2. Non-conforming features.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.1 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.2 Non-conforming features. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#non-conforming-features",
+        "heading": "HTML 5 W3C 勧告. 11.2 Non-conforming features",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 17.8 The ISINDEX element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/forms.html#h-17.8",
+        "heading": "HTML 4.01 Specification W3C 勧告. 17.8 The ISINDEX element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#isindex",
+        "heading": "HTML 3.2 Reference Specification  ISINDEX",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   " Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "&lt;isindex&gt; - HTML | MDN",
+        "href":    "https://www.devdoc.net/web/developer.mozilla.org/en-US/docs/Web/HTML/Element/isindex.html",
+        "heading": "&lt;isindex&gt; - HTML | MDN"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML4.01 Transitional"}
+  }
+}

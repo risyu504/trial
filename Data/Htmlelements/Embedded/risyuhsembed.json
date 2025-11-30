@@ -1,0 +1,101 @@
+{
+  "embed": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Embedded",
+    "element": "- X EMPTY -- embed external content. (Void elements.) [Flow|Phrasing|Embedded|Interactive|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "src":    "%URI; #IMPLIED -- Address of the resource --",
+      "type":   "%ContentType #IMPLIED -- Type of embedded resource --",
+      "width":  "%Length; #IMPLIED -- Horizontal dimension --",
+      "height": "%Length; #IMPLIED -- Vertical dimension --"
+    },
+    "alias": "",
+    "summary": "外部コンテンツを埋め込む (embed external content)",
+    "point": "外部アプリケーションまたはインタラクティブコンテンツの統合ポイントを提供します。",
+    "description": "src属性は、埋め込まれるリソースの URL を指定します。属性が存在する場合、有効な空でない URL を含める必要があります。この URL は、スペースで囲まれる可能性があります。",
+    "elementKind": "Void",
+    "categories": ["Flow", "Phrasing", "Embedded", "Interactive", "Palpable"],
+    "canUsedContexts": "%Embedded EMBED -(%Interactive)",
+    "contentModel": "EMBED EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Embedded",
+    "domInterface": "HTMLEmbedElement",
+    "contentAttributes": {
+      "src": "リソースのアドレス",
+      "type": "埋め込まれたリソースの種類",
+      "width": "水平寸法",
+      "height": "垂直寸法"
+    },
+    "obsoleteAttributes": ["name", "align", "hspace", "vspace"],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.6 The embed element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-embed-element",
+        "heading": "HTML Living Standard. 4.8.6 The embed element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.4.1 Embedded content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#embedded-content-rendering-rules",
+        "heading": "HTML Living Standard. 15 Rendering 15.4.1 Embedded content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.7.7 The embed element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-embedded-content.html#the-embed-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.7.7 The embed element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.4.1. Embedded content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.4.1. Embedded content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.7.7. The embed element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-embedded-content.html#the-embed-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.7.7. The embed element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.7.7. The embed element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-embed-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.7.7. The embed element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.7.3 The embed element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-embed-element",
+        "heading": "HTML 5 W3C 勧告. 4.7.3 The embed element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.4.1 Embedded content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#embedded-content-1",
+        "heading": "HTML 5 W3C 勧告. 10.4.1 Embedded content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;embed&gt;: The Embed External Content element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/embed",
+        "heading": "MDN Web Docs. HTML &lt;embed&gt;: 埋め込み外部コンテンツ要素"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

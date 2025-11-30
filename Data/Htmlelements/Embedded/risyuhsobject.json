@@ -1,0 +1,111 @@
+{
+  "object": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Embedded",
+    "element": "- - (%Transparent) -- generic embedded object. (Normal elements.) [Flow|Phrasing|Embedded|Listed|Formassociated|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "data":   "%URI; #IMPLIED -- Address of the resource --",
+      "type":   "%ContentType #IMPLIED -- Type of embedded resource --",
+      "name":   "CDATA #IMPLIED -- Name of content navigable --",
+      "form":   "IDREF #IMPLIED -- Associates the element with a form element --",
+      "width":  "%Length; #IMPLIED -- Horizontal dimension --",
+      "height": "%Length; #IMPLIED -- Vertical dimension --"
+    },
+    "alias": "",
+    "summary": "汎用埋め込みオブジェクト (generic embedded object)",
+    "point": "外部リソースを表します。",
+    "description": "外部リソースを表すことができ、リソースの種類に応じて、画像または子ナビゲート可能要素として扱われます。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Embedded", "Listed", "Formassociated", "Palpable"],
+    "canUsedContexts": "%Embedded OBJECT",
+    "contentModel": "OBJECT %Transparent",
+    "tagOmission": ["-", "-"],
+    "rendering": "Embedded",
+    "domInterface": "HTMLObjectElement",
+    "contentAttributes": {
+      "data": "リソースのアドレス",
+      "type": "埋め込まれたリソースの種類",
+      "name": "ナビゲート可能なコンテンツの名前",
+      "form": "要素をフォーム要素に関連付けます",
+      "width": "水平寸法",
+      "height": "垂直寸法"
+    },
+    "obsoleteAttributes": ["usemap", "archive", "classid", "code", "codebase", "codetype", "declare", "standby", "typemustmatch"],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.7 The object element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-object-element",
+        "heading": "HTML Living Standard. 4.8.7 The object element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.4.1 Embedded content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#embedded-content-rendering-rules",
+        "heading": "HTML Living Standard. 15 Rendering 15.4.1 Embedded content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.7.8 The object element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-embedded-content.html#the-object-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.7.8 The object element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.4.1. Embedded content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.4.1. Embedded content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.7.8. The object element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-embedded-content.html#the-object-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.7.8. The object element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.7.8. The object element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-object-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.7.8. The object element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.4.1. Embedded content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#replaced-elements-embedded-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.4.1. Embedded content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.7.4 The object element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-object-element",
+        "heading": "HTML 5 W3C 勧告. 4.7.4 The object element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.4.1 Embedded content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#embedded-content-1",
+        "heading": "HTML 5 W3C 勧告. 10.4.1 Embedded content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 13.3 Generic inclusion: the OBJECT element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/objects.html#edef-OBJECT",
+        "heading": "HTML 4.01 Specification W3C 勧告. 13.3 Generic inclusion: the OBJECT element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;object&gt;: The External Object element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/object",
+        "heading": "MDN Web Docs. HTML &lt;object&gt;: 外部オブジェクト要素"
+      }
+    ],
+    "version": {"first": "HTML4.01 Strict", "latest": "HTML Living Standard"}
+  }
+}

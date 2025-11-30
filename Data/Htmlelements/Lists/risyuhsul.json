@@ -1,0 +1,123 @@
+{
+  "ul": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Lists",
+    "element": "- - (LI)* +(%Scriptsupporting) -- unordered list. (Normal elements.) [Flow|Palpablelimited] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "順序付けなし一覧",
+    "summaryEn": "unordered list.",
+    "point": ["順序付けのない", "項目の一覧を", "表します。"],
+    "description": [
+      "項目(アイテム・item)の一覧(リスト・list)を表します。項目の順序は重要ではありません。つまり、順序を変更しても文書(ドキュメント・document)の意味は大きく変わりません。項目の順序に意味がある場合は、ol要素を用います。",
+      "リストの項目は、ul要素の li要素の子ノードで、ツリー順になっています。      "
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Palpablelimited"],
+    "categoriessupplement": "要素の子に少なくとも1つの li要素が含まれる場合は、パルパブルコンテンツ。",
+    "canUsedContexts": "%Flow UL",
+    "contentSummary": "UL (LI)* +(%Scriptsupporting)",
+    "contentModel": ["UL (LI)* +(%Scriptsupporting)", "+(%Html4) UL (LI)+"],
+    "tagOmission": ["-", "-"],
+    "rendering": ["Lists", "Bidirectional"],
+    "domInterface": "HTMLUListElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": {
+      "type": "代わりに CSS を使用してください。",
+      "compact": "代わりに CSS を使用してください。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.4.6 The ul element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element",
+        "heading": "HTML Living Standard. 4.4.6 The ul element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.7 Lists. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#lists",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.7 Lists",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.4.7 The ul element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/grouping-content.html#the-ul-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.4.7 The ul element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.8. Lists. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#section-lists",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.8. Lists",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.4.7 The ul element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/grouping-content.html#the-ul-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.4.7 The ul element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.8. Lists. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#section-lists",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.8. Lists",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.4.6 The ul element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/grouping-content.html#the-ul-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.4.6 The ul element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.8. Lists. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#section-lists",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.8. Lists",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.4.6 The ul element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-ul-element",
+        "heading": "HTML 5 W3C 勧告. 4.4.6 The ul element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.8 Lists. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#lists",
+        "heading": "HTML 5 W3C 勧告. 10.3.8 Lists",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 10.2 Unordered lists (UL), ordered lists (OL), and list items (LI). W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/lists.html#h-10.2",
+        "heading": "HTML 4.01 Specification W3C 勧告. 10.2 Unordered lists (UL), ordered lists (OL), and list items (LI)",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;ul&gt;: The Unordered List element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/ul",
+        "heading": "&lt;ul&gt;: 順序なしリスト要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}

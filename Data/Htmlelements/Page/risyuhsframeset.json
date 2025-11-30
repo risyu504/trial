@@ -1,0 +1,113 @@
+{
+  "frameset": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Page",
+    "element": "- - ((FRAMESET|FRAME)+ & NOFRAMES?) -- window subdivision. (Normal elements.) [None] --",
+    "attlist": {
+      "%Global;": "",
+      "rows": "%MultiLengths; #IMPLIED -- list of lengths, default: 100% (1 row) --",
+      "cols": "%MultiLengths; #IMPLIED -- list of lengths, default: 100% (1 col) --",
+      "onload": "%Script; #IMPLIED -- all the frames have been loaded --",
+      "onunload": "%Script; #IMPLIED -- all the frames have been removed --"
+    },
+    "alias": "",
+    "summary": "ウィンドウの分割",
+    "summaryEn": "window subdivision.",
+    "point": ["ウィンドウの", "レイアウトを", "矩形の部分空間で", "表します。"],
+    "elementKind": "Normal",
+    "categories": "None",
+    "usedSummary": ["HTML (HEAD, FRAMESET)", "FRAMESET (FRAMESET)*"],
+    "canUsedContexts": ["+(%Frameset) HTML (HEAD, FRAMESET)", "FRAMESET (FRAMESET)*"],
+    "contentSummary": "FRAMESET ((FRAMESET|FRAME)+ & NOFRAMES?)",
+    "contentModel": "FRAMESET ((FRAMESET|FRAME)+ & NOFRAMES?)",
+    "tagOmission": ["-", "-"],
+    "rendering": "Frame",
+    "domInterface": "HTMLFrameSetElement",
+    "contentAttributes": {
+      "rows": "この属性は水平フレームのレイアウトを指定します。これは、ピクセル, パーセント, 相対長さのカンマ区切りのリストです。デフォルト値は 100% で、これは 1 行を意味します。",
+      "cols": "この属性は垂直フレームのレイアウトを指定します。これは、ピクセル, パーセント, 相対長さのカンマ区切りのリストです。デフォルト値は 100% で、これは 1 列を意味します。"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 5 August 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#noframes",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年8月5日"
+      },
+      {
+        "title":   "HTML Living Standard. 16.3.2 Frames. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#frames",
+        "heading": "HTML Living Standard. 16.3.2 Frames",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.6 Frames and framesets. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#frames-and-framesets",
+        "heading": "HTML Living Standard. 15 Rendering 15.6 Frames and framesets",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 11.3.3 Frames. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/obsolete.html#frames",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 11.3.3 Frames",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10. Rendering 10.6. Frames and framesets. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#frames-and-framesets",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.6. Frames and framesets",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.3.3 Frames. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#frames",
+        "heading": "HTML 5.2 W3C 勧告. 11.3.3 Frames",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10. Rendering 10.6. Frames and framesets. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#frames-and-framesets",
+        "heading": "HTML 5.2 W3C 勧告. 10. Rendering 10.6. Frames and framesets",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.3.3 Frames. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#frames",
+        "heading": "HTML 5.1 W3C 勧告. 11.3.3 Frames",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10. Rendering 10.6. Frames and framesets. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#frames-and-framesets",
+        "heading": "HTML 5.1 W3C 勧告. 10. Rendering 10.6. Frames and framesets",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.3.3 Frames. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#frames",
+        "heading": "HTML 5 W3C 勧告. 11.3.3 Frames",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10. Rendering 10.6. Frames and framesets. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#frames-and-framesets",
+        "heading": "HTML 5 W3C 勧告. 10.6. 10. Rendering Frames and framesets",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification. 16 Frames in HTML documents. 16.2.1 The FRAMESET element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/present/frames.html#edef-FRAMESET",
+        "heading": "HTML 4.01 Specification. 16 Frames in HTML documents. 16.2.1 The FRAMESET element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;frameset&gt;.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/frameset",
+        "heading": "&lt;frameset&gt; - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML4.01 Frameset", "latest": "HTML4.01 Frameset"}
+  }
+}

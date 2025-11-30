@@ -1,0 +1,83 @@
+{
+  "source": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Embedded",
+    "element": "- X EMPTY -- a multiple alternative source. (Void elements.) [None] --",
+    "attlist": {
+      "%Global;": "",
+      "type":   "CDATA       #IMPLIED -- Type of embedded resource --",
+      "media":  "%MediaDesc; #IMPLIED -- Applicable media --",
+      "src":    "%URI;       #IMPLIED -- (in audio or video) Address of the resource --",
+      "srcset": "CDATA       #IMPLIED -- (in picture) Images to use in different situations, e.g., high-resolution displays, small monitors, etc. --",
+      "sizes":  "CDATA       #IMPLIED -- (in picture) Image sizes for different page layouts --",
+      "width":  "NUMBER      #IMPLIED -- (in picture) Horizontal dimension --",
+      "height": "NUMBER      #IMPLIED -- (in picture) Vertical dimension --"
+    },
+    "alias": "",
+    "summary": "複数の代替ソース (a multiple alternative source)",
+    "point": "複数の代替ソースを指定します。",
+    "description": "作成者は img要素に複数の代替ソースセットを指定したり、メディア要素に複数の代替メディアリソースを指定したりできます。この要素は単独では何も表しません。",
+    "elementKind": "Void",
+    "categories": "None",
+    "canUsedContexts": ["PICTURE (SOURCE*, IMG)", "%Media (SOURCE*, TRACK*, %Transparent)"],
+    "contentModel": "SOURCE EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "None",
+    "domInterface": "HTMLSourceElement",
+    "contentAttributes": {
+      "type":   "埋め込まれたリソースの種類",
+      "media":  "対象メディア",
+      "src":    "(in audio or video) リソースのアドレス",
+      "srcset": "(in picture) 高解像度ディスプレイ、小型モニターなど、さまざまな状況で使用する画像。",
+      "sizes":  "(in picture) さまざまなページレイアウトの画像サイズ",
+      "width":  "(in picture) 水平寸法",
+      "height": "(in picture) 垂直寸法"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.2 The source element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/embedded-content.html#the-source-element",
+        "heading": "HTML Living Standard. 4.8.2 The source element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.7.4 The source element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-embedded-content.html#the-source-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.7.4 The source element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.7.4. The source element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-embedded-content.html#the-source-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.7.4. The source element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.7.4. The source element when used with the picture element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-source-element-when-used-with-the-picture-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.7.4. The source element when used with the picture element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.7.12. The source element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-source-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.7.12. The source element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.7.8 The source element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-source-element",
+        "heading": "HTML 5 W3C 勧告. 4.7.8 The source element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;source&gt;: The Media or Image Source element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/source",
+        "heading": "MDN Web Docs. HTML &lt;source&gt;: メディアまたは画像のソース要素"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

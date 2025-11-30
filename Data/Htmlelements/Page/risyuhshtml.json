@@ -1,0 +1,130 @@
+{
+  "html": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Page",
+    "element": "O O (HEAD, BODY) -- the root of an HTML document. (Normal elements.) [None] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "HTML文書の基点(ルート)",
+    "summaryEn": "the root of an HTML document.",
+    "point": ["HTML文書の", "基点(ルート)を", "表します。"],
+    "description": [
+      "作成者は、ルート HTML要素に lang属性を指定して、ドキュメントの言語を指定する事が推奨されます。",
+      "これにより、音声合成ツールが使用する発音を決定したり、翻訳ツールが使用するルールを決定したりしやすくなります。"
+    ],
+    "elementKind": "Normal",
+    "categories": "None",
+    "canUsedContexts": "%Root",
+    "contentSummary": "HTML (HEAD, BODY)",
+    "contentModel": ["HTML (HEAD, BODY)", "+(%Frameset) HTML (HEAD, FRAMESET)", "+(%Html3) HTML (HEAD, BODY, PLAINTEXT?)"],
+    "tagOmission": ["O", "O"],
+    "tagsupplement": [
+      "開始タグは、html要素内の最初のものがコメントでない場合は省略可能です。",
+      "終了タグは、html要素の直後にコメントが続かない場合は省略可能です。"
+    ],
+    "rendering": "Page",
+    "domInterface": "HTMLHtmlElement",
+    "contentAttributes": "Global",
+    "attributessupplement": [
+      "manifest属性がありましたが、廃止されました。代わりにサービスワーカーを使用してください。",
+      "version属性がありましたが、廃止されました。不要です。完全に省いてください。"
+    ],
+    "obsoleteAttributes": {
+      "manifest": "代わりにサービスワーカーを使用してください。",
+      "version": "不要です。完全に省いてください。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.1.1 The html element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/semantics.html#the-html-element",
+        "heading": "HTML Living Standard. 4.1.1 The html element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.2 The page. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-page",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.2 The page",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.1.1 The html element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics.html#the-html-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.1.1 The html element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.2. The page. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#the-page",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.2. The page",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.1.1 The html element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics.html#the-html-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.1.1 The html element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10. Rendering 10.3.2. The page. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#the-page",
+        "heading": "HTML 5.2 W3C 勧告. 10. Rendering 10.3.2. The page",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.1.1 The html element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics.html#the-html-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.1.1 The html element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10. Rendering 10.3.2. The page. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#the-page",
+        "heading": "HTML 5.1 W3C 勧告. 10. Rendering 10.3.2. The page",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.1.1 The html element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/semantics.html#the-html-element",
+        "heading": "HTML 5 W3C 勧告. 4.1.1 The html element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10. Rendering 10.3.2. The page. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#the-page",
+        "heading": "HTML 5 W3C 勧告. 10. Rendering 10.3.2. The page",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 7.3 The HTML element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/global.html#h-7.3",
+        "heading": "HTML 4.01 Specification W3C 勧告. 7.3 The HTML element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;html&gt;: The HTML Document / Root element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/html",
+        "heading": "MDN Web Docs. HTML &lt;html&gt;: HTML 文書 / ルート要素"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}

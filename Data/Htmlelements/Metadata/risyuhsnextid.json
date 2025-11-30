@@ -1,0 +1,81 @@
+{
+  "nextid": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Metadata",
+    "element": "- X EMPTY -- A parameter used by editors to generate unique identifiers. (Void elements.) [Metadata] --",
+    "attlist": {
+      "%Global;": "",
+      "N": "CDATA #REQUIRED -- The number should be a name suitable for use --"
+    },
+    "alias": "",
+    "summary": "リンク名に使用する次の ID",
+    "summaryEn": "Next ID to use for link name.",
+    "point": ["一意の識別子を", "生成する為に", "編集者によって使用される", "パラメータ。"],
+    "description": [
+      "nextid要素は、HTML3.2 で廃止された要素です。HTML2 では非推奨でした。以下の記述は HTML1 での記述を記したものです。一応の知識として参照して下さい。",
+      "一意の識別子を生成する為に編集者によって使用されるパラメータです。n属性を用いて指定します。この番号は、新しい要素の ID として使用するのに適した名前にする必要があります。使用すると、値の数値部分が増加します。(例えば、Z67がZ68になる)",
+      "nextid要素は、新しいa要素に使用する名前のヒントを提供します。 HTMLドキュメントを編集する時の要素 すべてとは区別されるべきです。a要素の name属性として使われる様です。",
+      "以上の記述から、HTMLエディタで扱う事を想定していたのではないかと思いますが、早々に廃止されています。"
+    ],
+    "elementKind": "Void",
+    "categories": "Metadata",
+    "categoriessupplement": "配置できた箇所から想定。",
+    "usedSummary": "HEAD (NEXTID)?",
+    "canUsedContexts": "+(%Html2) HEAD (NEXTID)?",
+    "contentSummary": "NEXTID EMPTY",
+    "contentModel": "NEXTID EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Hidden",
+    "domInterface": "HTMLUnknownElement",
+    "contentAttributes": {
+      "n": "リンク名に使用する次の ID"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 11.2. Non-conforming features. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 11.2. Non-conforming features.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.1 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.2 Non-conforming features. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#non-conforming-features",
+        "heading": "HTML 5 W3C 勧告. 11.2 Non-conforming features",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   " Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML2"}
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "plaintext": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Page",
+    "element": "- X CDATA -- Plain text passage. (Void elements.) [None] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "プレーンテキストの文章",
+    "summaryEn": "Plain text passage.",
+    "point": ["plaintext要素", "開始タグの後の", "すべての文字は", "データです。"],
+    "description": "plaintext要素開始タグはHTMLエンティティを終了します。その後に続くのはSGMLではありません。代わりに、古いHTTP規約に従って、その後に続くのはASCII（MIME 'text/plain'）ボディです。",
+    "elementKind": "Void",
+    "kindsupplement": "終了タグがないので空要素としていますが、コンテンツからするとエスケープ可能な生テキスト要素のようで、該当する種類がないのではと思います。",
+    "categories": "None",
+    "usedSummary": "HTML (HEAD, BODY, PLAINTEXT?)",
+    "canUsedContexts": "+(%Html3) HTML (HEAD, BODY, PLAINTEXT?)",
+    "contentSummary": "PLAINTEXT CDATA",
+    "contentModel": "PLAINTEXT CDATA",
+    "contentmodelsupplement": "plaintext要素開始タグの後のすべての文字はデータです。",
+    "tagOmission": ["-", "X"],
+    "tagsupplement": "plaintext要素開始タグの後のすべての文字はデータです。",
+    "rendering": ["Flow", "Bidirectional"],
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 11.2. Non-conforming features. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 11.2. Non-conforming features.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.3. Flow content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.3. Flow content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.3. Flow content",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.1 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.3. Flow content",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.2 Non-conforming features. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#non-conforming-features",
+        "heading": "HTML 5 W3C 勧告. 11.2 Non-conforming features",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.3 Flow content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#flow-content-0",
+        "heading": "HTML 5 W3C 勧告. 10.3.3 Flow content",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. A.3.1 Changes to elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/appendix/changes.html#h-A.3.1.3",
+        "heading": "HTML 4.01 Specification W3C 勧告. A.3.1 Changes to elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML3.2"}
+  }
+}

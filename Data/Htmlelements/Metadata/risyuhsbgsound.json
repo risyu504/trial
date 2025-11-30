@@ -1,0 +1,75 @@
+{
+  "bgsound": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Metadata",
+    "element": "- X EMPTY -- BGM. (Void elements.) [Metadata] --",
+    "attlist": {
+      "%Global;": "",
+      "src":     "%URI;     #IMPLIED -- Address of the resource --",
+      "loop":    "(loop)    #IMPLIED -- Whether to loop the media resource --",
+      "balance": "(balance) #IMPLIED -- --",
+      "volume":  "(volume)  #IMPLIED -- --"
+    },
+    "alias": "",
+    "summary": "背景音",
+    "summaryWN": "BGM.",
+    "point": ["背景音を", "表します。"],
+    "description": "背景音。代わりに audio要素を使用してください。",
+    "elementKind": "Void",
+    "categories": "Metadata",
+    "categoriessupplement": "配置できた箇所から想定。",
+    "usedSummary": "%Metadata BGSOUND",
+    "canUsedContexts": "%Metadata BGSOUND",
+    "usedsupplement": "ただしこれは、Internet Explorer 独自の機能のようです。標準では採用されていません",
+    "contentSummary": "BGSOUND EMPTY",
+    "contentModel": "BGSOUND EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Hidden",
+    "domInterface": "HTMLUnknownElement",
+    "contentAttributes": {
+      "src": "リソースのアドレス",
+      "loop": "メディアリソースをループするかどうか",
+      "balance": "左右の音量のバランス",
+      "volume": "音量"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 11.2. Non-conforming features. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 11.2. Non-conforming features.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.1 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.2 Non-conforming features. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#non-conforming-features",
+        "heading": "HTML 5 W3C 勧告. 11.2 Non-conforming features",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "href":    "https://www.tohoho-web.com/html/bgsound.htm",
+        "heading": "&lt;bgsound&gt; - バックミュージック - とほほのWWW入門"
+      }
+    ],
+    "version": {"first": "non", "latest": "non"}
+  }
+}

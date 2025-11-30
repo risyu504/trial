@@ -1,0 +1,122 @@
+{
+  "div": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Flow",
+    "element": "- - (%Flow)* -- generic language/style container. (Normal elements.) [Flow|Sectioningroots|Selectinner|Optgroupinner|Optioninner|Palpable] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "汎用言語/スタイルコンテナ",
+    "summaryEn": "generic language/style container",
+    "point": ["特別な意味は", "まったくありません。"],
+    "description": "特別な意味はまったくありません。これはその子を表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Palpable", "Selectinner", "Optgroupinner", "Optioninner"],
+    "canUsedContexts": [
+      "%Flow DIV",
+      "DL DIV",
+      "SELECT *(DIV)",
+      "OPTGROUP *(DIV)",
+      "OPTION *(DIV) -(DATALIST)"
+    ],
+    "usedsupplement": [
+      "フローコンテンツが期待される場所。",
+      "dl 要素の子として。"
+    ],
+    "contentModel": "DIV %Flow",
+    "contentmodelsupplement": [
+      "要素が dl要素の子である場合: 1 つ以上の dt 要素とそれに続く 1 つ以上の dd 要素。オプションでスクリプトサポート要素が混在します。",
+      "そうでない場合、要素が option要素の子孫である場合: 0 個以上の option要素内部コンテンツ要素。",
+      "そうでない場合、要素が optgroup要素の子孫である場合: 0 個以上の optgroup要素内部コンテンツ要素。",
+      "そうでない場合、要素が select要素の子孫である場合: 0 個以上の select要素内部コンテンツ要素。",
+      "そうでない場合: フロー コンテンツ。",
+      "前のコンテンツモデルは、 ['div ((dt)+,(dd)+)* +(%Script)', 'div (%Flow)*']",
+      "前のコンテンツモデルは、 要素が dl要素の子である場合: 1 つ以上の dt要素の後に 1 つ以上の dd要素が続き、オプションでスクリプトをサポートする要素と混在します。要素が dl要素の子でない場合: フロー コンテンツ。"
+    ],
+    "tagOmission": ["-", "-"],
+    "rendering": ["Flow", "Bidirectional"],
+    "domInterface": "HTMLDivElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.4.16 The div element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element",
+        "heading": "HTML Living Standard. 4.4.16 The div element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.4.15 The div element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/grouping-content.html#the-div-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.4.15 The div element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.3. Flow content. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.3. Flow content",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.4.15 The div element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/grouping-content.html#the-div-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.4.15 The div element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.3. Flow content.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.4.14 The div element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/grouping-content.html#the-div-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.4.14 The div element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#non-replaced-elements-flow-content",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.3. Flow content.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.4.13 The div element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-div-element",
+        "heading": "HTML 5 W3C 勧告. 4.4.13 The div element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.3. Flow content. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#flow-content-0",
+        "heading": "HTML 5 W3C 勧告. 10.3.3. Flow content.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 7.5.4 Grouping elements: the DIV and SPAN elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/global.html#h-7.5.4",
+        "heading": "HTML 4.01 Specification W3C 勧告. 7.5.4 Grouping elements: the DIV and SPAN elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#div",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;div&gt;: The Content Division element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/div",
+        "heading": "&lt;div&gt;: コンテンツ区分要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML3", "latest": "HTML Living Standard"}
+  }
+}

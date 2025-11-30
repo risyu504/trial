@@ -1,0 +1,65 @@
+{
+  "multicol": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Flow",
+    "element": "- - (%Flow)* -- multicol. (Normal elements.) [Flow|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "cols":   "NUMBER #IMPLIED -- columns --",
+      "gutter": "NUMBER #IMPLIED -- gutter --",
+      "width":  "NUMBER #IMPLIED -- width --"
+    },
+    "alias": "",
+    "summary": "文章を段組",
+    "summaryEn": "multicol.",
+    "point": ["文章を段組で", "表示します。"],
+    "description": "文章を段組で表示します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Palpable"],
+    "canUsedContexts": "%Flow MULTICOL",
+    "contentModel": "MULTICOL %Flow",
+    "tagOmission": ["-", "-"],
+    "rendering": "Nothing",
+    "renderingsupplement": "標準には採用されていない要素です。また代替えで、単一の要素を段組で表示するスタイルがありません。",
+    "domInterface": "HTMLUnknownElement",
+    "contentAttributes": {
+      "cols": "段組の段数",
+      "gutter": "段組の間の隙間の幅",
+      "width": "ひとつの段の横幅"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.1 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.2 Non-conforming features. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#non-conforming-features",
+        "heading": "HTML 5 W3C 勧告. 11.2 Non-conforming features",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "&lt;multicol&gt; - Columns - tohoho-web",
+        "href":    "https://www.tohoho-web.com/html/multicol.htm",
+        "heading": "&lt;multicol&gt; - 段組み - とほほのWWW入門"
+      }
+    ],
+    "version": {"first": "non", "latest": "non"}
+  }
+}

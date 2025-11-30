@@ -1,0 +1,127 @@
+{
+  "title": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Metadata",
+    "element": "- - (#PCDATA) -- document title. (Normal elements.)  [Metadata] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "文書の題名",
+    "summaryEn": "document title.",
+    "point": ["文書の題名を", "表します。"],
+    "description": "文書のタイトルまたは名前を表します。著者は、ユーザーの履歴やブックマーク、検索結果など、文脈を無視して使用される場合でも、文書を識別できるタイトルを使用する必要があります。最初の見出しは文脈から切り離されても独立している必要はない為、文書のタイトルは最初の見出しとは異なる事がよくあります。",
+    "elementKind": "Escapable",
+    "categories": "Metadata",
+    "usedSummary": "HEAD (TITLE)",
+    "canUsedContexts": "HEAD (TITLE)",
+    "usedsupplement": [
+      "他の title要素を含まない head要素のコンテンツとして、使用できます。",
+      "文書がフレームで読み込まれる文書である場合、またはタイトル情報が上位レベルのプロトコルから利用できる場合は任意ですが、それ以外は 1個が必須です。"
+    ],
+    "contentSummary": "TITLE PCDATA",
+    "contentModel": "TITLE PCDATA",
+    "tagOmission": ["-", "-"],
+    "rendering": "Hidden",
+    "domInterface": "HTMLTitleElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.2.2 The title element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/semantics.html#the-title-element",
+        "heading": "HTML Living Standard. 4.2.2 The title element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 3.2.5 Content models  inter-element whitespace. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/dom.html#inter-element-whitespace",
+        "heading": "HTML Living Standard. 3.2.5 Content models  inter-element whitespace",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.2.2 The title element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/document-metadata.html#the-title-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.2.2 The title element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.1. Hidden elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.2.2 The title element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/document-metadata.html#the-title-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.2.2 The title element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.1. Hidden elements.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.2.2 The title element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/document-metadata.html#the-title-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.2.2 The title element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#hidden-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.2.2 The title element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/document-metadata.html#the-title-element",
+        "heading": "HTML 5 W3C 勧告. 4.2.2 The title element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#hidden-elements",
+        "heading": "HTML 5 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 7.4.2 The TITLE element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/global.html#h-7.4.2",
+        "heading": "HTML 4.01 Specification W3C 勧告. 7.4.2 The TITLE element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#title",
+        "heading": "HTML 3.2 Reference Specification  TITLE",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   " Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;title&gt;: The Document Title element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/title",
+        "heading": "&lt;title&gt;: 文書題名要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}

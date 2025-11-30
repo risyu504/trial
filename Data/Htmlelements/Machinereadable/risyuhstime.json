@@ -1,0 +1,69 @@
+{
+  "time": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "phrasing",
+    "element": "- - (%Phrasing)* -- Machine-readable date and time. (Normal elements.) [Flow|Phrasing|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "datetime": "CDATA #IMPLIED -- Machine-readable value --"
+    },
+    "alias": "",
+    "summary": "機械可読な日付, 時刻 (Machine-readable date and time)",
+    "point": "その内容と、その内容の機械可読形式を datetime属性で表します。",
+    "description": [
+      "その内容と、datetime属性内のそれらの内容の機械可読形式を表します。",
+      "内容の種類は、さまざまな種類の日付, 時刻, タイムゾーンオフセット, および期間に限定されます。",
+      "datetime属性が存在する場合があります。存在する場合、その値は、機械可読形式での要素の内容の表現である必要があります。",
+      "datetimeコンテンツ属性を持たない time要素には、要素の子孫があってはなりません。",
+      "time要素の datetime値は、要素の datetimeコンテンツ属性がある場合はその値であり、ない場合は time要素の子テキストコンテンツです。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Palpable"],
+    "canUsedContexts": "%Phrasing TIME",
+    "contentModel": "TIME (%Phrasing)*",
+    "contentmodelsupplement": [
+      "要素に datetime属性がある場合は、フレージングコンテンツ。",
+      "要素に datetime属性がない場合は、テキストです。この時、datetime属性の値と同様に、書式が限定されています。"
+    ],
+    "tagOmission": ["-", "-"],
+    "rendering": "None",
+    "domInterface": "HTMLTimeElement",
+    "contentAttributes": {
+      "datetime": "機械可読値"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.5.14 The time element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-time-element",
+        "heading": "HTML Living Standard. 4.5.14 The time element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.5.16 The time element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/textlevel-semantics.html#the-time-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.5.16 The time element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.5.16 The time element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/textlevel-semantics.html#the-time-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.5.16 The time element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.5.11 The time element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#the-time-element",
+        "heading": "HTML 5 W3C 勧告. 4.5.11 The time element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;time&gt;: The (Date) Time element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/time",
+        "heading": "MDN Web Docs. HTML &lt;time&gt;: （日付）時刻要素"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

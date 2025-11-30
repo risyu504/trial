@@ -1,0 +1,124 @@
+{
+  "area": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Embedded",
+    "element": "- X EMPTY -- client-side image map area. (Void elements.) [Flow|Phrasing] --",
+    "attlist": {
+      "%Global;": "",
+      "alt": "CDATA #IMPLIED -- Replacement text for use when images are not available --",
+      "coords": "CDATA #IMPLIED -- Coordinates for the shape to be created in an image map --",
+      "shape": "CDATA #IMPLIED -- The kind of shape to be created in an image map --",
+      "href": "%URI; #IMPLIED -- Address of the hyperlink --",
+      "target": "CDATA #IMPLIED -- Navigable for hyperlink navigation --",
+      "download": "CDATA #IMPLIED -- Whether to download the resource instead of navigating to it, and its filename if so  --",
+      "ping": "%URI; #IMPLIED -- URLs to ping --",
+      "rel": "CDATA #IMPLIED -- Relationship between the location in the document containing the hyperlink and the destination resource --",
+      "referrerpolicy": "CDATA #IMPLIED -- Referrer policy for fetches initiated by the element --"
+    },
+    "alias": "",
+    "summary": "イメージマップ領域 (client-side image map area)",
+    "point": "イメージマップ領域を定義します。",
+    "description": "テキストとイメージマップ上の対応する領域を含むハイパーリンク、またはイメージマップ上のデッドエリアを表します。",
+    "elementKind": "Void",
+    "categories": ["Flow", "Phrasing"],
+    "canUsedContexts": "*MAP %Phrasing AREA",
+    "usedsupplement": "フレージングコンテンツが期待される場所ですが、map要素の祖先がある場合に限ります。",
+    "contentModel": "AREA EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Hidden",
+    "domInterface": "HTMLAreaElement",
+    "contentAttributes": {
+      "alt": "画像が利用できない場合に使用する代替テキスト",
+      "coords": "イメージマップに作成される図形の座標",
+      "shape": "イメージマップで作成する形状の種類",
+      "href": "ハイパーリンクのアドレス",
+      "target": "ハイパーリンクナビゲーションに対応",
+      "download": "リソースに移動するのではなくダウンロードするかどうか、またダウンロードする場合はそのファイル名",
+      "ping": "pingするURL",
+      "rel": "ハイパーリンクを含む文書内の場所とリンク先のリソースの関係",
+      "referrerpolicy": "要素によって開始されたフェッチのリファラーポリシー"
+    },
+    "obsoleteAttributes": ["hreflang", "type", "nohref"],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.13 The area element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element",
+        "heading": "HTML Living Standard. 4.8.13 The area element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.4.4 Image maps. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#image-maps-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.4.4 Image maps",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.7.15 The area element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-embedded-content.html#the-area-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.7.15 The map element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.4.2. Images. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#replaced-elements-images",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.4.2. Images",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.7.15. The area element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-embedded-content.html#the-area-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.7.15. The area element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.4.4. Image maps. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#replaced-elements-image-maps",
+        "heading": "HTML 5.2 W3C 勧告. 10.4.4. Image maps",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.7.16. The area element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-area-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.7.16. The area element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.4.4. Image maps. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#replaced-elements-image-maps",
+        "heading": "HTML 5.1 W3C 勧告. 10.4.4. Image maps",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.7.12 The area element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-area-element",
+        "heading": "HTML 5 W3C 勧告. 4.7.12 The area element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.4.4. Image maps. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#image-maps-1",
+        "heading": "HTML 5 W3C 勧告. 10.4.4. Image maps",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 13.6.1 Client-side image maps: the MAP and AREA elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/objects.html#edef-MAP",
+        "heading": "HTML 4.01 Specification W3C 勧告. 13.6.1 Client-side image maps: the MAP and AREA elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#map",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;area&gt;: The Image Map Area element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/area",
+        "heading": "MDN Web Docs. HTML &lt;area&gt;: イメージマップ領域要素"
+      }
+    ],
+    "version": {"first": "HTML3.2", "latest": "HTML Living Standard"}
+  }
+}

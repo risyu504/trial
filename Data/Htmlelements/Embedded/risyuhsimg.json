@@ -1,0 +1,149 @@
+{
+  "img": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Embedded",
+    "element": "- X EMPTY -- Embedded image. (Void elements.) [Flow|Phrasing|Embedded|Form|Interactivelimited|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "alt":         "%Text;   #REQUIRED -- Replacement text for use when images are not available --",
+      "src":         "%URI;    #REQUIRED -- Address of the resource --",
+      "srcset":      "CDATA    #IMPLIED  -- Images to use in different situations, e.g., high-resolution displays, small monitors, etc. --",
+      "sizes":       "CDATA    #IMPLIED  -- Image sizes for different page layouts --",
+      "crossorigin": "CDATA    #IMPLIED  -- How the element handles crossorigin requests --",
+      "usemap":      "%URI;    #IMPLIED  -- Name of image map to use --",
+      "ismap":       "(ismap)  #IMPLIED  -- Whether the image is a server-side image map --",
+      "width":       "%Length; #IMPLIED  -- Horizontal dimension --",
+      "height":      "%Length; #IMPLIED  -- Vertical dimension --",
+      "referrerpolicy": "CDATA #IMPLIED  -- Referrer policy for fetches initiated by the element --",
+      "decoding":       "CDATA #IMPLIED  -- Decoding hint to use when processing this image for presentation --",
+      "loading":        "CDATA #IMPLIED  -- Used when determining loading deferral --",
+      "fetchpriority":  "CDATA #IMPLIED  -- Sets the priority for fetches initiated by the element --"
+    },
+    "alias": "",
+    "summary": "画像埋め込み (Embedded image)",
+    "point": "画像を表します。",
+    "description": "src属性と srcset属性によって指定された画像、および親が picture要素の場合は以前の兄弟 source要素の srcset属性は、埋め込みコンテンツです。alt属性の値は、画像を処理できない人や画像の読み込みが無効になっている人の為に同等のコンテンツを提供します (つまり、img要素のフォールバックコンテンツです)。",
+    "elementKind": "Void",
+    "categories": ["Flow", "Phrasing", "Embedded", "Formassociated", "Interactivelimited", "Palpable"],
+    "categoriessupplement": "usemap属性がある場合は、インタラクティブコンテンツ。",
+    "canUsedContexts": [
+      "%Embedded IMG",
+      "PICTURE (SOURCE*, IMG)",
+      "%Embedded IMG[usemap] -(%Interactive)",
+      "PICTURE (SOURCE*, IMG[usemap]) -(%Interactive)"
+    ],
+    "contentModel": "IMG EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Images",
+    "domInterface": "HTMLImageElement",
+    "contentAttributes": {
+      "alt": "画像が利用できない場合に使用する代替テキスト",
+      "src": "リソースのアドレス",
+      "srcset": "高解像度ディスプレイ、小型モニターなど、さまざまな状況で使用する画像。",
+      "sizes": "さまざまなページレイアウトの画像サイズ",
+      "crossorigin": "要素がクロスオリジンリクエストを処理する方法",
+      "usemap": "使用するイメージマップの名前",
+      "ismap": "画像がサーバーサイドイメージマップであるかどうか",
+      "width": "水平寸法",
+      "height": "垂直寸法",
+      "referrerpolicy": "要素によって開始されたフェッチのリファラーポリシー",
+      "decoding": "この画像をプレゼンテーション用に処理するときに使用するデコードのヒント",
+      "loading": "積載延期を決定する際に使用",
+      "fetchpriority": "要素によって開始されるフェッチの優先度を設定します"
+    },
+    "obsoleteAttributes": ["name", "longdesc", "lowsrc", "datasrc", "datafld", "align", "border", "hspace", "vspace"],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.8.3 The img element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+        "heading": "HTML Living Standard. 4.8.3 The img element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.4.2 Images. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#images-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.4.2 Images",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.7.5 The img element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/semantics-embedded-content.html#the-img-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.7.5 The img element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.4.2. Images. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#replaced-elements-images",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.4.2. Images",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.7.5. The img element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/semantics-embedded-content.html#the-img-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.7.5. The img element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.4.2. Images. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#replaced-elements-images",
+        "heading": "HTML 5.2 W3C 勧告. 10.4.2. Images",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.7.5. The img element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-img-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.7.5. The img element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.4.2. Images. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#replaced-elements-images",
+        "heading": "HTML 5.1 W3C 勧告. 10.4.2. Images",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.7.1 The img element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/embedded-content-0.html#the-img-element",
+        "heading": "HTML 5 W3C 勧告. 4.7.1 The img element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.4.2. Images. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#images",
+        "heading": "HTML 5 W3C 勧告. 10.4.2. Images",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 13.2 Including an image: the IMG element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/objects.html#edef-IMG",
+        "heading": "HTML 4.01 Specification W3C 勧告. 13.2 Including an image: the IMG element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#img",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;img&gt;: The Image Embed element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/img",
+        "heading": "MDN Web Docs. HTML &lt;img&gt;: 画像埋め込み要素"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}

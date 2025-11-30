@@ -1,0 +1,89 @@
+{
+  "optgroup": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- O (LEGEND?,(%Optgroupinner)*) -- option group. (Normal elements.) [None] --",
+    "attlist": {
+      "%Global;": "",
+      "disabled": "(disabled) #IMPLIED -- Whether the form control is disabled --",
+      "label":    "%Text;     #IMPLIED -- User-visible label --"
+    },
+    "alias": "",
+    "summary": "オプショングループ",
+    "summaryEn": "option group.",
+    "point": ["共通のラベルを持つ", "option要素のグループを", "表します。"],
+    "description": "共通のラベルを持つoption要素のグループを表します。",
+    "elementKind": "Normal",
+    "categories": ["Selectinner"],
+    "canUsedContexts": "SELECT *(OPTGROUP)",
+    "usedsupplement": "select要素の子孫として、使用できます。",
+    "contentSummary": "OPTGROUP (LEGEND?,(%Optgroupinner)*)",
+    "contentModel": ["OPTGROUP (LEGEND?,(%Optgroupinner)*)", "+(%Html4) OPTGROUP (OPTION)+"],
+    "contentmodelsupplement": "前のコンテンツモデルは、 OPTGROUP (OPTION)* +(%Script) でした。",
+    "tagOmission": ["-", "O"],
+    "rendering": "None",
+    "domInterface": "HTMLOptGroupElement",
+    "contentAttributes": {
+      "disabled": "フォームコントロールが無効かどうか",
+      "label": "ユーザーに見えるラベル"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.9 The optgroup element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-optgroup-element",
+        "heading": "HTML Living Standard. 4.10.9 The optgroup element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.16 The select element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.16 The select element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.9 The optgroup element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-optgroup-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.9 The optgroup element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.11. Form controls. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#form-controls",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.11. Form controls.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.9 The optgroup element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-optgroup-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.9 The optgroup element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.9 The optgroup element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-optgroup-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.9 The optgroup element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.9 The optgroup element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-optgroup-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.9 The optgroup element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 17.6 The SELECT, OPTGROUP, and OPTION elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/forms.html#h-17.6",
+        "heading": "HTML 4.01 Specification W3C 勧告. 17.6 The SELECT, OPTGROUP, and OPTION elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;optgroup&gt;: The HTML Optgroup element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/optgroup",
+        "heading": "&lt;optgroup&gt;: HTML 選択肢グループ要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML4", "latest": "HTML Living Standard"}
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "datalist": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- - ((%Phrasing)*|(OPTION&(%Script))*) -- data list. (Normal elements.) [Flow|Phrasing] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "データリスト",
+    "summaryEn": "data list.",
+    "point": ["他のコントロールの", "事前定義された", "オプションを表す", "option要素のセットを", "表します。"],
+    "description": "他のコントロールの事前定義されたオプションを表す option要素のセットを表します。レンダリングでは、datalist要素は何も表さないため、その子とともに非表示にする必要があります。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing"],
+    "canUsedContexts": "%Phrasing DATALIST",
+    "contentModel": ["DATALIST %Phrasing", "DATALIST (OPTION|%Scriptsupporting)*"],
+    "tagOmission": ["-", "-"],
+    "rendering": "Hidden",
+    "domInterface": "HTMLDataListElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.8 The datalist element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element",
+        "heading": "HTML Living Standard. 4.10.8 The datalist element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.8 The datalist element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-datalist-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.8 The datalist element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.1. Hidden elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.1. Hidden elements.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.8. The datalist element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-datalist-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.8. The datalist element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.1. Hidden elements.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.8. The datalist element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-datalist-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.8. The datalist element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#hidden-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.1. Hidden elements.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.8 The datalist element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-datalist-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.8 The datalist element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.1 Hidden elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#hidden-elements",
+        "heading": "HTML 5 W3C 勧告. 10.3.1 Hidden elements.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;datalist&gt;: The HTML Data List element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/datalist",
+        "heading": "&lt;datalist&gt;: HTML データリスト要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML5", "latest": "HTML Living Standard"}
+  }
+}

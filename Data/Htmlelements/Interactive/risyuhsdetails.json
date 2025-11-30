@@ -1,0 +1,90 @@
+{
+  "details": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-16",
+    "group": "Interactive",
+    "element": "- - (SUMMARY,%Flow) -- disclosure widget. (Normal elements.) [Flow|Interactive|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "name": "CDATA #IMPLIED  -- Name of group of mutually-exclusive details elements --",
+      "open": "(open) #IMPLIED  -- Whether the details are visible --"
+    },
+    "alias": "",
+    "summary": "開示ウィジェット (details)",
+    "point": "開示ウィジェットを表します",
+    "description": [
+      "開示ウィジェットを表します",
+      "summary要素で、要約を表します。",
+      "open属性が存在する場合は、要約と追加情報の両方がユーザーに初期表示されることを示します。",
+      "open属性が存在しない場合は、要約のみが初期表示されます。"
+    ],
+    "elementKind": "Normal",
+    "categories": ["Flow", "Interactive", "Sectioningroots", "Palpable"],
+    "canUsedContexts": "%Flow DETAILS -(%Interactive)",
+    "contentModel": "DETAILS (SUMMARY,(%Flow)*)",
+    "tagOmission": ["-", "-"],
+    "rendering": "details",
+    "domInterface": "HTMLDetailsElement",
+    "contentAttributes": {
+      "name": "相互に排他的な details要素のグループの名前",
+      "open": "詳細が見えるかどうか"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.11.1 The details element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element",
+        "heading": "HTML Living Standard. 4.11.1 The details element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.5 The details and summary elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-details-and-summary-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.5 The details and summary elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.11.1 The details element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/interactive-elements.html#the-details-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.11.1 The details element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.5.3. The details and summary elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#the-details-element-rendering",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.5.3. The details and summary elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.11.1 The details element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/interactive-elements.html#the-details-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.11.1 The details element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.5.3. The details and summary elements. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#the-details-element-rendering",
+        "heading": "HTML 5.2 W3C 勧告. 10.5.3. The details and summary elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.11.1 The details element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/interactive-elements.html#the-details-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.11.1 The details element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.5.3. The details element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#the-details-element-rendering",
+        "heading": "HTML 5.1 W3C 勧告. 10.5.3. The details element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;details&gt;: The Details disclosure element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/details",
+        "heading": "MDN Web Docs. HTML &lt;details&gt;: 詳細折りたたみ要素"
+      }
+    ],
+    "version": {"first": "HTML5.1", "latest": "HTML Living Standard"}
+  }
+}

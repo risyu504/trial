@@ -1,0 +1,99 @@
+{
+  "noframes": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Page",
+    "element": "- - (BODY) -(NOFRAMES) -- alternate content container for non frame-based rendering (Normal elements.) [None] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "非フレームベースのレンダリング用の代替コンテンツコンテナ<br>",
+    "summaryEn": "alternate content container for non frame-based rendering.",
+    "point": ["フレームをサポートしていない、", "またはフレームを表示しないように", "構成されている", "ユーザーエージェントによってのみ", "表示されるコンテンツを指定します。"],
+    "description": "フレームをサポートするユーザーエージェントは、フレームを表示しないように構成されている場合にのみ、 NOFRAMES 宣言の内容を表示する必要があります。フレームをサポートしないユーザーエージェントは、いかなる場合でも NOFRAMES の内容を表示する必要があります。",
+    "elementKind": "Normal",
+    "categories": "None",
+    "usedSummary": "FRAMESET (NOFRAMES)?",
+    "canUsedContexts": ["FRAMESET (NOFRAMES)?", "-(%Frameset) %Flow NOFRAMES"],
+    "contentSummary": "NOFRAMES (BODY) -(NOFRAMES)",
+    "contentModel": ["+(%Frameset) NOFRAMES (BODY) -(NOFRAMES)", "-(%Frameset) NOFRAMES %Flow"],
+    "tagOmission": ["-", "-"],
+    "rendering": "hiddenframes",
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#noframes",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.htmll#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 11.2. Non-conforming features. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 11.2. Non-conforming features.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10. Rendering 10.3.1. Hidden elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10. Rendering 10.3.1. Hidden elements. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.1 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10. Rendering 10.3.1. Hidden elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#hidden-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 11.2 Non-conforming features. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#non-conforming-features",
+        "heading": "HTML 5 W3C 勧告. 11.2 Non-conforming features",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10. Rendering 10.3.1. Hidden elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#hidden-elements",
+        "heading": "HTML 5 W3C 勧告. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification. 16 Frames in HTML documents. 16.4.1 The NOFRAMES element. W3C Recommendation 24 December 1999",
+        "href":    "https://www.w3.org/TR/html401/present/frames.html#h-16.4.1",
+        "heading": "HTML 4.01 Specification. 16 Frames in HTML documents. 16.4.1 The NOFRAMES element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;noframes&gt;.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/noframes",
+        "heading": "&lt;noframes&gt; - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML4.01 Frameset", "latest": "HTML4.01 Frameset"}
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "select": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- - (BUTTON?,%Selectinner*) -- option selector. (Normal elements.) [Flow|Phrasing|Interactive|Listed|Labelable|Submittable|Resettable|Autocapitalize|Form|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "autocomplete": "(on|off)    on       -- Hint for form autofill feature --",
+      "disabled":     "(disabled)  #IMPLIED -- Whether the form control is disabled --",
+      "form":         "IDREF       #IMPLIED -- Associates the element with a form element --",
+      "multiple":     "(multiple)  #IMPLIED -- Whether to allow multiple values --",
+      "name":         "CDATA       #IMPLIED -- Name of the element to use for form submission and in the form.elements API --",
+      "required":     "(required)  #IMPLIED -- Whether the control is required for form submission --",
+      "size":         "CDATA       #IMPLIED -- Size of the control --"
+    },
+    "alias": "",
+    "summary": "選択肢の選択",
+    "summaryEn": "option selector.",
+    "point": ["一連のオプションの中から", "選択するための", "コントロールを", "表します。"],
+    "description": "一連のオプションの中から選択するためのコントロールを表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Phrasing", "Interactive", "Listed", "Labelable", "Submittable", "Resettable", "Autocapitalize", "Formassociated", "Palpable"],
+    "canUsedContexts": "%Phrasing SELECT -(%Interactive)",
+    "contentSummary": "SELECT (BUTTON?,%Selectinner*)",
+    "contentModel": ["SELECT (BUTTON?,%Selectinner*)", "+(%Html4) SELECT (OPTGROUP|OPTION)+"],
+    "contentmodelsupplement": "前のコンテンツモデルは、 select ((option|optgroup|hr)*) +(%Script) でした。",
+    "tagOmission": ["-", "-"],
+    "rendering": "Form",
+    "domInterface": "HTMLSelectElement",
+    "contentAttributes": {
+      "autocomplete": "フォーム自動入力機能のヒント",
+      "disabled": "フォームコントロールが無効かどうか",
+      "form": "要素をフォーム要素に関連付けます",
+      "multiple": "複数の値を許可するかどうか",
+      "name": "フォーム送信および form.elements API で使用する要素の名前",
+      "required": "フォーム送信にコントロールが必要かどうか",
+      "size": "コントロールのサイズ"
+    },
+    "obsoleteAttributes": {
+      "datasrc": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "datafld": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "dataformatas": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.7 The select element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element",
+        "heading": "HTML Living Standard. 4.10.7 The select element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.10 Form controls. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#form-controls",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.10 Form controls",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.16 The select element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.16 The select element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.7 The select element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-select-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.7 The select element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.11. Form controls. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#form-controls",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.11. Form controls.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.7 The select element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-select-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.7 The select element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#form-controls",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.5.14. The select element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#the-select-element-rendering",
+        "heading": "HTML 5.2 W3C 勧告. 10.5.14. The select element.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.7 The select element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-select-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.7 The select element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#form-controls",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.5.14. The select element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#the-select-element-rendering",
+        "heading": "HTML 5.1 W3C 勧告. 10.5.14. The select element.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.7 The select element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-select-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.7 The select element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#form-controls",
+        "heading": "HTML 5 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.5.13 The select element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#the-select-element-0",
+        "heading": "HTML 5 W3C 勧告. 10.5.13 The select element.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 17.6 The SELECT, OPTGROUP, and OPTION elements. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/forms.html#h-17.6",
+        "heading": "HTML 4.01 Specification W3C 勧告. 17.6 The SELECT, OPTGROUP, and OPTION elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#select",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;select&gt;: The HTML Select element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/select",
+        "heading": "&lt;select&gt;: HTML 選択要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML2", "latest": "HTML Living Standard"}
+  }
+}

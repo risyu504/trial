@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Metadata",
+    "element": "- X EMPTY -- generic metainformation. (Void elements.) [Metadata|Flowlimited|Phrasinglimited] --",
+    "attlist": {
+      "%Global;": "",
+      "http-equiv": "NAME #IMPLIED -- HTTP response header name --",
+      "name": "NAME #IMPLIED -- metainformation name --",
+      "content": "CDATA #REQUIRED -- associated information --",
+      "charset": "CDATA #IMPLIED -- Character encoding declaration --",
+      "media": "%MediaDesc; #IMPLIED -- Applicable media --"
+    },
+    "alias": "",
+    "summary": "一般的なメタ情報",
+    "summaryEn": "generic metainformation.",
+    "point": ["他のメタ関連要素で", "表す事が出来ない", "任意のメタデータを", "表します。"],
+    "description": "name属性を持つドキュメントレベルのメタデータ、http-equiv属性を持つプラグマディレクティブ、およびcharset属性を使用して HTML文書が文字列形式にシリアル化されたときのファイルの文字エンコーディング宣言、を表す事が出来ます。",
+    "elementKind": "Void",
+    "categories": ["Metadata", "Flowlimited", "Phrasinglimited"],
+    "categoriessupplement": "itemprop属性が存在する場合は、フローコンテンツ, フレージングコンテンツ。",
+    "usedSummary": "HEAD (META)*",
+    "canUsedContexts": [
+      "HEAD (META)*",
+      "HEAD NOSCRIPT (META)*",
+      "HEAD (META[charset])",
+      "%Phrasing (META[itemprop])*"
+    ],
+    "usedsupplement": [
+"charset 属性が存在する場合、または要素の http-equiv 属性がエンコーディング宣言状態にある場合は、head 要素内。",
+"http-equiv 属性が存在するが、エンコーディング宣言状態にない場合は、head 要素内。",
+"http-equiv 属性が存在するが、エンコーディング宣言状態にない場合は、head 要素の子である noscript 要素内。",
+"name 属性が存在する場合は、メタデータコンテンツが期待される場所。",
+"itemprop 属性が存在する場合は、メタデータコンテンツが期待される場所。",
+"itemprop 属性が存在する場合は、フレージングコンテンツが期待される場所。"],
+    "contentSummary": "META EMPTY",
+    "contentModel": "META EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Hidden",
+    "domInterface": "HTMLMetaElement",
+    "contentAttributes": {
+      "name": "メタデータ名",
+      "http-equiv": "プラグマディレクティブ",
+      "content": "要素の値",
+      "charset": "文字エンコーディング",
+      "media": "対応メディア"
+    },
+    "attributessupplement": [
+      "scheme属性がありましたが、廃止されました。フィールドごとに 1 つのスキームのみを使用するか、スキーム宣言を値の一部にしてください。"
+      ],
+    "obsoleteAttributes": {
+      "scheme": "フィールドごとに 1つのスキームのみを使用するか、スキーム宣言を値の一部にしてください。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.2.5 The meta element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/semantics.html#the-meta-element",
+        "heading": "HTML Living Standard. 4.2.5 The meta element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.2.5 The meta element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/document-metadata.html#the-meta-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.2.5 The meta element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.1. Hidden elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.2.5 The meta element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/document-metadata.html#the-meta-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.2.5 The meta element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.1. Hidden elements.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.2.5 The meta element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/document-metadata.html#the-meta-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.2.5 The meta element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#hidden-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.2.5 The meta element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/document-metadata.html#the-meta-element",
+        "heading": "HTML 5 W3C 勧告. 4.2.5 The meta element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#hidden-elements",
+        "heading": "HTML 5 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 7.4.4.2 The META element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/global.html#h-7.4.4.2",
+        "heading": "HTML 4.01 Specification W3C 勧告. 7.4.4.2 The META element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#meta",
+        "heading": "HTML 3.2 Reference Specification  META",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   " Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;meta&gt;: The metadata element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/meta",
+        "heading": "&lt;meta&gt;: メタデータ要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML2", "latest": "HTML Living Standard"}
+  }
+}

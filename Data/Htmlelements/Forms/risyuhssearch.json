@@ -1,0 +1,43 @@
+{
+  "search": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- - (%Flow)* -- search. (Normal elements.) [Flow|Phrasing] --",
+    "attlist": {"%Global;": ""},
+    "alias": "",
+    "summary": "検索",
+    "summaryEn": "search.",
+    "point": ["検索や", "フィルタリング操作の", "実行に関連する", "フォームコントロールや", "その他のコンテンツセットを含む", "ドキュメントまたは", "アプリケーションの一部を", "表します。"],
+    "description": "検索やフィルタリング操作の実行に関連するフォームコントロールやその他のコンテンツセットを含むドキュメントまたはアプリケーションの一部を表します。",
+    "elementKind": "Normal",
+    "categories": ["Flow", "Palpable"],
+    "canUsedContexts": "%Flow SEARCH",
+    "contentModel": "SEARCH %Flow",
+    "tagOmission": ["-", "-"],
+    "rendering": ["Flow", "Bidirectional"],
+    "domInterface": "HTMLElement",
+    "contentAttributes": "Global",
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.4.15 The search element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/grouping-content.html#the-search-element",
+        "heading": "HTML Living Standard. 4.4.15 The search element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.3 Flow content. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#flow-content-3",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.3 Flow content",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;search&gt;: The generic search element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/search",
+        "heading": "&lt;search&gt;: HTML 一般検索要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML Living Standard", "latest": "HTML Living Standard"}
+  }
+}

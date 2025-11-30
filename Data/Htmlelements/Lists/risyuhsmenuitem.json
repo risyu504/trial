@@ -1,0 +1,78 @@
+{
+  "menuitem": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Lists",
+    "element": "- X EMPTY -- menu item. (Void elements.) [None] --",
+    "attlist": {
+      "%Global;": "",
+      "type":       "CDATA      #IMPLIED -- Type of command --",
+      "label":      "CDATA      #IMPLIED -- User-visible label --",
+      "icon":       "CDATA      #IMPLIED -- Icon for the command --",
+      "disabled":   "(disabled) #IMPLIED -- Whether the command or control is disabled --",
+      "checked":    "(checked)  #IMPLIED -- Whether the command or control is checked --",
+      "radiogroup": "CDATA      #IMPLIED -- Name of group of commands to treat as a radio button group --",
+      "default":    "(default)  #IMPLIED -- Mark the command as being a default command --"
+    },
+    "alias": "",
+    "summary": "メニュー項目",
+    "summaryEn": "menu item.",
+    "point": ["ユーザーが", "ポップアップメニュー", "(コンテキストメニュー) から", "呼び出すことができる", "コマンドを", "表します。"],
+    "description": [
+      "ユーザーがポップアップメニュー(コンテキストメニュー)から呼び出すことができるコマンドを表します。",
+      "type, label, icon, disabled, checked, radiogroupの一つ以上を使うmenuitem要素は、新しいコマンドを定義します。",
+      "HTML5.1 で提案されただけで、HTML Living Standard で採用されておらず、対応しているブラウザもはないと思います。"
+    ],
+    "elementKind": "Void",
+    "categories": "None",
+    "canUsedContexts": "MENU MENUITEM",
+    "usedsupplement": "type属性がポップアップメニュー状態にある menu要素の子として。",
+    "contentModel": "MENUITEM EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": ["Lists", "Bidirectional"],
+    "domInterface": "HTMLMenuItemElement",
+    "contentAttributes": {
+      "type": "コマンドの種類",
+      "label": "ユーザーに見えるラベル",
+      "icon": "コマンドのアイコン",
+      "disabled": "コマンドまたはコントロールが無効かどうか",
+      "checked": "コマンドまたはコントロールがチェックされているかどうか",
+      "radiogroup": "ラジオボタングループとして扱うコマンドのグループ名",
+      "default": "コマンドをデフォルトコマンドとしてマークする",
+      "title": "コマンドを説明するヒント"
+    },
+    "obsoleteAttributes": [],
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 16.2 Non-conforming features. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/obsolete.html#non-conforming-features",
+        "heading": "HTML Living Standard. 16.2 Non-conforming features",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 11.2. Non-conforming features. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 11.2. Non-conforming features",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 11.2. Non-conforming features. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/obsolete.html#non-conforming-features",
+        "heading": "HTML 5.2 W3C 勧告. 11.2. Non-conforming features",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.11.4. The menuitem element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/interactive-elements.html#the-menuitem-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.11.4. The menuitem element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;menuitem&gt;",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/menuitem",
+        "heading": "&lt;menuitem&gt; - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML5.1", "latest": "HTML5.1"}
+  }
+}

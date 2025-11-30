@@ -1,0 +1,147 @@
+{
+  "textarea": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Forms",
+    "element": "- - (#PCDATA) -- multi-line text field. (Escapable raw text elements.) [Flow|Phrasing|Interactive|Listed|Labelable|Submittable|Resettable|Autocapitalize|Form|Palpable] --",
+    "attlist": {
+      "%Global;": "",
+      "autocomplete": "(on|off)    on       -- Hint for form autofill feature --",
+      "cols":         "NUMBER      20       -- Maximum number of characters per line --",
+      "dirname":      "CDATA       #IMPLIED -- Name of form control to use for sending the element's directionality in form submission --",
+      "disabled":     "(disabled)  #IMPLIED -- Whether the form control is disabled --",
+      "form":         "IDREF       #IMPLIED -- Associates the element with a form element --",
+      "maxlength":    "NUMBER      #IMPLIED -- Maximum length of value --",
+      "minlength":    "NUMBER      #IMPLIED -- Minimum length of value --",
+      "name":         "CDATA       #IMPLIED -- Name of the element to use for form submission and in the form.elements API --",
+      "placeholder":  "CDATA       #IMPLIED -- User-visible label to be placed within the form control --",
+      "readonly":     "(readonly)  #IMPLIED -- Whether to allow the value to be edited by the user --",
+      "required":     "(required)  #IMPLIED -- Whether the control is required for form submission --",
+      "rows":         "NUMBER      2        -- Number of lines to show --",
+      "wrap":         "(soft|hard) soft—    -- How the value of the form control is to be wrapped for form submission --"
+    },
+    "alias": "",
+    "summary": "複数行のテキストフィールド",
+    "summaryEn": "multi-line text field.",
+    "point": ["要素の生の値の", "複数行の", "プレーンテキスト編集コントロールを", "表します。"],
+    "description": "要素の生の値の複数行のプレーンテキスト編集コントロールを表します。コントロールの内容は、コントロールのデフォルト値を表します。",
+    "elementKind": "Escapable",
+    "categories": ["Flow", "Phrasing", "Interactive", "Listed", "Labelable", "Submittable", "Resettable", "Autocapitalize", "Formassociated", "Palpable"],
+    "canUsedContexts": "%Phrasing TEXTAREA -(%Interactive)",
+    "contentModel": "TEXTAREA PCDATA",
+    "tagOmission": ["-", "-"],
+    "rendering": ["Form", "Bidirectional"],
+    "domInterface": "HTMLTextAreaElement",
+    "contentAttributes": {
+      "autocomplete": "フォーム自動入力機能のヒント",
+      "cols": "1 行あたりの最大文字数",
+      "dirname": "フォーム送信時に要素の方向性を送信するために使用するフォームコントロールの名前",
+      "disabled": "フォームコントロールが無効かどうか",
+      "form": "要素をフォーム要素に関連付けます",
+      "maxlength": "値の最大長",
+      "minlength": "値の最小長",
+      "name": "フォーム送信および form.elements API で使用する要素の名前",
+      "placeholder": "フォームコントロール内に配置されるユーザーに見えるラベル",
+      "readonly": "ユーザーによる値の編集を許可するかどうか",
+      "required": "フォーム送信にコントロールが必要かどうか",
+      "rows": "表示する行数",
+      "wrap": "フォーム送信のためにフォームコントロールの値をラップする方法"
+    },
+    "obsoleteAttributes": {
+      "datasrc": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。",
+      "datafld": "スクリプトと XMLHttpRequest などのメカニズムを使用して、ページを動的に入力します。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.10.11 The textarea element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/form-elements.html#the-textarea-element",
+        "heading": "HTML Living Standard. 4.10.11 The textarea element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.10 Form controls. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#form-controls",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.10 Form controls",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.5.17 The textarea element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#the-textarea-element-2",
+        "heading": "HTML Living Standard. 15 Rendering 15.5.17 The textarea element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.10.11 The textarea element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/sec-forms.html#the-textarea-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.10.11 The textarea element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.11. Form controls. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#form-controls",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.11. Form controls.",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.10.11 The textarea element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/sec-forms.html#the-textarea-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.10.11 The textarea element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#form-controls",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.10.11 The textarea element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/sec-forms.html#the-textarea-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.10.11 The textarea element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#form-controls",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.10.11 The textarea element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/forms.html#the-textarea-element",
+        "heading": "HTML 5 W3C 勧告. 4.10.11 The textarea element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.11. Form controls. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#form-controls",
+        "heading": "HTML 5 W3C 勧告. 10.3.11. Form controls.",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 17.7 The TEXTAREA element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/interact/forms.html#h-17.7",
+        "heading": "HTML 4.01 Specification W3C 勧告. 17.7 The TEXTAREA elements",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#textarea",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;textarea&gt;: The Textarea element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/textarea",
+        "heading": "&lt;textarea&gt;: テキストエリア要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML2", "latest": "HTML Living Standard"}
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "li": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Lists",
+    "element": "- O (%Flow)* -- list item. (Normal elements.) [None] --",
+    "attlist": {
+      "%Global;": "",
+      "value": "NUMBER #IMPLIED -- Ordinal value of the list item --"
+    },
+    "alias": "",
+    "summary": "一覧項目",
+    "summaryEn": "list item.",
+    "point": ["一覧項目を", "表します。"],
+    "description": [
+      "項目(アイテム・item)を表します。",
+      "親要素が ol要素, ul要素, menu要素, dir要素の場合、要素はそれらの要素に対して定義されている様に、親要素のリストの項目になります。それ以外の場合、リスト項目には他の li要素とのリスト関連関係は定義されていません。",
+      "リストの項目は、ol要素, ul要素, menu要素, dir要素の li要素の子ノードで、ツリー順になっています。"
+    ],
+    "elementKind": "Normal",
+    "categories": "None",
+    "usedSummary": ["OL LI", "UL LI", "MENU LI"],
+    "canUsedContexts": [
+      "OL LI",
+      "UL LI",
+      "MENU LI",
+      "+(%Html4) DIR LI"
+    ],
+    "contentSummary": "LI %Flow",
+    "contentModel": ["LI %Flow", "+(%Html4) LI (%Block|%Inline)*"],
+    "tagOmission": ["-", "O"],
+    "tagsupplement": "li要素の直後に別の li要素が続く場合、または親要素にコンテンツがない場合は、li要素の終了タグを省略できます。",
+    "rendering": ["Lists", "Bidirectional"],
+    "domInterface": "HTMLLIElement",
+    "domsupplement": {
+      "value": "long"
+    },
+    "contentAttributes": {
+      "value": "リスト項目の序数値"
+    },
+    "obsoleteAttributes": {
+      "type": "代わりに CSS を使用してください。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.4.8 The li element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element",
+        "heading": "HTML Living Standard. 4.4.8 The li element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.7 Lists. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#lists",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.7 Lists",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.4.8 The li element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/grouping-content.html#the-li-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.4.8 The li element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.8. Lists. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#section-lists",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.8. Lists",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.4.8 The li element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/grouping-content.html#the-li-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.4.8 The li element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.8. Lists. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#section-lists",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.8. Lists",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.4.7 The li element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/grouping-content.html#the-li-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.4.7 The li element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.8. Lists. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#section-lists",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.8. Lists",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.4.7 The li element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/grouping-content.html#the-li-element",
+        "heading": "HTML 5 W3C 勧告. 4.4.7 The li element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.8 Lists. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#lists",
+        "heading": "HTML 5 W3C 勧告. 10.3.8 Lists",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 10.2 Unordered lists (UL), ordered lists (OL), and list items (LI). W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/lists.html#h-10.2",
+        "heading": "HTML 4.01 Specification W3C 勧告. 10.2 Unordered lists (UL), ordered lists (OL), and list items (LI)",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/",
+        "heading": "HTML 3.2 Reference Specification",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   "Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;li&gt;: The List Item element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/li",
+        "heading": "&lt;li&gt;: リスト項目要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "link": {
+    "@type": "htmlElement",
+    "lastReviewed": "2025-11-30",
+    "group": "Metadata",
+    "element": "- X EMPTY -- a media-independent link. (Void elements.) [Metadata|Flowlimited|Phrasinglimited] --",
+    "attlist": {
+      "%Global;": "",
+      "href": "%URI; #IMPLIED -- URI for linked resource --",
+      "hreflang": "%LanguageCode; #IMPLIED -- language code --",
+      "type": "%ContentType; #IMPLIED -- advisory content type --",
+      "rel": "%LinkTypes; #IMPLIED -- forward link types --",
+      "media": "%MediaDesc; #IMPLIED -- for rendering on these media --",
+      "crossorigin": "CDATA #IMPLIED -- How the element handles crossorigin requests --",
+      "integrity": "CDATA #IMPLIED -- Integrity metadata used in Subresource Integrity checks [SRI] --",
+      "referrerpolicy": "CDATA #IMPLIED -- Referrer policy for fetches initiated by the element --",
+      "sizes": "CDATA #IMPLIED -- Sizes of the icons (for rel='icon') --",
+      "imagesrcset": "CDATA #IMPLIED -- Images to use in different situations, e.g., high-resolution displays, small monitors, etc. (for rel='preload') --",
+      "imagesizes": "CDATA #IMPLIED -- Image sizes for different page layouts (for rel='preload') --",
+      "as": "CDATA #IMPLIED -- Potential destination for a preload request (for rel='preload' and rel='modulepreload') --",
+      "blocking": "CDATA #IMPLIED -- Whether the element is potentially render-blocking --",
+      "color": "CDATA #IMPLIED -- Color to use when customizing a site's icon (for rel='mask-icon') --",
+      "disabled": "CDATA #IMPLIED -- Whether the link is disabled --",
+      "fetchpriority": "CDATA #IMPLIED -- Sets the priority for fetches initiated by the element --"
+    },
+    "alias": "",
+    "summary": "外部リソースにリンク",
+    "summaryEn": "a media-independent link.",
+    "point": ["現在の文書と", "外部のリソースとの", "関係を", "表します。"],
+    "description": [
+      "使用すると、作成者は自分の文書を他のリソースにリンクできます。",
+      "a要素と area要素によって作成されたハイパーリンクとは異なり、link要素によって作成されたハイパーリンクは、提案されたデフォルトのレンダリングをサポートするユーザーエージェントでは、デフォルトではドキュメントの一部として表示されません。また、CSSを使用して強制的に表示された場合でも、アクティブ化の動作はありません。代わりに、主にページまたはページのコンテンツを使用する他のソフトウェアで使用される可能性のあるセマンティック情報を提供します。さらに、ユーザーエージェントは、このようなハイパーリンクをたどるための独自の UI を提供できます。"
+    ],
+    "elementKind": "Void",
+    "categories": ["Metadata", "Flowlimited", "Phrasinglimited"],
+    "categoriessupplement": "itemprop属性が存在する場合、または body-ok のキーワードのみを含む rel属性が存在する場合は、フローコンテンツ, フレージングコンテンツ。",
+    "usedSummary": "%Metadata LINK",
+    "canUsedContexts": [
+      "%Metadata LINK",
+      "HEAD NOSCRIPT LINK",
+      "%Phrasing LINK[itemprop]",
+      "%Phrasing LINK[rel=body-ok]"
+    ],
+    "usedsupplement": [
+      "メタデータコンテンツが期待される場所。",
+      "head 要素の子である noscript 要素内。",
+      "要素が body 内で許可されている場合：フレージングコンテンツが期待される場所。"
+    ],
+    "contentSummary": "LINK EMPTY",
+    "contentModel": "LINK EMPTY",
+    "tagOmission": ["-", "X"],
+    "rendering": "Hidden",
+    "domInterface": "HTMLLinkElement",
+    "contentAttributes": {
+      "href": "ハイパーリンクのアドレス",
+      "crossorigin": "要素がクロスオリジンリクエストを処理する方法",
+      "rel": "ハイパーリンクを含むドキュメントと宛先リソースの関係",
+      "media": "該当するメディア",
+      "integrity": "サブリソース整合性チェックで使用される整合性メタデータ[SRI]",
+      "hreflang": "リンクされたリソースの言語",
+      "type": "参照されるリソースのタイプのヒント",
+      "referrerpolicy": "要素によって開始されたフェッチのリファラーポリシー",
+      "sizes": "アイコンのサイズ(rel ='icon'の場合)",
+      "imagesrcset": "高解像度ディスプレイ、小型モニターなど、さまざまな状況で使用する画像(rel ='preload'の場合)",
+      "imagesizes": "さまざまなページレイアウトの画像サイズ(rel ='preload'の場合)",
+      "as": "プリロード要求の潜在的な宛先(rel ='preload'およびrel='modulepreload'の場合)",
+      "blocking": "要素が潜在的にレンダリングをブロックしているかどうか",
+      "color": "サイトのアイコンをカスタマイズするときに使用する色(rel ='mask-icon'の場合)",
+      "disabled": "リンクが無効になっているかどうか",
+      "fetchpriority": "要素によって開始されるフェッチの優先順位",
+      "title": "この要素に特別なセマンティクスで、リンクのタイトル, CSSスタイルシートセット名。"
+    },
+    "attributessupplement": [
+      "charset属性がありましたが、廃止されました。代わりに、リンクされたリソースで HTTP `Content-Type` ヘッダーを使用して下さい。",
+      "methods属性がありましたが、廃止されました。代わりに HTTP OPTIONS 機能を使用して下さい。",
+      "rev属性がありましたが、廃止されました。代わりに、反対の用語を指定してrel属性を使用して下さい。 (たとえば、rev='made' の代わりに、rel='author' を使用します。)",
+      "urn属性がありましたが、廃止されました。代わりに href 属性を使用して、優先される永続識別子を指定します。",
+      "target属性がありましたが、廃止されました。不要です。 全く省略して下さい。"
+      ],
+    "obsoleteAttributes": {
+      "charset": "代わりに、リンクされたリソースで HTTP `Content-Type` ヘッダーを使用して下さい。",
+      "methods": "代わりに HTTP OPTIONS 機能を使用して下さい。",
+      "rev": "代わりに、反対の用語を指定してrel属性を使用して下さい。 (たとえば、rev='made' の代わりに、rel='author' を使用します。)",
+      "urn": "代わりに href 属性を使用して、優先される永続識別子を指定します。",
+      "target": "不要です。 全く省略して下さい。"
+    },
+    "reference": [
+      {
+        "title":   "HTML Living Standard. 4.2.4 The link element. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/semantics.html#the-link-element",
+        "heading": "HTML Living Standard. 4.2.4 The link element",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 4.6 Links 4.6.7 Link types. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/links.html#linkTypes",
+        "heading": "HTML Living Standard. 4.6 Links 4.6.7 Link types",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements. Last Updated 13 November 2025",
+        "href":    "https://html.spec.whatwg.org/multipage/rendering.html#hidden-elements",
+        "heading": "HTML Living Standard. 15 Rendering 15.3.1 Hidden elements",
+        "sub":     "最終更新日 2025年11月13日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 4.2.4 The link element. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/document-metadata.html#the-link-element",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 4.2.4 The link element",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.3 W3C Working Draft. 10.3.1. Hidden elements. W3C First Public Working Draft, 14 December 2017",
+        "href":    "https://www.w3.org/TR/2017/WD-html53-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.3 W3C 初公開ワーキングドラフト. 10. Rendering 10.3.1. Hidden elements",
+        "sub":     "W3Cワーキングドラフト、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 4.2.4 The link element. W3C Recommendation, 14 December 2017.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/document-metadata.html#the-link-element",
+        "heading": "HTML 5.2 W3C 勧告. 4.2.4 The link element",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.2 W3C Recommendation. 10.3.1. Hidden elements.",
+        "href":    "https://www.w3.org/TR/2017/REC-html52-20171214/rendering.html#hidden-elements",
+        "heading": "HTML 5.2 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2017年12月14日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 4.2.4 The link element. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/document-metadata.html#the-link-element",
+        "heading": "HTML 5.1 W3C 勧告. 4.2.4 The link element",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5.1 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 1 November 2016.",
+        "href":    "https://www.w3.org/TR/2016/REC-html51-20161101/rendering.html#hidden-elements",
+        "heading": "HTML 5.1 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2016年11月1日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 4.2.4 The link element. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/document-metadata.html#the-link-element",
+        "heading": "HTML 5 W3C 勧告. 4.2.4 The link element",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 5 W3C Recommendation. 10.3.1. Hidden elements. W3C Recommendation, 28 October 2014.",
+        "href":    "https://www.w3.org/TR/2014/REC-html5-20141028/rendering.html#hidden-elements",
+        "heading": "HTML 5 W3C 勧告. 10.3.1. Hidden elements",
+        "sub":     "W3C勧告、2014年10月28日"
+      },
+      {
+        "title":   "HTML 4.01 Specification W3C Recommendation. 12.3 Document relationships: the LINK element. W3C Recommendation 24 December 1999.",
+        "href":    "https://www.w3.org/TR/html401/struct/links.html#h-12.3",
+        "heading": "HTML 4.01 Specification W3C 勧告. 12.3 Document relationships: the LINK element",
+        "sub":     "W3C勧告1999年12月24日"
+      },
+      {
+        "title":   "HTML 3.2 Reference Specification. W3C Recommendation 14-Jan-1997.",
+        "href":    "https://www.w3.org/TR/2018/SPSD-html32-20180315/#link",
+        "heading": "HTML 3.2 Reference Specification  LINK",
+        "sub":     "W3C勧告1997年1月14日"
+      },
+      {
+        "title":   " Hypertext Markup Language - 2.0. November 1995.",
+        "href":    "https://www.ietf.org/rfc/rfc1866.txt",
+        "heading": "Hypertext Markup Language - 2.0",
+        "sub":     "November 1995"
+      },
+      {
+        "title":   "Hypertext Markup Language (HTML). June 1993.",
+        "href":    "https://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt",
+        "heading": "Hypertext Markup Language (HTML)",
+        "sub":     "June 1993"
+      },
+      {
+        "title":   "MDN Web Docs. HTML &lt;link&gt;: The External Resource Link element.",
+        "href":    "https://developer.mozilla.org/ja/docs/Web/HTML/Element/link",
+        "heading": "&lt;link&gt;: 外部リソースへのリンク要素 - HTML: ハイパーテキストマークアップ言語 | MDN"
+      }
+    ],
+    "version": {"first": "HTML", "latest": "HTML Living Standard"}
+  }
+}
