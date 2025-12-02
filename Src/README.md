@@ -35,16 +35,6 @@
 - [`Typescript`](./Typescript/README.md) Typescriptエントリーポイントフォルダ
 - `README.md` 説明ファイル(このファイルです)
 
-## ナビ
-
-- [開発ホーム](../README.md)
-  - [Pug開発](../Pug/README.md)
-  - [Sass開発](../Sass/README.md)
-  - [Typescript開発](../Typescript/README.md)
-  - **ソース**
-  - [出力先](../Dest/README.md)
-  - [書類倉庫](../Document/README.md)
-
 ## 作成者
 
-Copyright(C) 2022-2024 KOUTAN
+Copyright(C) 2022-2025 KOUTAN
