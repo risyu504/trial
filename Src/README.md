@@ -29,7 +29,6 @@
 
 ## 構成
 
-- [`Data`](./Data/README.md) データフォルダ
 - [`Pug`](./Pug/README.md) Pugのエントリーポイントフォルダ
 - [`Sass`](./Sass/README.md) Sassのエントリーポイントフォルダ
 - [`Typescript`](./Typescript/README.md) Typescriptエントリーポイントフォルダ
